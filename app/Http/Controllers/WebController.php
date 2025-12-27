@@ -11,8 +11,8 @@ class WebController extends Controller
         return view('index');
     }
 
-    public function show($id)
+    public function about(Request $request)
     {
-        return "User ID: " . $id;
+        return view('pages.about');
     }
 }
