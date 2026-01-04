@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ienet - HTML Template For Broadband TV & Internet</title>
-    <meta name="description" content="Ienet is a modern creative multipurpose design agency HTML template. Which fits for all agencies whether you are a business agency, web agency, freelancer, portfolio agency, web design company, web designer, digital marketing or any type of design agency websites and businesses. We got you covered." />
+    <meta name="description"
+        content="Ienet is a modern creative multipurpose design agency HTML template. Which fits for all agencies whether you are a business agency, web agency, freelancer, portfolio agency, web design company, web designer, digital marketing or any type of design agency websites and businesses. We got you covered." />
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -34,7 +35,7 @@
             <!-- /.hero-section__bg -->
             <div class="container">
                 <div class="hero-section__content">
-                    <a href="index.html" class="hero-section__logo">
+                    <a href="index" class="hero-section__logo">
                         <img src="assets/images/ienet-landing/main-logo-1-1.png" height="105" alt="ienet">
                     </a>
                     <h1 class="hero-section__title">Creative.
@@ -42,17 +43,23 @@
                         Customizable.</h1><!-- /.hero-section__title -->
                     <p class="hero-section__text">Building a website with the Ienet HTML <br>
                         Template is super fast and easy.</p><!-- /.hero-section__text -->
-                    <a rel="noreferrer" href="https://themeforest.net/item/ienet-spa-beauty-html-template/47696154" target="_blank" class="ienet-btn ienet-btn--base"><span>Purchase Template</span></a>
+                    <a rel="noreferrer" href="https://themeforest.net/item/ienet-spa-beauty-html-template/47696154"
+                        target="_blank" class="ienet-btn ienet-btn--base"><span>Purchase Template</span></a>
                 </div><!-- /.hero-section__content -->
             </div><!-- /.container -->
             <div class="hero-section__arrow"></div><!-- /.hero-section__arrow -->
             <div class="hero-section__badge"></div><!-- /.hero-section__badge -->
             <div class="hero-section__images">
-                <img src="assets/images/ienet-landing/hero-img-1-3.png" alt="home three" width="660" height="600" class="wow fadeInRight" data-wow-delay="1500ms">
-                <img src="assets/images/ienet-landing/hero-img-1-2.png" alt="home two" width="800" height="400" class="wow fadeInRight" data-wow-delay="1000ms">
-                <img src="assets/images/ienet-landing/hero-img-1-1.png" alt="home one" width="1000" height="200" class="wow fadeInRight" data-wow-delay="0">
+                <img src="assets/images/ienet-landing/hero-img-1-3.png" alt="home three" width="660" height="600"
+                    class="wow fadeInRight" data-wow-delay="1500ms">
+                <img src="assets/images/ienet-landing/hero-img-1-2.png" alt="home two" width="800" height="400"
+                    class="wow fadeInRight" data-wow-delay="1000ms">
+                <img src="assets/images/ienet-landing/hero-img-1-1.png" alt="home one" width="1000" height="200"
+                    class="wow fadeInRight" data-wow-delay="0">
             </div><!-- /.hero-section__images -->
-            <div class="hero-section__shape-left" style="background-image: url(assets/images/ienet-landing/hero-shape-1.png)"></div><!-- /.hero-section__shape-left -->
+            <div class="hero-section__shape-left"
+                style="background-image: url(assets/images/ienet-landing/hero-shape-1.png)"></div>
+            <!-- /.hero-section__shape-left -->
         </section><!-- /.hero-section -->
 
 
@@ -61,7 +68,8 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
                         <div class="features-two__box">
-                            <img src="assets/images/ienet-landing/feature-2-1.png" width="64" height="52" alt="5000+ Clients Trust Us">
+                            <img src="assets/images/ienet-landing/feature-2-1.png" width="64" height="52"
+                                alt="5000+ Clients Trust Us">
                             <h2 class="features-two__title">
                                 20 000+ Clients<br> Trust Us
                             </h2>
@@ -69,19 +77,22 @@
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="features-two__box">
-                            <img src="assets/images/ienet-landing/feature-2-2.png" width="64" height="52" alt="Exentsive Documentation Clean Code">
+                            <img src="assets/images/ienet-landing/feature-2-2.png" width="64" height="52"
+                                alt="Exentsive Documentation Clean Code">
                             <h2 class="features-two__title">Exentsive Documentation <br> Clean Code</h2>
                         </div><!-- /.features-two__box -->
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="features-two__box">
-                            <img src="assets/images/ienet-landing/feature-2-3.png" width="64" height="52" alt="Free Lifetime Updates">
+                            <img src="assets/images/ienet-landing/feature-2-3.png" width="64" height="52"
+                                alt="Free Lifetime Updates">
                             <h2 class="features-two__title">Free Lifetime <br> Updates</h2>
                         </div><!-- /.features-two__box -->
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="features-two__box">
-                            <img src="assets/images/ienet-landing/feature-2-4.png" width="64" height="52" alt="Get Professional Support">
+                            <img src="assets/images/ienet-landing/feature-2-4.png" width="64" height="52"
+                                alt="Get Professional Support">
                             <h2 class="features-two__title">Get Professional <br> Support</h2>
                         </div><!-- /.features-two__box -->
                     </div><!-- /.col-md-6 -->
@@ -95,12 +106,13 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="demos-one__single">
                             <div class="demos-one__image">
-                                <img width="370" height="431" src="assets/images/ienet-landing/home-1.jpg" alt="Home Page 01">
+                                <img width="370" height="431" src="assets/images/ienet-landing/home-1.jpg"
+                                    alt="Home Page 01">
                                 <div class="demos-one__buttons">
-                                    <a href="index.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>Multi Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
-                                    <a href="index-one-page.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-one-page" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>One Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
                                 </div><!-- /.demos-one__buttons -->
@@ -113,12 +125,13 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="demos-one__single">
                             <div class="demos-one__image">
-                                <img width="370" height="431" src="assets/images/ienet-landing/home-2.jpg" alt="Home Page 02">
+                                <img width="370" height="431" src="assets/images/ienet-landing/home-2.jpg"
+                                    alt="Home Page 02">
                                 <div class="demos-one__buttons">
-                                    <a href="index-2.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-2" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>Multi Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
-                                    <a href="index-2-one-page.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-2-one-page" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>One Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
                                 </div><!-- /.demos-one__buttons -->
@@ -131,12 +144,13 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="demos-one__single">
                             <div class="demos-one__image">
-                                <img width="370" height="431" src="assets/images/ienet-landing/home-3.jpg" alt="Home page 03">
+                                <img width="370" height="431" src="assets/images/ienet-landing/home-3.jpg"
+                                    alt="Home page 03">
                                 <div class="demos-one__buttons">
-                                    <a href="index-3.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-3" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>Multi Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
-                                    <a href="index-3-one-page.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-3-one-page" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>One Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
                                 </div><!-- /.demos-one__buttons -->
@@ -149,9 +163,10 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="demos-one__single">
                             <div class="demos-one__image">
-                                <img width="370" height="431" src="assets/images/ienet-landing/home-dark.jpg" alt="Home Boxed">
+                                <img width="370" height="431" src="assets/images/ienet-landing/home-dark.jpg"
+                                    alt="Home Boxed">
                                 <div class="demos-one__buttons">
-                                    <a href="index-dark.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-dark" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>View Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
                                 </div><!-- /.demos-one__buttons -->
@@ -164,9 +179,10 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="demos-one__single">
                             <div class="demos-one__image">
-                                <img width="370" height="431" src="assets/images/ienet-landing/home-boxed.jpg" alt="Home Boxed">
+                                <img width="370" height="431" src="assets/images/ienet-landing/home-boxed.jpg"
+                                    alt="Home Boxed">
                                 <div class="demos-one__buttons">
-                                    <a href="index-boxed.html" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-boxed" target="_blank" class="ienet-btn demo-one__btn">
                                         <span>View Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
                                 </div><!-- /.demos-one__buttons -->
@@ -179,9 +195,11 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="demos-one__single">
                             <div class="demos-one__image">
-                                <img width="370" height="431" src="assets/images/ienet-landing/home-rtl.jpg" alt="Home RTL">
+                                <img width="370" height="431" src="assets/images/ienet-landing/home-rtl.jpg"
+                                    alt="Home RTL">
                                 <div class="demos-one__buttons">
-                                    <a href="index-rtl.html#googtrans(en%7car)" target="_blank" class="ienet-btn demo-one__btn">
+                                    <a href="index-rtl#googtrans(en%7car)" target="_blank"
+                                        class="ienet-btn demo-one__btn">
                                         <span>View Page</span>
                                     </a><!-- /.thm-btn demo-one__btn -->
                                 </div><!-- /.demos-one__buttons -->
@@ -202,7 +220,8 @@
                 <div class="features-one__grid">
                     <div class="features-one__box" hidden>
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-1.png" alt="Customizer
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-1.png"
+                                alt="Customizer
 								Kirki Framework">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Customizer <br>
@@ -210,14 +229,16 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box" hidden>
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-2.png" alt="Elementor Page Builder">
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-2.png"
+                                alt="Elementor Page Builder">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Elementor <br>
                             Page Builder</h3><!-- /.features-one__box__title -->
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-3.png" alt="Woocommerce
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-3.png"
+                                alt="Woocommerce
 								Support">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Shop <br>
@@ -225,7 +246,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-4.png" alt="RTL + LTR
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-4.png"
+                                alt="RTL + LTR
 								Support">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">RTL + LTR <br>
@@ -233,7 +255,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box" hidden>
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-5.png" alt="One Click
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-5.png"
+                                alt="One Click
 								Demo Import">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">One Click <br>
@@ -241,7 +264,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-6.png" alt="CSS3
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-6.png"
+                                alt="CSS3
 								Animation">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">CSS3 <br>
@@ -249,7 +273,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-7.png" alt="Bootstrap
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-7.png"
+                                alt="Bootstrap
 								5">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Bootstrap <br>
@@ -257,13 +282,15 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-8.png" alt="Mailchimp">
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-8.png"
+                                alt="Mailchimp">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Mailchimp</h3><!-- /.features-one__box__title -->
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-9.png" alt="Color
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-9.png"
+                                alt="Color
 							Schemes">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Color <br>
@@ -271,7 +298,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-10.png" alt="Google
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-10.png"
+                                alt="Google
 							Fonts">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Google <br>
@@ -279,7 +307,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-11.png" alt="Parallax
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-11.png"
+                                alt="Parallax
 							Backgrounds">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Parallax <br>
@@ -287,7 +316,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-12.png" alt="Fully
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-12.png"
+                                alt="Fully
 							Responsive">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Fully <br>
@@ -295,7 +325,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-13.png" alt="W3C
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-13.png"
+                                alt="W3C
 							Validation">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">W3C <br>
@@ -303,7 +334,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-14.png" alt="Cross
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-14.png"
+                                alt="Cross
 							Browser">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Cross <br>
@@ -311,7 +343,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-15.png" alt="Speed
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-15.png"
+                                alt="Speed
 							Optimized">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Speed <br>
@@ -319,7 +352,8 @@
                     </div><!-- /.features-one__box -->
                     <div class="features-one__box">
                         <div class="features-one__box__image">
-                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-16.png" alt="Exentsive
+                            <img width="121" height="121" src="assets/images/ienet-landing/feature-i-1-16.png"
+                                alt="Exentsive
 							Documentation">
                         </div><!-- /.features-one__box__image -->
                         <h3 class="features-one__box__title">Exentsive <br>
@@ -331,12 +365,17 @@
         </section><!-- /.features-one -->
 
         <footer class="main-footer">
-            <div class="main-footer__shape-one" style="background-image: url(assets/images/ienet-landing/footer-shape-1.png)"></div><!-- /.main-footer__shape-one -->
-            <div class="main-footer__shape-two" style="background-image: url(assets/images/ienet-landing/footer-shape-2.png)"></div><!-- /.main-footer__shape-one -->
+            <div class="main-footer__shape-one"
+                style="background-image: url(assets/images/ienet-landing/footer-shape-1.png)"></div>
+            <!-- /.main-footer__shape-one -->
+            <div class="main-footer__shape-two"
+                style="background-image: url(assets/images/ienet-landing/footer-shape-2.png)"></div>
+            <!-- /.main-footer__shape-one -->
             <div class="container text-center">
                 <h2 class="main-footer__title">Create Stunning Website Now!</h2>
                 <p class="main-footer__text">Purchase Ienet HTML Template</p><!-- /.main-footer__text -->
-                <a rel="noreferrer" href="#" target="_blank" class="ienet-btn"><span>Purchase Template</span></a>
+                <a rel="noreferrer" href="#" target="_blank" class="ienet-btn"><span>Purchase
+                        Template</span></a>
             </div><!-- /.container -->
 
             <div class="container">

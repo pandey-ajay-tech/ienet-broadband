@@ -1,5 +1,6 @@
 <footer class="main-footer background-black">
-    <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+    <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);">
+    </div>
     <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
     <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
     <!-- /.main-footer__bg -->
@@ -43,7 +44,7 @@
     <div class="container">
         <div class="main-footer__middle">
             <a href="index.html">
-                <img src="{{asset('assets/images/logo-light.png')}}" height="80" alt="Ienet HTML Template">
+                <img src="{{ asset('assets/images/logo-light.png') }}" height="80" alt="Ienet HTML Template">
             </a>
             <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                 <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
@@ -54,7 +55,7 @@
             <div class="main-footer__middle__call">
                 <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                 <div class="main-footer__middle__call__title">Call Emergency</div>
-                <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
             </div>
         </div><!-- /.main-footer__middle -->
     </div><!-- /.container -->
@@ -66,7 +67,8 @@
                     <p class="footer-widget__text">
                         There are two main types: solar photovoltaic (PV) systems for electricity generation and
                     </p>
-                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                    class="fas fa-chevron-right"></i></span></span></a>
                 </div>
             </div><!-- /.col-md-6 -->
             <div class="col-md-6 col-xl-3">
@@ -98,22 +100,22 @@
                     <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                     <div class="footer-widget__gallery">
                         <a href="gallery.html" class="footer-widget__gallery__link">
-                            <img src="{{asset('assets/images/gallery/fg-1.jpg')}}" alt="ienet">
+                            <img src="{{ asset('assets/images/gallery/fg-1.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                         <a href="gallery.html" class="footer-widget__gallery__link">
-                            <img src="{{asset('assets/images/gallery/fg-2.jpg')}}" alt="ienet">
+                            <img src="{{ asset('assets/images/gallery/fg-2.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                         <a href="gallery.html" class="footer-widget__gallery__link">
-                            <img src="{{asset('assets/images/gallery/fg-3.jpg')}}" alt="ienet">
+                            <img src="{{ asset('assets/images/gallery/fg-3.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                         <a href="gallery.html" class="footer-widget__gallery__link">
-                            <img src="{{asset('assets/images/gallery/fg-4.jpg')}}" alt="ienet">
+                            <img src="{{ asset('assets/images/gallery/fg-4.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                         <a href="gallery.html" class="footer-widget__gallery__link">
-                            <img src="{{asset('assets/images/gallery/fg-5.jpg')}}" alt="ienet">
+                            <img src="{{ asset('assets/images/gallery/fg-5.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                         <a href="gallery.html" class="footer-widget__gallery__link">
-                            <img src="{{asset('assets/images/gallery/fg-6.jpg')}}" alt="ienet">
+                            <img src="{{ asset('assets/images/gallery/fg-6.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                     </div><!-- /.footer-widget__gallery -->
                 </div>
@@ -142,7 +144,8 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="{{asset('assets/images/logo-light.png')}}" width="155" alt="" /></a>
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}"
+                    width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
@@ -201,7 +204,8 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="{{asset('assets/images/logo-light.png')}}" alt="Ienet HTML" height="80"></a>
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}"
+                    alt="Ienet HTML" height="80"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
             Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
@@ -258,34 +262,34 @@
 </a>
 
 
-<script src="{{asset('assets/vendors/jquery/jquery-3.7.0.min.js')}}"></script>
-<script src="{{asset('assets/vendors/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('assets/vendors/bootstrap-select/bootstrap-select.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jarallax/jarallax.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-ui/jquery-ui.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-appear/jquery.appear.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-validate/jquery.validate.min.js')}}"></script>
-<script src="{{asset('assets/vendors/nouislider/nouislider.min.js')}}"></script>
-<script src="{{asset('assets/vendors/tiny-slider/tiny-slider.js')}}"></script>
-<script src="{{asset('assets/vendors/wnumb/wNumb.min.js')}}"></script>
-<script src="{{asset('assets/vendors/owl-carousel/js/owl.carousel.min.js')}}"></script>
-<script src="{{asset('assets/vendors/wow/wow.js')}}"></script>
-<script src="{{asset('assets/vendors/imagesloaded/imagesloaded.min.js')}}"></script>
-<script src="{{asset('assets/vendors/isotope/isotope.js')}}"></script>
-<script src="{{asset('assets/vendors/slick/slick.min.js')}}"></script>
-<script src="{{asset('assets/vendors/countdown/countdown.min.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-circleType/jquery.circleType.js')}}"></script>
-<script src="{{asset('assets/vendors/jquery-lettering/jquery.lettering.min.js')}}"></script>
+<script src="{{ asset('assets/vendors/jquery/jquery-3.7.0.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jarallax/jarallax.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-ui/jquery-ui.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-appear/jquery.appear.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-validate/jquery.validate.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/nouislider/nouislider.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/tiny-slider/tiny-slider.js') }}"></script>
+<script src="{{ asset('assets/vendors/wnumb/wNumb.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/owl-carousel/js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/wow/wow.js') }}"></script>
+<script src="{{ asset('assets/vendors/imagesloaded/imagesloaded.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/isotope/isotope.js') }}"></script>
+<script src="{{ asset('assets/vendors/slick/slick.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/countdown/countdown.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-circleType/jquery.circleType.js') }}"></script>
+<script src="{{ asset('assets/vendors/jquery-lettering/jquery.lettering.min.js') }}"></script>
 <!-- gsap js -->
-<script src="{{asset('assets/vendors/gsap/gsap.js')}}"></script>
-<script src="{{asset('assets/vendors/gsap/scrolltrigger.min.js')}}"></script>
-<script src="{{asset('assets/vendors/gsap/splittext.min.js')}}"></script>
-<script src="{{asset('assets/vendors/gsap/ienet-split.js')}}"></script>
+<script src="{{ asset('assets/vendors/gsap/gsap.js') }}"></script>
+<script src="{{ asset('assets/vendors/gsap/scrolltrigger.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/gsap/splittext.min.js') }}"></script>
+<script src="{{ asset('assets/vendors/gsap/ienet-split.js') }}"></script>
 <!-- template js -->
-<script src="{{asset('assets/js/ienet.js')}}"></script>
+<script src="{{ asset('assets/js/ienet.js') }}"></script>
 </body>
 
 </html>

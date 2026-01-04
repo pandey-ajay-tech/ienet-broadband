@@ -10,7 +10,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
+    <meta name="description"
+        content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,7 +90,7 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="index.html">
+                        <a href="index">
                             <img src="assets/images/logo-dark.png" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
@@ -99,11 +100,12 @@
 
 
                             <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
-                                <a href="index.html">Demos</a>
+                                <a href="index">Demos</a>
                                 <ul>
                                     <li>
                                         <div class="megamenu-popup">
-                                            <a href="#" class="megamenu-clickable--close"><span class="icon-close"></span></a>
+                                            <a href="#" class="megamenu-clickable--close"><span
+                                                    class="icon-close"></span></a>
                                             <!-- /.megamenu-clickable--close -->
                                             <div class="megamenu-popup__content">
                                                 <div class="demo-one">
@@ -112,19 +114,22 @@
                                                             <div class="col-md-6 col-lg-4">
                                                                 <div class="demo-one__card">
                                                                     <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-1.jpg" alt="ienet">
+                                                                        <img src="assets/images/landing/home-1.jpg"
+                                                                            alt="ienet">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="index.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>Multi Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-one-page.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-one-page"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>One Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
                                                                         </div><!-- /.demo-one__btns -->
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="index.html">Home Page 01</a>
+                                                                            <a href="index">Home Page 01</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
                                                                 </div><!-- /.demo-one__card -->
@@ -132,19 +137,22 @@
                                                             <div class="col-md-6 col-lg-4">
                                                                 <div class="demo-one__card">
                                                                     <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-2.jpg" alt="ienet">
+                                                                        <img src="assets/images/landing/home-2.jpg"
+                                                                            alt="ienet">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="index-2.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-2"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>Multi Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-2-one-page.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-2-one-page"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>One Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
                                                                         </div><!-- /.demo-one__btns -->
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="index-2.html">Home Page 02</a>
+                                                                            <a href="index-2">Home Page 02</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
                                                                 </div><!-- /.demo-one__card -->
@@ -152,19 +160,22 @@
                                                             <div class="col-md-6 col-lg-4">
                                                                 <div class="demo-one__card">
                                                                     <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-3.jpg" alt="ienet">
+                                                                        <img src="assets/images/landing/home-3.jpg"
+                                                                            alt="ienet">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="index-3.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-3"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>Multi Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-3-one-page.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-3-one-page"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>One Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
                                                                         </div><!-- /.demo-one__btns -->
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="index-3.html">Home Page 03</a>
+                                                                            <a href="index-3">Home Page 03</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
                                                                 </div><!-- /.demo-one__card -->
@@ -172,16 +183,18 @@
                                                             <div class="col-md-6 col-lg-4">
                                                                 <div class="demo-one__card">
                                                                     <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-dark.jpg" alt="ienet">
+                                                                        <img src="assets/images/landing/home-dark.jpg"
+                                                                            alt="ienet">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="index-dark.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-dark"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>View Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
                                                                         </div><!-- /.demo-one__btns -->
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="index-dark.html">Home Dark</a>
+                                                                            <a href="index-dark">Home Dark</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
                                                                 </div><!-- /.demo-one__card -->
@@ -189,16 +202,18 @@
                                                             <div class="col-md-6 col-lg-4">
                                                                 <div class="demo-one__card">
                                                                     <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-boxed.jpg" alt="ienet">
+                                                                        <img src="assets/images/landing/home-boxed.jpg"
+                                                                            alt="ienet">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="index-boxed.html" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-boxed"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>View Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
                                                                         </div><!-- /.demo-one__btns -->
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="index-boxed.html">Home Boxed</a>
+                                                                            <a href="index-boxed">Home Boxed</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
                                                                 </div><!-- /.demo-one__card -->
@@ -206,16 +221,19 @@
                                                             <div class="col-md-6 col-lg-4">
                                                                 <div class="demo-one__card">
                                                                     <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-rtl.jpg" alt="ienet">
+                                                                        <img src="assets/images/landing/home-rtl.jpg"
+                                                                            alt="ienet">
                                                                         <div class="demo-one__btns">
-                                                                            <a href="index-rtl.html#googtrans(en%7car)" class="ienet-btn demo-one__btn">
+                                                                            <a href="index-rtl#googtrans(en%7car)"
+                                                                                class="ienet-btn demo-one__btn">
                                                                                 <span>View Page</span>
                                                                             </a><!-- /.thm-btn demo-one__btn -->
                                                                         </div><!-- /.demo-one__btns -->
                                                                     </div><!-- /.demo-one__image -->
                                                                     <div class="demo-one__content">
                                                                         <h3 class="demo-one__title">
-                                                                            <a href="index-rtl.html#googtrans(en%7car)">Home RTL</a>
+                                                                            <a href="index-rtl#googtrans(en%7car)">Home
+                                                                                RTL</a>
                                                                         </h3><!-- /.demo-one__title -->
                                                                     </div><!-- /.demo-one__content -->
                                                                 </div><!-- /.demo-one__card -->
@@ -231,7 +249,7 @@
 
 
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="about">About</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#">Pages</a>
@@ -239,48 +257,48 @@
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
                                         <ul class="sub-menu">
-                                            <li><a href="movie.html">Movies Page</a></li>
-                                            <li><a href="movie-carousel.html">Movies Carousel</a></li>
-                                            <li><a href="movie-details.html">Movies Details</a></li>
+                                            <li><a href="movie">Movies Page</a></li>
+                                            <li><a href="movie-carousel">Movies Carousel</a></li>
+                                            <li><a href="movie-details">Movies Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">Teams</a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-carousel.html">Team Carousel</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
+                                            <li><a href="team">Our Team</a></li>
+                                            <li><a href="team-carousel">Team Carousel</a></li>
+                                            <li><a href="team-details">Team Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="reviews.html">Testimonials</a></li>
-                                    <li><a href="reviews-carousel.html">Testimonials Carousel</a></li>
-                                    <li><a href="packages.html">Pricing Page</a></li>
-                                    <li><a href="packages-carousel.html">Pricing Carousel</a></li>
+                                    <li><a href="reviews">Testimonials</a></li>
+                                    <li><a href="reviews-carousel">Testimonials Carousel</a></li>
+                                    <li><a href="packages">Pricing Page</a></li>
+                                    <li><a href="packages-carousel">Pricing Carousel</a></li>
                                     <li>
-                                        <a href="gallery.html">Gallery</a>
+                                        <a href="gallery">Gallery</a>
                                         <ul>
-                                            <li><a href="gallery.html">Gallery Masonry</a></li>
-                                            <li><a href="gallery-filter.html">Gallery Filter</a></li>
-                                            <li><a href="gallery-grid.html">Gallery Grid</a></li>
-                                            <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
+                                            <li><a href="gallery">Gallery Masonry</a></li>
+                                            <li><a href="gallery-filter">Gallery Filter</a></li>
+                                            <li><a href="gallery-grid">Gallery Grid</a></li>
+                                            <li><a href="gallery-carousel">Gallery Carousel</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
+                                    <li><a href="faq">FAQs</a></li>
+                                    <li><a href="login">Login</a></li>
+                                    <li><a href="404">404 Error</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#">Services</a>
                                 <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="services-carousel.html">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband.html">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv.html">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security.html">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline.html">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv.html">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity.html">Smart Data Connectivity</a></li>
+                                    <li><a href="services">Services</a></li>
+                                    <li><a href="services-carousel">Services Carousel</a></li>
+                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
+                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
+                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
+                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
+                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
+                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
                                 </ul>
                             </li>
 
@@ -290,15 +308,15 @@
                                     <li class="dropdown">
                                         <a href="#">Products</a>
                                         <ul class="sub-menu">
-                                            <li><a href="products.html">No Sidebar</a></li>
-                                            <li><a href="products-left.html">Left Sidebar</a></li>
-                                            <li><a href="products-right.html">Right Sidebar</a></li>
+                                            <li><a href="products">No Sidebar</a></li>
+                                            <li><a href="products-left">Left Sidebar</a></li>
+                                            <li><a href="products-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="products-carousel.html">Products Carousel</a></li>
-                                    <li><a href="product-details.html">Product Details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="products-carousel">Products Carousel</a></li>
+                                    <li><a href="product-details">Product Details</a></li>
+                                    <li><a href="cart">Cart</a></li>
+                                    <li><a href="checkout">Checkout</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -307,32 +325,32 @@
                                     <li class="dropdown">
                                         <a href="#">News grid</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">No Sidebar</a></li>
-                                            <li><a href="blog-grid-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-grid-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-grid">No Sidebar</a></li>
+                                            <li><a href="blog-grid-left">Left Sidebar</a></li>
+                                            <li><a href="blog-grid-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">News list</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-list.html">No Sidebar</a></li>
-                                            <li><a href="blog-list-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-list-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-list">No Sidebar</a></li>
+                                            <li><a href="blog-list-left">Left Sidebar</a></li>
+                                            <li><a href="blog-list-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog-carousel.html">News Carousel</a></li>
+                                    <li><a href="blog-carousel">News Carousel</a></li>
                                     <li class="dropdown">
                                         <a href="#">News Details</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-details.html">No Sidebar</a></li>
-                                            <li><a href="blog-details-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-details-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-details">No Sidebar</a></li>
+                                            <li><a href="blog-details-left">Left Sidebar</a></li>
+                                            <li><a href="blog-details-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact">Contact</a>
                             </li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
@@ -346,14 +364,14 @@
                             <i class="icon-search" aria-hidden="true"></i>
                             <span class="sr-only">Search</span>
                         </a><!-- /.search-toggler -->
-                        <a href="cart.html" class="main-header__cart">
+                        <a href="cart" class="main-header__cart">
                             <i class="icon-cart" aria-hidden="true"></i>
                             <span class="sr-only">Cart</span>
                         </a><!-- /.cart-toggler -->
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:88012365499">+91 9234377577</a>
                         </div>
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
@@ -366,7 +384,7 @@
             <div class="container">
                 <h2 class="page-header__title bw-split-in-left">Blog Grid Left Sidebar</h2><!-- /.page-title -->
                 <ul class="ienet-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><span>Blog</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
@@ -395,8 +413,12 @@
                                                 <img src="assets/images/blog/lp-1-1.jpg" alt="ienet">
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="fas fa-user-alt"></i>by <a href="blog-details-right.html">Admin</a></p><!-- /.sidebar__posts__meta -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
+                                                <p class="sidebar__posts__meta"><i class="fas fa-user-alt"></i>by <a
+                                                        href="blog-details-right">Admin</a></p>
+                                                <!-- /.sidebar__posts__meta -->
+                                                <h4 class="sidebar__posts__title"><a href="blog-details-right">There
+                                                        are many vario ns of passages of</a></h4>
+                                                <!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                         <li class="sidebar__posts__item">
@@ -404,8 +426,12 @@
                                                 <img src="assets/images/blog/lp-1-2.jpg" alt="ienet">
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="fas fa-user-alt"></i>by <a href="blog-details-right.html">Admin</a></p><!-- /.sidebar__posts__meta -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">Best place of true Mode splander</a></h4><!-- /.sidebar__posts__title -->
+                                                <p class="sidebar__posts__meta"><i class="fas fa-user-alt"></i>by <a
+                                                        href="blog-details-right">Admin</a></p>
+                                                <!-- /.sidebar__posts__meta -->
+                                                <h4 class="sidebar__posts__title"><a href="blog-details-right">Best
+                                                        place of true Mode splander</a></h4>
+                                                <!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                         <li class="sidebar__posts__item">
@@ -413,8 +439,12 @@
                                                 <img src="assets/images/blog/lp-1-3.jpg" alt="ienet">
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="fas fa-user-alt"></i>by <a href="blog-details-right.html">Admin</a></p><!-- /.sidebar__posts__meta -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">Get deep knowledge of your beauty</a></h4><!-- /.sidebar__posts__title -->
+                                                <p class="sidebar__posts__meta"><i class="fas fa-user-alt"></i>by <a
+                                                        href="blog-details-right">Admin</a></p>
+                                                <!-- /.sidebar__posts__meta -->
+                                                <h4 class="sidebar__posts__title"><a href="blog-details-right">Get
+                                                        deep knowledge of your beauty</a></h4>
+                                                <!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                     </ul><!-- /.sidebar__posts list-unstyled -->
@@ -422,22 +452,22 @@
                                 <div class="sidebar__single">
                                     <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
                                     <ul class="sidebar__categories list-unstyled">
-                                        <li><a href="blog-list-right.html">Internet services</a>(6)</li>
-                                        <li><a href="blog-list-right.html">Broadband</a>(9)</li>
-                                        <li><a href="blog-list-right.html">Innovations</a>(7)</li>
-                                        <li><a href="blog-list-right.html">Satalite TV</a>(8)</li>
-                                        <li><a href="blog-list-right.html">Mobility</a>(5)</li>
+                                        <li><a href="blog-list-right">Internet services</a>(6)</li>
+                                        <li><a href="blog-list-right">Broadband</a>(9)</li>
+                                        <li><a href="blog-list-right">Innovations</a>(7)</li>
+                                        <li><a href="blog-list-right">Satalite TV</a>(8)</li>
+                                        <li><a href="blog-list-right">Mobility</a>(5)</li>
                                     </ul><!-- /.sidebar__categories list-unstyled -->
                                 </div><!-- /.sidebar__single -->
                                 <div class="sidebar__single">
                                     <h4 class="sidebar__title">Tags</h4><!-- /.sidebar__title -->
                                     <div class="sidebar__tags">
-                                        <a href="blog-list-right.html">internet</a>
-                                        <a href="blog-list-right.html">brodband line</a>
-                                        <a href="blog-list-right.html">optical line</a>
-                                        <a href="blog-list-right.html">IPTV</a>
-                                        <a href="blog-list-right.html">cyber security</a>
-                                        <a href="blog-list-right.html">wifi speed</a>
+                                        <a href="blog-list-right">internet</a>
+                                        <a href="blog-list-right">brodband line</a>
+                                        <a href="blog-list-right">optical line</a>
+                                        <a href="blog-list-right">IPTV</a>
+                                        <a href="blog-list-right">cyber security</a>
+                                        <a href="blog-list-right">wifi speed</a>
                                     </div><!-- /.sidebar__tags -->
                                 </div><!-- /.sidebar__single -->
                                 <div class="sidebar__single">
@@ -447,19 +477,25 @@
                                             <div class="sidebar__comments__icon">
                                                 <i class="fas fa-comment-dots"></i>
                                             </div><!-- /.sidebar__comments__icon -->
-                                            <h6 class="sidebar__comments__title"><a href="blog-details-right.html">Neque porro est qui dolorem ipsum quia quaed inventor</a></h6><!-- /.sidebar__comments__title -->
+                                            <h6 class="sidebar__comments__title"><a href="blog-details-right">Neque
+                                                    porro est qui dolorem ipsum quia quaed inventor</a></h6>
+                                            <!-- /.sidebar__comments__title -->
                                         </li>
                                         <li class="sidebar__comments__item">
                                             <div class="sidebar__comments__icon">
                                                 <i class="fas fa-comment-dots"></i>
                                             </div><!-- /.sidebar__comments__icon -->
-                                            <h6 class="sidebar__comments__title"><a href="blog-details-right.html">A wordpress commenter on launch new mobile app</a></h6><!-- /.sidebar__comments__title -->
+                                            <h6 class="sidebar__comments__title"><a href="blog-details-right">A
+                                                    wordpress commenter on launch new mobile app</a></h6>
+                                            <!-- /.sidebar__comments__title -->
                                         </li>
                                         <li class="sidebar__comments__item">
                                             <div class="sidebar__comments__icon">
                                                 <i class="fas fa-comment-dots"></i>
                                             </div><!-- /.sidebar__comments__icon -->
-                                            <h6 class="sidebar__comments__title"><a href="blog-details-right.html">Neque porro est qui dolorem ipsum quia quaed inventor</a></h6><!-- /.sidebar__comments__title -->
+                                            <h6 class="sidebar__comments__title"><a href="blog-details-right">Neque
+                                                    porro est qui dolorem ipsum quia quaed inventor</a></h6>
+                                            <!-- /.sidebar__comments__title -->
                                         </li>
                                     </ul><!-- /.sidebar__comments list-unstyled -->
                                 </div><!-- /.sidebar__single -->
@@ -471,186 +507,263 @@
                             <div class="col-md-6">
                                 <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-1.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                        <img src="assets/images/blog/blog-1-1.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</span>
+                                        <img src="assets/images/blog/blog-1-1.png"
+                                            alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
+                                        <img src="assets/images/blog/blog-1-1.png"
+                                            alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">Cupidatat Nonproident, Sunt in Culpa qui Officia
+                                                Deserunt</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">Cupidatat
+                                                Nonproident, Sunt in Culpa qui Officia Deserunt</a></h3>
+                                        <!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='100ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-2.png" alt="The Best Usage of The Fiber Internet from Broadband">
-                                        <img src="assets/images/blog/blog-1-2.png" alt="The Best Usage of The Fiber Internet from Broadband">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">The Best Usage of The Fiber Internet from Broadband</span>
+                                        <img src="assets/images/blog/blog-1-2.png"
+                                            alt="The Best Usage of The Fiber Internet from Broadband">
+                                        <img src="assets/images/blog/blog-1-2.png"
+                                            alt="The Best Usage of The Fiber Internet from Broadband">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">The Best Usage of The Fiber Internet from
+                                                Broadband</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">The Best Usage of The Fiber Internet from Broadband</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">The Best Usage of
+                                                The Fiber Internet from Broadband</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='200ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-3.png" alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
-                                        <img src="assets/images/blog/blog-1-3.png" alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna</span>
+                                        <img src="assets/images/blog/blog-1-3.png"
+                                            alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
+                                        <img src="assets/images/blog/blog-1-3.png"
+                                            alt="Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">Suspendisse Posuere, Leo ac Laoreet Dapibus,
+                                                Urna</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">Suspendisse Posuere, Leo ac Laoreet Dapibus, Urna</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">Suspendisse Posuere,
+                                                Leo ac Laoreet Dapibus, Urna</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='300ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-4.png" alt="There Are Many Vario Ns Of Passages Of Dapibus">
-                                        <img src="assets/images/blog/blog-1-4.png" alt="There Are Many Vario Ns Of Passages Of Dapibus">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">There Are Many Vario Ns Of Passages Of Dapibus</span>
+                                        <img src="assets/images/blog/blog-1-4.png"
+                                            alt="There Are Many Vario Ns Of Passages Of Dapibus">
+                                        <img src="assets/images/blog/blog-1-4.png"
+                                            alt="There Are Many Vario Ns Of Passages Of Dapibus">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">There Are Many Vario Ns Of Passages Of Dapibus</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">There Are Many Vario Ns Of Passages Of Dapibus</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">There Are Many Vario
+                                                Ns Of Passages Of Dapibus</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='400ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='400ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-5.png" alt="Praesent Varius Elit Nisl, in Maximus Augue Venenatis">
-                                        <img src="assets/images/blog/blog-1-5.png" alt="Praesent Varius Elit Nisl, in Maximus Augue Venenatis">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Praesent Varius Elit Nisl, in Maximus Augue Venenatis</span>
+                                        <img src="assets/images/blog/blog-1-5.png"
+                                            alt="Praesent Varius Elit Nisl, in Maximus Augue Venenatis">
+                                        <img src="assets/images/blog/blog-1-5.png"
+                                            alt="Praesent Varius Elit Nisl, in Maximus Augue Venenatis">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">Praesent Varius Elit Nisl, in Maximus Augue
+                                                Venenatis</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">Praesent Varius Elit Nisl, in Maximus Augue Venenatis</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">Praesent Varius Elit
+                                                Nisl, in Maximus Augue Venenatis</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='500ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='500ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-6.png" alt="Vestibulum Nisi Iaculis. Donec id Euismod Risus Elit">
-                                        <img src="assets/images/blog/blog-1-6.png" alt="Vestibulum Nisi Iaculis. Donec id Euismod Risus Elit">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Vestibulum Nisi Iaculis. Donec id Euismod Risus Elit</span>
+                                        <img src="assets/images/blog/blog-1-6.png"
+                                            alt="Vestibulum Nisi Iaculis. Donec id Euismod Risus Elit">
+                                        <img src="assets/images/blog/blog-1-6.png"
+                                            alt="Vestibulum Nisi Iaculis. Donec id Euismod Risus Elit">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">Vestibulum Nisi Iaculis. Donec id Euismod Risus
+                                                Elit</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">Vestibulum Nisi Iaculis. Donec id Euismod Risus Elit</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">Vestibulum Nisi
+                                                Iaculis. Donec id Euismod Risus Elit</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='000ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-7.png" alt="Integer Imperdiet Lacus ut Enim Skins Porta">
-                                        <img src="assets/images/blog/blog-1-7.png" alt="Integer Imperdiet Lacus ut Enim Skins Porta">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Integer Imperdiet Lacus ut Enim Skins Porta</span>
+                                        <img src="assets/images/blog/blog-1-7.png"
+                                            alt="Integer Imperdiet Lacus ut Enim Skins Porta">
+                                        <img src="assets/images/blog/blog-1-7.png"
+                                            alt="Integer Imperdiet Lacus ut Enim Skins Porta">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">Integer Imperdiet Lacus ut Enim Skins Porta</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">Integer Imperdiet Lacus ut Enim Skins Porta</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">Integer Imperdiet
+                                                Lacus ut Enim Skins Porta</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
-                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
+                                <div class="blog-card wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='100ms'>
                                     <div class="blog-card__image">
-                                        <img src="assets/images/blog/blog-1-8.png" alt="The Best Usage of The fiber Internet Broadband">
-                                        <img src="assets/images/blog/blog-1-8.png" alt="The Best Usage of The fiber Internet Broadband">
-                                        <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">The Best Usage of The fiber Internet Broadband</span>
+                                        <img src="assets/images/blog/blog-1-8.png"
+                                            alt="The Best Usage of The fiber Internet Broadband">
+                                        <img src="assets/images/blog/blog-1-8.png"
+                                            alt="The Best Usage of The fiber Internet Broadband">
+                                        <a href="blog-details-right" class="blog-card__image__link"><span
+                                                class="sr-only">The Best Usage of The fiber Internet Broadband</span>
                                             <!-- /.sr-only --></a>
                                         <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                         <ul class="list-unstyled blog-card__meta">
-                                            <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                            <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                            <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a>
+                                            </li>
+                                            <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                    Comments</a></li>
                                         </ul><!-- /.list-unstyled blog-card__meta -->
                                     </div><!-- /.blog-card__image -->
                                     <div class="blog-card__content">
-                                        <h3 class="blog-card__title"><a href="blog-details-right.html">The Best Usage of The fiber Internet Broadband</a></h3><!-- /.blog-card__title -->
-                                        <a href="blog-details-right.html" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                        <h3 class="blog-card__title"><a href="blog-details-right">The Best Usage of
+                                                The fiber Internet Broadband</a></h3><!-- /.blog-card__title -->
+                                        <a href="blog-details-right" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span
+                                                    class="fas fa-angle-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span
+                                                    class="fas fa-angle-double-right"></span>Read More</span>
                                         </a><!-- /.blog-card__link -->
                                     </div><!-- /.blog-card__content -->
                                 </div><!-- /.blog-card -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-12">
                                 <ul class="post-pagination text-center blog-one__pagination">
-                                    <li><a href="blog-list-right.html"><i class="icon-arrow-point-to-left"></i></a></li>
-                                    <li><a class="current" href="blog-list.html">01</a></li>
-                                    <li><a href="blog-list-right.html">02</a></li>
-                                    <li><a href="blog-list-right.html">03</a></li>
-                                    <li><a href="blog-list-right.html"><i class="icon-arrow-point-to-right"></i></a></li>
+                                    <li><a href="blog-list-right"><i class="icon-arrow-point-to-left"></i></a></li>
+                                    <li><a class="current" href="blog-list">01</a></li>
+                                    <li><a href="blog-list-right">02</a></li>
+                                    <li><a href="blog-list-right">03</a></li>
+                                    <li><a href="blog-list-right"><i class="icon-arrow-point-to-right"></i></a></li>
                                 </ul>
                             </div><!-- /.col-md-12 -->
                         </div><!-- /.row -->
@@ -660,9 +773,12 @@
         </section><!-- /.blog-one blog-one--page -->
 
         <footer class="main-footer background-black">
-            <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
-            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
+            <div class="main-footer__bg background-black"
+                style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+            <div class="main-footer__shape-one"
+                style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
+            <div class="main-footer__shape-two"
+                style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__top">
                 <div class="container">
@@ -703,7 +819,7 @@
             </div><!-- /.main-footer__top -->
             <div class="container">
                 <div class="main-footer__middle">
-                    <a href="index.html">
+                    <a href="index">
                         <img src="assets/images/logo-light.png" height="80" alt="Ienet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
@@ -715,7 +831,7 @@
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                         <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                        <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
                     </div>
                 </div><!-- /.main-footer__middle -->
             </div><!-- /.container -->
@@ -727,18 +843,19 @@
                             <p class="footer-widget__text">
                                 There are two main types: solar photovoltaic (PV) systems for electricity generation and
                             </p>
-                            <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                            <a href="about" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
                         </div>
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-xl-3">
                         <div class="footer-widget footer-widget--links">
                             <h2 class="footer-widget__title">our services</h2><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="service-d-broadband.html">Fiber & Broadband</a></li>
-                                <li><a href="service-d-cyber-security.html">Cyber Security</a></li>
-                                <li><a href="service-d-tv.html">Amazon Box TV</a></li>
-                                <li><a href="service-d-iptv.html">Smart IPTV</a></li>
-                                <li><a href="service-d-connectivity.html">Smart Connectivity</a></li>
+                                <li><a href="service-d-broadband">Fiber & Broadband</a></li>
+                                <li><a href="service-d-cyber-security">Cyber Security</a></li>
+                                <li><a href="service-d-tv">Amazon Box TV</a></li>
+                                <li><a href="service-d-iptv">Smart IPTV</a></li>
+                                <li><a href="service-d-connectivity">Smart Connectivity</a></li>
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->
@@ -746,11 +863,11 @@
                         <div class="footer-widget footer-widget--links">
                             <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="movie.html">Our Movie</a></li>
-                                <li><a href="blog-grid-right.html">News & Blog</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="contact.html">Contacts</a></li>
+                                <li><a href="about">About Us</a></li>
+                                <li><a href="movie">Our Movie</a></li>
+                                <li><a href="blog-grid-right">News & Blog</a></li>
+                                <li><a href="faq">FAQ</a></li>
+                                <li><a href="contact">Contacts</a></li>
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->
@@ -758,22 +875,22 @@
                         <div class="footer-widget footer-widget--gallery">
                             <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                             <div class="footer-widget__gallery">
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-1.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-2.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-3.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-4.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-5.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-6.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
                             </div><!-- /.footer-widget__gallery -->
@@ -803,7 +920,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
+                        alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -862,7 +980,8 @@
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML" height="80"></a>
+                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML"
+                        height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
