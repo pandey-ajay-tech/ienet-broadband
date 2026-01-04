@@ -1,6 +1,6 @@
 @extends('layouts.welcome')
 @section('title')
-    Home Page
+    Home | SpeedNET Broadband
 @endsection
 @section('content')
     @include('layouts.slider')
