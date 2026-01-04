@@ -4,6 +4,8 @@
 @endsection
 @section('content')
     @include('layouts.slider')
+
+
     <section class="about-one" style="background-image: url(assets/images/shapes/about-1-bg.png);">
         <div class="about-one__shape" style="background-image: url(assets/images/resources/about-shape-1.png);"></div>
         <div class="container">
@@ -578,7 +580,7 @@
         </div><!-- /.container -->
     </section><!-- /.cta-one -->
 
-    <section class="movie-one">
+    {{-- <section class="movie-one">
         <div class="movie-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"
             style="background-image: url(assets/images/backgrounds/movie-bg-1.jpg);"></div>
         <!-- /.movie-one__bg -->
@@ -905,9 +907,9 @@
                 </div>
             </div><!-- item -->
         </div>
-    </section>
+    </section> --}}
 
-    <section class="faq-one">
+    {{-- <section class="faq-one">
         <div class="faq-one__shape" style="background-image: url(assets/images/resources/faq-shape-1.png);"></div>
         <div class="container">
             <div class="row">
@@ -1013,9 +1015,9 @@
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section><!-- /.faq-one-accordion -->
+    </section><!-- /.faq-one-accordion --> --}}
 
-    <section class="testimonials-one">
+    {{-- <section class="testimonials-one">
         <div class="testimonials-one__bg" style="background-image: url(assets/images/shapes/testimonial-bg-1.png);"></div>
         <div class="testimonials-one__left-color"></div>
         <div class="testimonials-one__image"
@@ -1174,9 +1176,9 @@
                 </div>
             </div>
         </div><!-- /.container -->
-    </section><!-- /.testimonials-one -->
+    </section><!-- /.testimonials-one --> --}}
 
-    <section class="blog-one">
+    {{-- <section class="blog-one">
         <div class="container">
             <div class="sec-title text-center">
 
@@ -1297,7 +1299,7 @@
                 </div><!-- /.item -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section><!-- /.blog-one -->
+    </section><!-- /.blog-one --> --}}
 
     <div class="client-carousel ">
         <div class="container">
@@ -1370,5 +1372,5 @@
                 </div><!-- /.owl-slide-item-->
             </div><!-- /.thm-owl__slider -->
         </div><!-- /.container -->
-    </div><!-- /.client-carousel -->
+    </div>
 @endsection

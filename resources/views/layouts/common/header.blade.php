@@ -8,13 +8,13 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <div class="topbar-one topbar-one--inner">
+        <div class="topbar-one topbar-one--inner ">
             <div class="container-fluid">
                 <div class="topbar-one__inner">
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">infohvbn@ienetmail.com</a>
+                            <a href="mailto:info@ienetmail.com" class="text-white">info@ienetmail.com</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -60,8 +60,8 @@
 
 
                             <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
-                                <a href="{{ route('/') }}">Demos</a>
-                                <ul>
+                                <a href="{{ route('/') }}">Home</a>
+                                {{-- <ul>
                                     <li>
                                         <div class="megamenu-popup">
                                             <a href="#" class="megamenu-clickable--close"><span
@@ -205,7 +205,7 @@
                                             </div><!-- /.megamenu-popup__content -->
                                         </div><!-- /.megamenu-popup -->
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
 
 
@@ -213,8 +213,8 @@
                                 <a href="about">About</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
+                                <a href="plans-pricing">Plans & Pricing </a>
+                                {{-- <ul>
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
                                         <ul class="sub-menu">
@@ -247,7 +247,7 @@
                                     <li><a href="faq">FAQs</a></li>
                                     <li><a href="login">Login</a></li>
                                     <li><a href="404">404 Error</a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li class="dropdown">
                                 <a href="#">Services</a>
@@ -263,7 +263,7 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown">
+                            {{-- <li class="dropdown">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
                                     <li class="dropdown">
@@ -309,7 +309,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="contact">Contact</a>
                             </li>
@@ -321,14 +321,14 @@
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
-                        <a href="#" class="search-toggler main-header__search">
+                        {{-- <a href="#" class="search-toggler main-header__search">
                             <i class="icon-search" aria-hidden="true"></i>
                             <span class="sr-only">Search</span>
                         </a><!-- /.search-toggler -->
                         <a href="cart" class="main-header__cart">
                             <i class="icon-cart" aria-hidden="true"></i>
                             <span class="sr-only">Cart</span>
-                        </a><!-- /.cart-toggler -->
+                        </a><!-- /.cart-toggler --> --}}
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>

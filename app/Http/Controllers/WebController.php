@@ -21,9 +21,14 @@ class WebController extends Controller
         return view('pages.services');
     }
 
-    public function plans()
+    public function plans_carousel()
     {
         return view('pages.packages-carousel');
+    }
+
+    public function plans_pricing()
+    {
+        return view('pages.packages');
     }
 
     public function quickRecharge()
@@ -53,31 +58,31 @@ class WebController extends Controller
 
     public function fiberBroadband()
     {
-        return view('pages.services-fiber-broadband');
+        return view('pages.service-d-broadband');
     }
 
     public function iptv()
     {
-        return view('pages.services-iptv');
+        return view('pages.service-d-iptv');
     }
 
     public function cyberSecurity()
     {
-        return view('pages.services-cyber-security');
+        return view('pages.service-d-cyber-security');
     }
 
     public function landline()
     {
-        return view('pages.services-landline');
+        return view('pages.service-d-landline');
     }
 
     public function fireTv()
     {
-        return view('pages.services-fire-tv');
+        return view('pages.service-d-tv');
     }
 
     public function connectivity()
     {
-        return view('pages.services-connectivity');
+        return view('pages.service-d-connectivity');
     }
 }
