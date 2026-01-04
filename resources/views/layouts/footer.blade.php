@@ -10,14 +10,14 @@
                 <ul class="list-unstyled main-footer__top__info">
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                        <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                        <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        1211 Madison Ave, New York, NY
+                        Sapaha Near TTC Ground, Madhupur, 815353
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
-                <div class="main-footer__top__right">
+                {{-- <div class="main-footer__top__right">
                     <div class="main-footer__top__social">
 
                         <a href="https://facebook.com">
@@ -37,14 +37,14 @@
                             <span class="sr-only">Youtube</span>
                         </a>
                     </div><!-- /.main-footer__top__social -->
-                </div><!-- /.main-footer__top__right -->
+                </div><!-- /.main-footer__top__right --> --}}
             </div><!-- /.main-footer__top__inner -->
         </div><!-- /.container -->
     </div><!-- /.main-footer__top -->
     <div class="container">
         <div class="main-footer__middle">
             <a href="index.html">
-                <img src="{{ asset('assets/images/logo-light.png') }}" height="80" alt="Ienet HTML Template">
+                <img src="{{ asset('assets/images/logo_wifi.png') }}" height="80" alt="Ienet HTML Template">
             </a>
             <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                 <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
@@ -144,7 +144,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}"
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
                     width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->
@@ -204,18 +204,20 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}"
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
                     alt="Ienet HTML" height="80"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
-            Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
-            puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
+            Experience lightning-fast internet with SpeedNET Broadband! Stay connected seamlessly for work, streaming,
+            gaming, and more. Enjoy reliable, unlimited data plans designed for homes and businesses, backed by 24×7
+            customer support.
         </p>
+
         <h4 class="sidebar-one__title">Contact Info:</h4>
         <ul class="sidebar-one__info">
             <li>
                 <span class="fas fa-map-marker-alt"></span>
-                27, Dhaka London City Dhaka, Bangladesh
+                Sapaha Near TTC Ground, Madhupur, 815353
             </li>
             <li>
                 <span class="fas fa-clock"></span>
@@ -223,14 +225,14 @@
             </li>
             <li>
                 <span class="fas fa-envelope"></span>
-                <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                <a href="tel:+919234377577">+91 9234377577</a>
             </li>
         </ul>
-        <div class="sidebar-one__social">
+        {{-- <div class="sidebar-one__social">
 
             <a href="https://facebook.com">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
+                <span class="sr-only">Facesbvnbbook</span>
             </a>
             <a href="https://twitter.com">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
@@ -244,14 +246,14 @@
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <span class="sr-only">Youtube</span>
             </a>
-        </div><!-- /sidebar-one__socila -->
-        <h4 class="sidebar-one__title">Newsletter:</h4>
+        </div><!-- /sidebar-one__socila --> --}}
+        {{-- <h4 class="sidebar-one__title">Newsletter:</h4>
         <form action="#" data-url="MAILCHIMP_FORM_URL" class="sidebar-one__newsletter mc-form">
             <input type="text" name="EMAIL" placeholder="Email address">
             <button type="submit" class="fas fa-paper-plane">
                 <span class="sr-only">submit</span><!-- /.sr-only -->
             </button>
-        </form><!-- /.footer-widget__newsletter mc-form -->
+        </form><!-- /.footer-widget__newsletter mc-form --> --}}
     </div><!-- /.sidebar__content -->
 </aside>
 <!-- Sidebar One Start -->

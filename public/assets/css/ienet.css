@@ -9379,7 +9379,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .packages-one__card__list {
     margin: 0 0 51px;
     padding: 0;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 2fr;
     grid-gap: 8px 7px;
 }

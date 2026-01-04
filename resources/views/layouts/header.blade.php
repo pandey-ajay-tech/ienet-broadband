@@ -14,14 +14,14 @@
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com')}}">info@ienetmail.com</a>
+                            <a href="mailto:info@snbroadband.in')}}">info@snbroadband.in</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            1211 Madison Ave, New York, NY
+                            Sapaha Near TTC Ground, Madhupur, 815353
                         </li>
                     </ul><!-- /.list-unstyled topbar-one__info -->
-                    <div class="topbar-one__right">
+                    {{-- <div class="topbar-one__right">
                         <div class="topbar-one__social">
 
                             <a href="https://facebook.com')}}">
@@ -41,7 +41,7 @@
                                 <span class="sr-only">Youtube</span>
                             </a>
                         </div><!-- /.topbar-one__social -->
-                    </div><!-- /.topbar-one__right -->
+                    </div><!-- /.topbar-one__right --> --}}
                 </div><!-- /.topbar-one__inner -->
             </div><!-- /.container-fluid -->
         </div><!-- /.topbar-one -->

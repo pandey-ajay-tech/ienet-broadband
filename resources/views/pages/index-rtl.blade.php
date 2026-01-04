@@ -56,7 +56,7 @@
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                            <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -93,7 +93,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="index">
-                            <img src="assets/images/logo-light.png" alt="Ienet HTML" height="80">
+                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
@@ -1905,7 +1905,7 @@
                         <ul class="list-unstyled main-footer__top__info">
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                                <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                                <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
                             </li>
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i
@@ -1940,7 +1940,8 @@
             <div class="container">
                 <div class="main-footer__middle">
                     <a href="index">
-                        <img src="assets/images/logo-light.png" height="80" alt="Ienet HTML Template">
+                        <img src="{{ asset('assets/images/logo_wifi.png') }}" height="80"
+                            alt="Ienet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                         <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
@@ -2040,8 +2041,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
-                        alt="" /></a>
+                <a href="index" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
+                        width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -2100,7 +2101,7 @@
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png"
+                <a href="index" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
                         alt="Ienet HTML" height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">

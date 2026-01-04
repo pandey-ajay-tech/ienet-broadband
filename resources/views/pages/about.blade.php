@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    About | SpeedNET Broadband
+    About Us
 @endsection
 @section('content')
-    @include('pages.common-header.page-header')
+    {{-- @include('layouts.slider') --}}
 
     <section class="about-two about-two--about-page">
         <div class="container">

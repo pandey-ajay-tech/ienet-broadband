@@ -25,7 +25,7 @@
                         <div class="packages-two__card__inner">
                             <div class="packages-two__card__bg"></div>
                             <div class="packages-two__card__hover"
-                                style="background-image: url(assets/images/resources/package-2-1.jpg);"></div>
+                                style="background-image: url(assets/images/resources/new_design.png);"></div>
                             <div class="packages-two__card__price">$59 <span>Month</span></div>
                             <h3 class="packages-two__card__title">TV + Internet package</h3>
                             <ul class="packages-two__card__list">
@@ -43,7 +43,7 @@
                         <div class="packages-two__card__inner">
                             <div class="packages-two__card__bg"></div>
                             <div class="packages-two__card__hover"
-                                style="background-image: url(assets/images/resources/package-2-2.jpg);"></div>
+                                style="background-image: url(assets/images/resources/new_design.png);"></div>
                             <div class="packages-two__card__price">$49 <span>Month</span></div>
                             <h3 class="packages-two__card__title">Home basic package</h3>
                             <ul class="packages-two__card__list">
@@ -61,7 +61,7 @@
                         <div class="packages-two__card__inner">
                             <div class="packages-two__card__bg"></div>
                             <div class="packages-two__card__hover"
-                                style="background-image: url(assets/images/resources/package-2-3.jpg);"></div>
+                                style="background-image: url(assets/images/resources/new_design.png);"></div>
                             <div class="packages-two__card__price">$69 <span>Month</span></div>
                             <h3 class="packages-two__card__title">premium fast package</h3>
                             <ul class="packages-two__card__list">

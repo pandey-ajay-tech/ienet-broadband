@@ -14,14 +14,14 @@
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com" class="text-white">info@ienetmail.com</a>
+                            <a href="mailto:info@snbroadband.in" class="text-white">info@snbroadband.in</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            1211 Madison Ave, New York, NY
+                            Sapaha Near TTC Ground, Madhupur, 815353
                         </li>
                     </ul><!-- /.list-unstyled topbar-one__info -->
-                    <div class="topbar-one__right">
+                    {{-- <div class="topbar-one__right">
                         <div class="topbar-one__social">
 
                             <a href="https://facebook.com">
@@ -41,7 +41,7 @@
                                 <span class="sr-only">Youtube</span>
                             </a>
                         </div><!-- /.topbar-one__social -->
-                    </div><!-- /.topbar-one__right -->
+                    </div><!-- /.topbar-one__right --> --}}
                 </div><!-- /.topbar-one__inner -->
             </div><!-- /.container-fluid -->
         </div><!-- /.topbar-one -->
@@ -51,7 +51,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="{{ route('/') }}">
-                            <img src="assets/images/logo-dark.png" alt="Ienet HTML" height="80">
+                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
@@ -59,157 +59,10 @@
                         <ul class="main-menu__list">
 
 
-                            <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
+                            <li class="dropdown">
                                 <a href="{{ route('/') }}">Home</a>
-                                {{-- <ul>
-                                    <li>
-                                        <div class="megamenu-popup">
-                                            <a href="#" class="megamenu-clickable--close"><span
-                                                    class="icon-close"></span></a>
-                                            <!-- /.megamenu-clickable--close -->
-                                            <div class="megamenu-popup__content">
-                                                <div class="demo-one">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-1.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="{{ route('/') }}"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-one-page"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="{{ route('/') }}">Home Page
-                                                                                01</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-2.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-2"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-2-one-page"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-2">Home Page 02</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-3.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-3"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-3-one-page"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-3">Home Page 03</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-dark.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-dark"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-dark">Home Dark</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-boxed.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-boxed"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-boxed">Home Boxed</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-rtl.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-rtl#googtrans(en%7car)"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-rtl#googtrans(en%7car)">Home
-                                                                                RTL</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                        </div><!-- /.row -->
-                                                    </div><!-- /.container -->
-                                                </div><!-- /.demos-one -->
-                                            </div><!-- /.megamenu-popup__content -->
-                                        </div><!-- /.megamenu-popup -->
-                                    </li>
-                                </ul> --}}
                             </li>
-
-
-                            <li>
+                            <li class="current">
                                 <a href="about">About</a>
                             </li>
                             <li class="dropdown">
@@ -338,3 +191,16 @@
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
+
+        <section class="page-header">
+            <div class="page-header__bg"></div>
+            <div class="page-header__layer"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <h2 class="page-header__title bw-split-in-left">About Us</h2><!-- /.page-title -->
+                <ul class="ienet-breadcrumb list-unstyled">
+                    <li><a href="index">Home 3</a></li>
+                    <li><span>About Us</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->

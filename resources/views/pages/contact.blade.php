@@ -54,7 +54,7 @@
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                            <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -504,7 +504,7 @@
                         <ul class="list-unstyled main-footer__top__info">
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                                <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                                <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
                             </li>
                             <li class="main-footer__top__info__item">
                                 <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -538,7 +538,8 @@
             <div class="container">
                 <div class="main-footer__middle">
                     <a href="index">
-                        <img src="assets/images/logo-light.png" height="80" alt="Ienet HTML Template">
+                        <img src="{{ asset('assets/images/logo_wifi.png') }}" height="80"
+                            alt="Ienet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
                         <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
@@ -638,8 +639,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
-                        alt="" /></a>
+                <a href="index" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
+                        width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -698,8 +699,8 @@
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML"
-                        height="80"></a>
+                <a href="index" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
+                        alt="Ienet HTML" height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
@@ -709,7 +710,7 @@
             <ul class="sidebar-one__info">
                 <li>
                     <span class="fas fa-map-marker-alt"></span>
-                    27, Dhaka London City Dhaka, Bangladesh
+                    Sapaha Near TTC Ground, Madhupur, 815353
                 </li>
                 <li>
                     <span class="fas fa-clock"></span>
@@ -720,7 +721,7 @@
                     <a href="tel:+9156980036420">+91 5698 0036 420</a>
                 </li>
             </ul>
-            <div class="sidebar-one__social">
+            {{-- <div class="sidebar-one__social">
 
                 <a href="https://facebook.com">
                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
@@ -738,7 +739,7 @@
                     <i class="fab fa-youtube" aria-hidden="true"></i>
                     <span class="sr-only">Youtube</span>
                 </a>
-            </div><!-- /sidebar-one__socila -->
+            </div><!-- /sidebar-one__socila --> --}}
             <h4 class="sidebar-one__title">Newsletter:</h4>
             <form action="#" data-url="MAILCHIMP_FORM_URL" class="sidebar-one__newsletter mc-form">
                 <input type="text" name="EMAIL" placeholder="Email address">
