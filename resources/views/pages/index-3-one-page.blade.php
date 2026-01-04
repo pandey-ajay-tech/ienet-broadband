@@ -10,7 +10,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
+    <meta name="description"
+        content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +52,7 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="index.html">
+                        <a href="index">
                             <img src="assets/images/logo-dark.png" alt="Ienet HTML" height="60">
                         </a>
                     </div><!-- /.main-header__logo -->
@@ -75,17 +76,19 @@
                             <i class="icon-search" aria-hidden="true"></i>
                             <span class="sr-only">Search</span>
                         </a><!-- /.search-toggler -->
-                        <a href="cart.html" class="main-header__cart">
+                        <a href="cart" class="main-header__cart">
                             <i class="icon-cart" aria-hidden="true"></i>
                             <span class="sr-only">Cart</span>
                         </a><!-- /.cart-toggler -->
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:88012365499">+91 9234377577</a>
                         </div><!-- /.info -->
-                        <a href="contact.html" class="ienet-btn"><span>GET IN TOUCH<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
-                        <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a><!-- /.sidebar-toggler -->
+                        <a href="contact" class="ienet-btn"><span>GET IN TOUCH<span class="ienet-btn__icon"><i
+                                        class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="#" class="main-header__toggler"><span
+                                class="icon-menu"></span></a><!-- /.sidebar-toggler -->
                         <!-- /.main-header__btn -->
                     </div>
                 </div><!-- /.main-header__inner -->
@@ -94,7 +97,8 @@
 
         <!-- main-slider-start -->
         <section class="main-slider-three" id="home">
-            <div class="main-slider-three__carousel ienet-owl__carousel owl-carousel" data-owl-options='{
+            <div class="main-slider-three__carousel ienet-owl__carousel owl-carousel"
+                data-owl-options='{
 		"loop": true,
 		"animateOut": "fadeOut",
 		"animateIn": "fadeIn",
@@ -109,7 +113,8 @@
 	    }'>
                 <div class="item">
                     <div class="main-slider-three__item">
-                        <div class="main-slider-three__bg" style="background-image: url(assets/images/shapes/slider-3-1.png);">
+                        <div class="main-slider-three__bg"
+                            style="background-image: url(assets/images/shapes/slider-3-1.png);">
                             <div class="main-slider-four__bg__color"></div>
                             <div class="main-slider-three__bg__color"></div>
                             <div class="main-slider-three__bg__color"></div>
@@ -126,22 +131,28 @@
                         <div class="main-slider-three__content">
                             <h5 class="main-slider-three__sub-title">We make the web a better place!</h5>
                             <!-- slider-sub-title -->
-                            <h2 class="main-slider-three__title">Best <span>Internet</span><br> Service Provider<br> In Your
+                            <h2 class="main-slider-three__title">Best <span>Internet</span><br> Service Provider<br> In
+                                Your
                                 Region</h2><!-- slider-title -->
                             <p class="main-slider-three__text">
                                 Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit<br> eleifend mi, a
                                 consectetur tortor varius in.
-                                Sed tincidunt aliquet lorem,<br> eget tincidunt est molestie non. 
+                                Sed tincidunt aliquet lorem,<br> eget tincidunt est molestie non.
                             </p><!-- slider-tex -->
                             <div class="main-slider-three__btn">
-                                <a href="services.html" class="ienet-btn main-slider-three__btn__first"><span>our service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                <a href="services" class="ienet-btn main-slider-three__btn__first"><span>our
+                                        service<span class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a>
                                 <!-- slider-btn -->
-                                <a href="contact.html" class="ienet-btn main-slider-three__btn__last"><span><span class="ienet-btn__icon ienet-btn__icon--left"><i class="fas fa-gem"></i></span>Contact Now</span></a><!-- slider-btn -->
+                                <a href="contact" class="ienet-btn main-slider-three__btn__last"><span><span
+                                            class="ienet-btn__icon ienet-btn__icon--left"><i
+                                                class="fas fa-gem"></i></span>Contact Now</span></a><!-- slider-btn -->
                             </div>
                         </div>
                         <div class="main-slider-three__image">
                             <div class="main-slider-three__layer-bg"></div>
-                            <div class="main-slider-three__layer" style="background-image: url(assets/images/backgrounds/slider-3-layer-1.jpg);"></div>
+                            <div class="main-slider-three__layer"
+                                style="background-image: url(assets/images/backgrounds/slider-3-layer-1.jpg);"></div>
                             <div class="main-slider-three__price">start form<br> <span>$39 /</span> month</div>
                             <div class="main-slider-three__layer-shape"></div>
                             <div class="main-slider-three__layer-shape-two">
@@ -152,7 +163,8 @@
                 </div>
                 <div class="item">
                     <div class="main-slider-three__item">
-                        <div class="main-slider-three__bg" style="background-image: url(assets/images/shapes/slider-3-1.png);">
+                        <div class="main-slider-three__bg"
+                            style="background-image: url(assets/images/shapes/slider-3-1.png);">
                             <div class="main-slider-four__bg__color"></div>
                             <div class="main-slider-three__bg__color"></div>
                             <div class="main-slider-three__bg__color"></div>
@@ -169,22 +181,28 @@
                         <div class="main-slider-three__content">
                             <h5 class="main-slider-three__sub-title">We make the web a better place!</h5>
                             <!-- slider-sub-title -->
-                            <h2 class="main-slider-three__title">Best <span>Internet</span><br> Service Provider<br> In Your
+                            <h2 class="main-slider-three__title">Best <span>Internet</span><br> Service Provider<br> In
+                                Your
                                 Region</h2><!-- slider-title -->
                             <p class="main-slider-three__text">
                                 Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit<br> eleifend mi, a
                                 consectetur tortor varius in.
-                                Sed tincidunt aliquet lorem,<br> eget tincidunt est molestie non. 
+                                Sed tincidunt aliquet lorem,<br> eget tincidunt est molestie non.
                             </p><!-- slider-tex -->
                             <div class="main-slider-three__btn">
-                                <a href="services.html" class="ienet-btn main-slider-three__btn__first"><span>our service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                <a href="services" class="ienet-btn main-slider-three__btn__first"><span>our
+                                        service<span class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a>
                                 <!-- slider-btn -->
-                                <a href="contact.html" class="ienet-btn main-slider-three__btn__last"><span><span class="ienet-btn__icon ienet-btn__icon--left"><i class="fas fa-gem"></i></span>Contact Now</span></a><!-- slider-btn -->
+                                <a href="contact" class="ienet-btn main-slider-three__btn__last"><span><span
+                                            class="ienet-btn__icon ienet-btn__icon--left"><i
+                                                class="fas fa-gem"></i></span>Contact Now</span></a><!-- slider-btn -->
                             </div>
                         </div>
                         <div class="main-slider-three__image">
                             <div class="main-slider-three__layer-bg"></div>
-                            <div class="main-slider-three__layer" style="background-image: url(assets/images/backgrounds/slider-3-layer-2.jpg);"></div>
+                            <div class="main-slider-three__layer"
+                                style="background-image: url(assets/images/backgrounds/slider-3-layer-2.jpg);"></div>
                             <div class="main-slider-three__price">start form<br> <span>$39 /</span> month</div>
                             <div class="main-slider-three__layer-shape"></div>
                             <div class="main-slider-three__layer-shape-two">
@@ -195,7 +213,8 @@
                 </div>
                 <div class="item">
                     <div class="main-slider-three__item">
-                        <div class="main-slider-three__bg" style="background-image: url(assets/images/shapes/slider-3-1.png);">
+                        <div class="main-slider-three__bg"
+                            style="background-image: url(assets/images/shapes/slider-3-1.png);">
                             <div class="main-slider-four__bg__color"></div>
                             <div class="main-slider-three__bg__color"></div>
                             <div class="main-slider-three__bg__color"></div>
@@ -212,22 +231,28 @@
                         <div class="main-slider-three__content">
                             <h5 class="main-slider-three__sub-title">We make the web a better place!</h5>
                             <!-- slider-sub-title -->
-                            <h2 class="main-slider-three__title">Best <span>Internet</span><br> Service Provider<br> In Your
+                            <h2 class="main-slider-three__title">Best <span>Internet</span><br> Service Provider<br> In
+                                Your
                                 Region</h2><!-- slider-title -->
                             <p class="main-slider-three__text">
                                 Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit<br> eleifend mi, a
                                 consectetur tortor varius in.
-                                Sed tincidunt aliquet lorem,<br> eget tincidunt est molestie non. 
+                                Sed tincidunt aliquet lorem,<br> eget tincidunt est molestie non.
                             </p><!-- slider-tex -->
                             <div class="main-slider-three__btn">
-                                <a href="services.html" class="ienet-btn main-slider-three__btn__first"><span>our service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                <a href="services" class="ienet-btn main-slider-three__btn__first"><span>our
+                                        service<span class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a>
                                 <!-- slider-btn -->
-                                <a href="contact.html" class="ienet-btn main-slider-three__btn__last"><span><span class="ienet-btn__icon ienet-btn__icon--left"><i class="fas fa-gem"></i></span>Contact Now</span></a><!-- slider-btn -->
+                                <a href="contact" class="ienet-btn main-slider-three__btn__last"><span><span
+                                            class="ienet-btn__icon ienet-btn__icon--left"><i
+                                                class="fas fa-gem"></i></span>Contact Now</span></a><!-- slider-btn -->
                             </div>
                         </div>
                         <div class="main-slider-three__image">
                             <div class="main-slider-three__layer-bg"></div>
-                            <div class="main-slider-three__layer" style="background-image: url(assets/images/backgrounds/slider-3-layer-3.jpg);"></div>
+                            <div class="main-slider-three__layer"
+                                style="background-image: url(assets/images/backgrounds/slider-3-layer-3.jpg);"></div>
                             <div class="main-slider-three__price">start form<br> <span>$39 /</span> month</div>
                             <div class="main-slider-three__layer-shape"></div>
                             <div class="main-slider-three__layer-shape-two">
@@ -253,7 +278,7 @@
                                 <img src="assets/images/shapes/service-1-border.png" alt="ienet">
                             </div>
                             <h3 class="service-one__item__title">
-                                <a href="service-d-broadband.html">Broadband Connect</a>
+                                <a href="service-d-broadband">Broadband Connect</a>
                             </h3><!-- /.service-title -->
                         </div><!-- /.service-card-one -->
                     </div>
@@ -266,7 +291,7 @@
                                 <img src="assets/images/shapes/service-1-border.png" alt="ienet">
                             </div>
                             <h3 class="service-one__item__title">
-                                <a href="service-d-landline.html">Satellite Channel</a>
+                                <a href="service-d-landline">Satellite Channel</a>
                             </h3><!-- /.service-title -->
                         </div><!-- /.service-card-one -->
                     </div>
@@ -279,7 +304,7 @@
                                 <img src="assets/images/shapes/service-1-border.png" alt="ienet">
                             </div>
                             <h3 class="service-one__item__title">
-                                <a href="service-d-iptv.html">IPTV Connection</a>
+                                <a href="service-d-iptv">IPTV Connection</a>
                             </h3><!-- /.service-title -->
                         </div><!-- /.service-card-one -->
                     </div>
@@ -292,7 +317,7 @@
                                 <img src="assets/images/shapes/service-1-border.png" alt="ienet">
                             </div>
                             <h3 class="service-one__item__title">
-                                <a href="service-d-connectivity.html">Home IP Phone</a>
+                                <a href="service-d-connectivity">Home IP Phone</a>
                             </h3><!-- /.service-title -->
                         </div><!-- /.service-card-one -->
                     </div>
@@ -303,7 +328,8 @@
 
         <section class="about-three" id="about">
             <div class="about-three__bg-wrapper">
-                <div class="about-three__bg" style="background-image: url(assets/images/shapes/about-3-bg.png);"></div>
+                <div class="about-three__bg" style="background-image: url(assets/images/shapes/about-3-bg.png);">
+                </div>
             </div>
             <div class="container">
                 <div class="row">
@@ -316,9 +342,11 @@
                                 <img src="assets/images/resources/about-3-2.png" alt="ienet">
                             </div>
                             <div class="about-three__image__experiance wow fadeInUp" data-wow-delay="300ms">
-                                <div class="about-three__image__experiance__shape" style="background-image: url(assets/images/shapes/about-3-experiance.png);"></div>
+                                <div class="about-three__image__experiance__shape"
+                                    style="background-image: url(assets/images/shapes/about-3-experiance.png);"></div>
                                 <div class="about-three__image__experiance__icon"><i class=" icon-medal"></i></div>
-                                <h5 class="about-three__image__experiance__number count-box"><span class="count-text" data-stop="25" data-speed="1500"></span>Years</h5>
+                                <h5 class="about-three__image__experiance__number count-box"><span class="count-text"
+                                        data-stop="25" data-speed="1500"></span>Years</h5>
                                 <p class="about-three__image__experiance__text">Working Experience</p>
                             </div>
                         </div><!-- /.about-three__image -->
@@ -327,12 +355,17 @@
                         <div class="about-three__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>About Our Internet<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>About Our Internet<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-in-left">Best <span>Internet</span> Provide Agency In Town</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">Best <span>Internet</span> Provide Agency
+                                    In Town</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="about-three__content__text">
-                                It is a long established fact that a reader will be distracted the readable content of a page
+                                It is a long established fact that a reader will be distracted the readable content of a
+                                page
                                 when looking
                                 at layout the point of using lorem the is Ipsum less normal distribution of letters.
                             </p>
@@ -347,7 +380,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <div class="about-three__video" style="background-image: url(assets/images/resources/about-3-video.jpg);">
+                                    <div class="about-three__video"
+                                        style="background-image: url(assets/images/resources/about-3-video.jpg);">
                                         <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
                                             <i class="fa fa-play"></i>
                                             <i class="ripple"></i>
@@ -356,11 +390,15 @@
                                 </div>
                             </div>
                             <div class="about-three__info">
-                                <a href="about.html" class="ienet-btn"><span>More About Us<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                <a href="about" class="ienet-btn"><span>More About Us<span
+                                            class="ienet-btn__icon"><i
+                                                class="fas fa-chevron-right"></i></span></span></a>
                                 <div class="about-three__info__call">
-                                    <div class="about-three__info__call__icon"><span class="icon-telephone"></span></div>
+                                    <div class="about-three__info__call__icon"><span class="icon-telephone"></span>
+                                    </div>
                                     <div class="about-three__info__call__title">Call Emergency</div>
-                                    <a class="about-three__info__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                                    <a class="about-three__info__call__text" href="tel:88012365499">+88 0123 654
+                                        99</a>
                                 </div>
                             </div>
                         </div><!-- /.about-three__content -->
@@ -370,20 +408,26 @@
         </section><!-- /.about-three -->
 
         <section class="packages-three" id="packages">
-            <div class="packages-three__shape-left" style="background-image: url(assets/images/shapes/packages-3-shape-left.png);"></div>
-            <div class="packages-three__shape-right" style="background-image: url(assets/images/shapes/packages-3-shape-right.png);"></div>
+            <div class="packages-three__shape-left"
+                style="background-image: url(assets/images/shapes/packages-3-shape-left.png);"></div>
+            <div class="packages-three__shape-right"
+                style="background-image: url(assets/images/shapes/packages-3-shape-right.png);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 wow fadeInUp" data-wow-delay="00ms">
                         <div class="sec-title text-left">
 
-                            <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>Our Best Plan<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                            <h6 class="sec-title__tagline bw-split-in-right"><span
+                                    class="sec-title__tagline__left-border"></span>Our Best Plan<span
+                                    class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                            <h3 class="sec-title__title bw-split-in-left">Select Your <span>Best Plan</span></h3><!-- /.sec-title__title -->
+                            <h3 class="sec-title__title bw-split-in-left">Select Your <span>Best Plan</span></h3>
+                            <!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
                     </div>
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="00ms">
-                        <a href="packages.html" class="ienet-btn packages-three__btn"><span>View All Service<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="packages" class="ienet-btn packages-three__btn"><span>View All Service<span
+                                    class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
                     </div>
                 </div>
                 <div class="packages-three__card wow fadeInUp" data-wow-delay="00ms">
@@ -399,7 +443,8 @@
                     </ul>
                     <div class="packages-three__card__price">$39 <span>Month</span></div>
                     <div class="packages-three__card__rm">
-                        <a href="contact.html" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="contact" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i
+                                        class="fas fa-chevron-right"></i></span></span></a>
                     </div>
                 </div><!-- item -->
                 <div class="packages-three__card wow fadeInUp" data-wow-delay="50ms">
@@ -415,7 +460,8 @@
                     </ul>
                     <div class="packages-three__card__price">$49 <span>Month</span></div>
                     <div class="packages-three__card__rm">
-                        <a href="contact.html" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="contact" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i
+                                        class="fas fa-chevron-right"></i></span></span></a>
                     </div>
                 </div><!-- item -->
                 <div class="packages-three__card wow fadeInUp" data-wow-delay="100ms">
@@ -431,7 +477,8 @@
                     </ul>
                     <div class="packages-three__card__price">$59 <span>Month</span></div>
                     <div class="packages-three__card__rm">
-                        <a href="contact.html" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="contact" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i
+                                        class="fas fa-chevron-right"></i></span></span></a>
                     </div>
                 </div><!-- item -->
                 <div class="packages-three__card wow fadeInUp" data-wow-delay="150ms">
@@ -447,7 +494,8 @@
                     </ul>
                     <div class="packages-three__card__price">$79 <span>Month</span></div>
                     <div class="packages-three__card__rm">
-                        <a href="contact.html" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                        <a href="contact" class="ienet-btn"><span>Choose Plan<span class="ienet-btn__icon"><i
+                                        class="fas fa-chevron-right"></i></span></span></a>
                     </div>
                 </div><!-- item -->
             </div>
@@ -455,13 +503,17 @@
 
         <!-- Feature Start -->
         <section class="feature-three">
-            <div class="feature-three__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/feature-bg-3.jpg);"></div>
+            <div class="feature-three__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"
+                style="background-image: url(assets/images/backgrounds/feature-bg-3.jpg);"></div>
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>Our facility<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span
+                            class="sec-title__tagline__left-border"></span>Our facility<span
+                            class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Our Special <span>Features</span></h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Our Special <span>Features</span></h3>
+                    <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row">
                     <div class="col-xl-4 col-lg-5 wow fadeInLeft" data-wow-delay="00ms">
@@ -506,8 +558,10 @@
         <!-- Feature End -->
 
         <section class="cta-three">
-            <div class="cta-three__shape-one" style="background-image: url(assets/images/shapes/cta-3-shape-1.png);"></div>
-            <div class="cta-three__shape-two" style="background-image: url(assets/images/shapes/cta-3-shape-2.png);"></div>
+            <div class="cta-three__shape-one" style="background-image: url(assets/images/shapes/cta-3-shape-1.png);">
+            </div>
+            <div class="cta-three__shape-two" style="background-image: url(assets/images/shapes/cta-3-shape-2.png);">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
@@ -529,9 +583,13 @@
                         <div class="cta-three__content tabs-box">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>save your money<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>save your money<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-in-left">Find The Best <span>Internet</span> Service With Speed You Need</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">Find The Best <span>Internet</span>
+                                    Service With Speed You Need</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <ul class="cta-three__content__tab tab-buttons list-unstyled">
                                 <li data-tab="#20mbps" class="tab-btn">20 MBPS</li>
@@ -541,7 +599,8 @@
                             <div class="tabs-content">
                                 <div class="tab fadeInUp animated" id="20mbps">
                                     <p class="cta-three__content__text">
-                                        Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                        Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi,
+                                        a
                                         consectetur tortor varius in.
                                         Sed tincidunt aliquet lorem, eget tincidunt
                                     </p>
@@ -551,11 +610,14 @@
                                         <li><span class="fas fa-check"></span>Prepaid SIM</li>
                                         <li><span class="fas fa-check"></span>5G Updations</li>
                                     </ul>
-                                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                    <a href="about" class="ienet-btn"><span>Get In Touch<span
+                                                class="ienet-btn__icon"><i
+                                                    class="fas fa-chevron-right"></i></span></span></a>
                                 </div><!-- 20mbs -->
                                 <div class="tab fadeInUp animated active-tab" id="30mbps">
                                     <p class="cta-three__content__text">
-                                        Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                        Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi,
+                                        a
                                         consectetur tortor varius in.
                                         Sed tincidunt aliquet lorem, eget tincidunt
                                     </p>
@@ -565,11 +627,14 @@
                                         <li><span class="fas fa-check"></span>Prepaid SIM</li>
                                         <li><span class="fas fa-check"></span>5G Updations</li>
                                     </ul>
-                                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                    <a href="about" class="ienet-btn"><span>Get In Touch<span
+                                                class="ienet-btn__icon"><i
+                                                    class="fas fa-chevron-right"></i></span></span></a>
                                 </div><!-- 30mbs -->
                                 <div class="tab fadeInUp animated" id="50mbps">
                                     <p class="cta-three__content__text">
-                                        Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                        Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi,
+                                        a
                                         consectetur tortor varius in.
                                         Sed tincidunt aliquet lorem, eget tincidunt
                                     </p>
@@ -579,7 +644,9 @@
                                         <li><span class="fas fa-check"></span>Prepaid SIM</li>
                                         <li><span class="fas fa-check"></span>5G Updations</li>
                                     </ul>
-                                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                                    <a href="about" class="ienet-btn"><span>Get In Touch<span
+                                                class="ienet-btn__icon"><i
+                                                    class="fas fa-chevron-right"></i></span></span></a>
                                 </div><!-- 50mbs -->
                             </div>
                         </div>
@@ -596,16 +663,21 @@
                         <div class="faq-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>frequently asked questions<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>frequently asked questions<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-in-left">Why Should <span>Work</span> With Us</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">Why Should <span>Work</span> With Us</h3>
+                                <!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <!-- section-title -->
                             <div class="about-two__content__box">
                                 <div class="about-two__content__box__icon"><i class="icon-world"></i></div>
                                 <h5 class="about-two__content__box__title">Fast Connected</h5>
                                 <p class="about-two__content__box__text">
-                                    Embarrassing hidden in the middle All the Lorem Ipsum<br> generators on the Internet repeat
+                                    Embarrassing hidden in the middle All the Lorem Ipsum<br> generators on the Internet
+                                    repeat
                                     predefined chunks
                                 </p>
                             </div>
@@ -613,7 +685,8 @@
                                 <div class="about-two__content__box__icon"><i class="icon-wifi-router"></i></div>
                                 <h5 class="about-two__content__box__title">Free Installations</h5>
                                 <p class="about-two__content__box__text">
-                                    Embarrassing hidden in the middle All the Lorem Ipsum<br> generators on the Internet repeat
+                                    Embarrassing hidden in the middle All the Lorem Ipsum<br> generators on the Internet
+                                    repeat
                                     predefined chunks
                                 </p>
                             </div>
@@ -631,7 +704,8 @@
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At
                                             the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
@@ -648,7 +722,8 @@
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At
                                             the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
@@ -665,7 +740,8 @@
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At
                                             the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
@@ -682,7 +758,8 @@
                                 <div class="accrodion-content">
                                     <div class="inner">
                                         <p>
-                                            Bring to the table win-win survival strategies to ensure proactive domination. At
+                                            Bring to the table win-win survival strategies to ensure proactive
+                                            domination. At
                                             the end of the day, going forward,
                                             a new normal that has evolved from generation X is on the
                                         </p>
@@ -698,15 +775,20 @@
         <div class="section-divider"></div>
         <section class="movie-two" id="movie">
             <div class="movie-two__bg-wrapper">
-                <div class="movie-two__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/movie-bg-2.jpg);"></div>
-                <div class="movie-two__shape" style="background-image: url(assets/images/movie/movie-shape-2.png);"></div>
+                <div class="movie-two__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"
+                    style="background-image: url(assets/images/backgrounds/movie-bg-2.jpg);"></div>
+                <div class="movie-two__shape" style="background-image: url(assets/images/movie/movie-shape-2.png);">
+                </div>
             </div><!-- /.movie-two__bg -->
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>entertainment<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span
+                            class="sec-title__tagline__left-border"></span>entertainment<span
+                            class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Popular <span>Featured</span> Show</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Popular <span>Featured</span> Show</h3>
+                    <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row">
                     <div class="col-xl-3 col-md-6">
@@ -719,7 +801,7 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__item__content">
-                                <h3 class="movie-two__item__title"><a href="movie-details.html">The Dark Knight</a></h3>
+                                <h3 class="movie-two__item__title"><a href="movie-details">The Dark Knight</a></h3>
                                 <ul class="movie-two__item__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -736,7 +818,7 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__item__content">
-                                <h3 class="movie-two__item__title"><a href="movie-details.html">Prem Ratan Dhan</a></h3>
+                                <h3 class="movie-two__item__title"><a href="movie-details">Prem Ratan Dhan</a></h3>
                                 <ul class="movie-two__item__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -753,7 +835,7 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__item__content">
-                                <h3 class="movie-two__item__title"><a href="movie-details.html">The Jungle Book</a></h3>
+                                <h3 class="movie-two__item__title"><a href="movie-details">The Jungle Book</a></h3>
                                 <ul class="movie-two__item__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -772,7 +854,8 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__featured__content">
-                                <h3 class="movie-two__featured__title"><a href="movie-details.html">The Dark Knight</a></h3>
+                                <h3 class="movie-two__featured__title"><a href="movie-details">The Dark Knight</a>
+                                </h3>
                                 <ul class="movie-two__featured__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -790,7 +873,7 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__item__content">
-                                <h3 class="movie-two__item__title"><a href="movie-details.html">The Dark Knight</a></h3>
+                                <h3 class="movie-two__item__title"><a href="movie-details">The Dark Knight</a></h3>
                                 <ul class="movie-two__item__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -807,7 +890,7 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__item__content">
-                                <h3 class="movie-two__item__title"><a href="movie-details.html">Prem Ratan Dhan</a></h3>
+                                <h3 class="movie-two__item__title"><a href="movie-details">Prem Ratan Dhan</a></h3>
                                 <ul class="movie-two__item__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -824,7 +907,7 @@
                                 <i class="ripple"></i>
                             </a>
                             <div class="movie-two__item__content">
-                                <h3 class="movie-two__item__title"><a href="movie-details.html">The Jungle Book</a></h3>
+                                <h3 class="movie-two__item__title"><a href="movie-details">The Jungle Book</a></h3>
                                 <ul class="movie-two__item__list">
                                     <li><i class="fa fa-star"></i>6.8(Imdb)</li>
                                     <li>1hr : 30mins</li>
@@ -841,13 +924,17 @@
             <div class="container">
                 <div class="sec-title text-left">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>our testimonials<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span
+                            class="sec-title__tagline__left-border"></span>our testimonials<span
+                            class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">What Peoples <span>Talked</span><br> About Us</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">What Peoples <span>Talked</span><br> About Us</h3>
+                    <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="testimonials-three__wrapper">
                     <!-- Testimonial Thumb -->
-                    <ul class="testimonials-three__carousel-thumb ienet-slick__carousel" data-slick-options='{
+                    <ul class="testimonials-three__carousel-thumb ienet-slick__carousel"
+                        data-slick-options='{
 				"slidesToShow": 4,
 				"slidesToScroll": 1,
 				"autoplay": true,
@@ -859,23 +946,29 @@
 				"arrows": false
 				}'>
                         <li role="presentation">
-                            <span class="testimonials-three__meta-thumb"><img src="assets/images/resources/testi-3-1.jpg" alt="ienet"></span>
+                            <span class="testimonials-three__meta-thumb"><img
+                                    src="assets/images/resources/testi-3-1.jpg" alt="ienet"></span>
                         </li><!-- Testimonial Item -->
                         <li role="presentation">
-                            <span class="testimonials-three__meta-thumb"><img src="assets/images/resources/testi-3-2.jpg" alt="ienet"></span>
+                            <span class="testimonials-three__meta-thumb"><img
+                                    src="assets/images/resources/testi-3-2.jpg" alt="ienet"></span>
                         </li><!-- Testimonial Item -->
                         <li role="presentation">
-                            <span class="testimonials-three__meta-thumb"><img src="assets/images/resources/testi-3-3.jpg" alt="ienet"></span>
+                            <span class="testimonials-three__meta-thumb"><img
+                                    src="assets/images/resources/testi-3-3.jpg" alt="ienet"></span>
                         </li><!-- Testimonial Item -->
                         <li role="presentation">
-                            <span class="testimonials-three__meta-thumb"><img src="assets/images/resources/testi-3-4.jpg" alt="ienet"></span>
+                            <span class="testimonials-three__meta-thumb"><img
+                                    src="assets/images/resources/testi-3-4.jpg" alt="ienet"></span>
                         </li><!-- Testimonial Item -->
                         <li role="presentation">
-                            <span class="testimonials-three__meta-thumb"><img src="assets/images/resources/testi-3-5.jpg" alt="ienet"></span>
+                            <span class="testimonials-three__meta-thumb"><img
+                                    src="assets/images/resources/testi-3-5.jpg" alt="ienet"></span>
                         </li><!-- Testimonial Item -->
                     </ul>
                     <!-- Testimonial Thumb -->
-                    <div class="testimonials-three__carousel ienet-slick__carousel" data-slick-options='{
+                    <div class="testimonials-three__carousel ienet-slick__carousel"
+                        data-slick-options='{
 				"slidesToShow": 1,
 				"slidesToScroll": 1,
 				"asNavFor": ".testimonials-three__carousel-thumb",
@@ -886,14 +979,16 @@
 				}'>
                         <div class="item">
                             <div class="testimonials-three__item">
-                                <div class="testimonials-three__quote" style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
+                                <div class="testimonials-three__quote"
+                                    style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
                                 <h3 class="testimonials-three__name">
                                     Anthony B. Castillo
                                 </h3><!-- /.testimonials-three__name -->
                                 <p class="testimonials-three__designation">managing director</p>
                                 <!-- /.testimonials-three__designation -->
                                 <div class="testimonials-three__content">
-                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet service.
+                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet
+                                    service.
                                     Their combination of high-quality products and outstandi customer service makes them
                                     stand out in the industry. I will definitely be areturning customer in the future.
                                 </div><!-- /.testimonials-three__content -->
@@ -908,13 +1003,16 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="testimonials-three__item">
-                                <div class="testimonials-three__quote" style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
+                                <div class="testimonials-three__quote"
+                                    style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
                                 <h3 class="testimonials-three__name">
                                     Sarah Albert
                                 </h3><!-- /.testimonials-three__name -->
-                                <p class="testimonials-three__designation">Founder</p><!-- /.testimonials-three__designation -->
+                                <p class="testimonials-three__designation">Founder</p>
+                                <!-- /.testimonials-three__designation -->
                                 <div class="testimonials-three__content">
-                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet service.
+                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet
+                                    service.
                                     Their combination of high-quality products and outstandi customer service makes them
                                     stand out in the industry. I will definitely be areturning customer in the future.
                                 </div><!-- /.testimonials-three__content -->
@@ -929,14 +1027,16 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="testimonials-three__item">
-                                <div class="testimonials-three__quote" style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
+                                <div class="testimonials-three__quote"
+                                    style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
                                 <h3 class="testimonials-three__name">
                                     David Cooper
                                 </h3><!-- /.testimonials-three__name -->
                                 <p class="testimonials-three__designation">Co Founder</p>
                                 <!-- /.testimonials-three__designation -->
                                 <div class="testimonials-three__content">
-                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet service.
+                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet
+                                    service.
                                     Their combination of high-quality products and outstandi customer service makes them
                                     stand out in the industry. I will definitely be areturning customer in the future.
                                 </div><!-- /.testimonials-three__content -->
@@ -951,13 +1051,16 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="testimonials-three__item">
-                                <div class="testimonials-three__quote" style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
+                                <div class="testimonials-three__quote"
+                                    style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
                                 <h3 class="testimonials-three__name">
                                     Mark Smith
                                 </h3><!-- /.testimonials-three__name -->
-                                <p class="testimonials-three__designation">Reviwer</p><!-- /.testimonials-three__designation -->
+                                <p class="testimonials-three__designation">Reviwer</p>
+                                <!-- /.testimonials-three__designation -->
                                 <div class="testimonials-three__content">
-                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet service.
+                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet
+                                    service.
                                     Their combination of high-quality products and outstandi customer service makes them
                                     stand out in the industry. I will definitely be areturning customer in the future.
                                 </div><!-- /.testimonials-three__content -->
@@ -972,14 +1075,16 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="testimonials-three__item">
-                                <div class="testimonials-three__quote" style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
+                                <div class="testimonials-three__quote"
+                                    style="background-image: url(assets/images/shapes/testimonial-3-quote.png);"></div>
                                 <h3 class="testimonials-three__name">
                                     Joh Doe
                                 </h3><!-- /.testimonials-three__name -->
                                 <p class="testimonials-three__designation">Customer</p>
                                 <!-- /.testimonials-three__designation -->
                                 <div class="testimonials-three__content">
-                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet service.
+                                    Overall, I highly recommend XYZ Broadband agency to anyone in need of Internet
+                                    service.
                                     Their combination of high-quality products and outstandi customer service makes them
                                     stand out in the industry. I will definitely be areturning customer in the future.
                                 </div><!-- /.testimonials-three__content -->
@@ -1002,9 +1107,12 @@
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-border"></span>latest blog<span class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span
+                            class="sec-title__tagline__left-border"></span>latest blog<span
+                            class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Blog</span> News</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Our Latest <span>Blog</span> News</h3>
+                    <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row">
                     <div class="col-lg-9">
@@ -1012,18 +1120,21 @@
                             <div class="blog-three__item__image">
                                 <img src="assets/images/blog/blog-2-1.png" alt="ienet">
                                 <img src="assets/images/blog/blog-2-1.png" alt="ienet">
-                                <a href="blog-details-right.html" class="blog-three__item__image__link"><span class="sr-only">ienet</span><!-- /.sr-only --></a>
+                                <a href="blog-details-right" class="blog-three__item__image__link"><span
+                                        class="sr-only">ienet</span><!-- /.sr-only --></a>
                             </div>
                             <!--blog-image-->
                             <div class="blog-three__item__content">
                                 <div class="blog-three__item__content__item">
                                     <div class="blog-three__item__date">AUG, 04</div><!-- /.blog-card__date -->
                                     <ul class="list-unstyled blog-three__item__meta">
-                                        <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                        <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a>
+                                        <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a></li>
+                                        <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                Comments</a>
                                         </li>
                                     </ul><!-- /.list-unstyled blog-card__meta -->
-                                    <h3 class="blog-three__item__title"><a href="blog-details-right.html">Cupidatat Nonproident,
+                                    <h3 class="blog-three__item__title"><a href="blog-details-right">Cupidatat
+                                            Nonproident,
                                             Sunt in Culpa qui Officia Deserunt</a></h3><!-- /.blog-card__title -->
                                     <p class="blog-three__item__text">
                                         Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eifend mi, a
@@ -1033,11 +1144,12 @@
                                 <div class="blog-three__item__content__item">
                                     <div class="blog-three__item__date">AUG, 04</div><!-- /.blog-card__date -->
                                     <ul class="list-unstyled blog-three__item__meta">
-                                        <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                        <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a>
+                                        <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a></li>
+                                        <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2
+                                                Comments</a>
                                         </li>
                                     </ul><!-- /.list-unstyled blog-card__meta -->
-                                    <h3 class="blog-three__item__title"><a href="blog-details-right.html">There are Several
+                                    <h3 class="blog-three__item__title"><a href="blog-details-right">There are Several
                                             Types of Connections Available</a></h3><!-- /.blog-card__title -->
                                     <p class="blog-three__item__text">
                                         Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eifend mi, a
@@ -1050,21 +1162,29 @@
                     <div class="col-lg-3">
                         <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
                             <div class="blog-card__image">
-                                <img src="assets/images/blog/blog-1-4.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                <img src="assets/images/blog/blog-1-4.png" alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
-                                <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</span>
+                                <img src="assets/images/blog/blog-1-4.png"
+                                    alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
+                                <img src="assets/images/blog/blog-1-4.png"
+                                    alt="Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt">
+                                <a href="blog-details-right" class="blog-card__image__link"><span
+                                        class="sr-only">Cupidatat Nonproident, Sunt in Culpa qui Officia
+                                        Deserunt</span>
                                     <!-- /.sr-only --></a>
                                 <div class="blog-card__date">AUG, 04</div><!-- /.blog-card__date -->
                                 <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.html"><i class="fas fa-user-alt"></i>by Admin</a></li>
-                                    <li><a href="blog-details-right.html"><i class="fas fa-comment-dots"></i>2 Comments</a></li>
+                                    <li><a href="blog-list-right"><i class="fas fa-user-alt"></i>by Admin</a></li>
+                                    <li><a href="blog-details-right"><i class="fas fa-comment-dots"></i>2 Comments</a>
+                                    </li>
                                 </ul><!-- /.list-unstyled blog-card__meta -->
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__content">
-                                <h3 class="blog-card__title"><a href="blog-details-right.html">Cupidatat Nonproident, Sunt in Culpa qui Officia Deserunt</a></h3><!-- /.blog-card__title -->
-                                <a href="blog-details-right.html" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="fas fa-angle-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="fas fa-angle-double-right"></span>Read More</span>
+                                <h3 class="blog-card__title"><a href="blog-details-right">Cupidatat Nonproident, Sunt
+                                        in Culpa qui Officia Deserunt</a></h3><!-- /.blog-card__title -->
+                                <a href="blog-details-right" class="blog-card__link">
+                                    <span class="blog-card__link__front"><span
+                                            class="fas fa-angle-double-right"></span></span>
+                                    <span class="blog-card__link__back"><span
+                                            class="fas fa-angle-double-right"></span>Read More</span>
                                 </a><!-- /.blog-card__link -->
                             </div><!-- /.blog-card__content -->
                         </div><!-- /.blog-card -->
@@ -1075,7 +1195,8 @@
 
         <div class="client-carousel ">
             <div class="container">
-                <div class="client-carousel__one ienet-owl__carousel owl-theme owl-carousel" data-owl-options='{
+                <div class="client-carousel__one ienet-owl__carousel owl-theme owl-carousel"
+                    data-owl-options='{
             "items": 5,
             "margin": 65,
             "smartSpeed": 700,
@@ -1112,33 +1233,46 @@
             }
             }'>
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-1.png" alt="ienet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-1-hover.png" alt="ienet">
+                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-1.png"
+                            alt="ienet">
+                        <img class="client-carousel__one__item__hover"
+                            src="assets/images/resources/brand-1-1-hover.png" alt="ienet">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-2.png" alt="ienet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-2-hover.png" alt="ienet">
+                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-2.png"
+                            alt="ienet">
+                        <img class="client-carousel__one__item__hover"
+                            src="assets/images/resources/brand-1-2-hover.png" alt="ienet">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-3.png" alt="ienet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-3-hover.png" alt="ienet">
+                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-3.png"
+                            alt="ienet">
+                        <img class="client-carousel__one__item__hover"
+                            src="assets/images/resources/brand-1-3-hover.png" alt="ienet">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-4.png" alt="ienet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-4-hover.png" alt="ienet">
+                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-4.png"
+                            alt="ienet">
+                        <img class="client-carousel__one__item__hover"
+                            src="assets/images/resources/brand-1-4-hover.png" alt="ienet">
                     </div><!-- /.owl-slide-item-->
                     <div class="client-carousel__one__item">
-                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-5.png" alt="ienet">
-                        <img class="client-carousel__one__item__hover" src="assets/images/resources/brand-1-5-hover.png" alt="ienet">
+                        <img class="client-carousel__one__item__normal" src="assets/images/resources/brand-1-5.png"
+                            alt="ienet">
+                        <img class="client-carousel__one__item__hover"
+                            src="assets/images/resources/brand-1-5-hover.png" alt="ienet">
                     </div><!-- /.owl-slide-item-->
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->
 
         <footer class="main-footer background-black">
-            <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
-            <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-            <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
+            <div class="main-footer__bg background-black"
+                style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+            <div class="main-footer__shape-one"
+                style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
+            <div class="main-footer__shape-two"
+                style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
             <!-- /.main-footer__bg -->
             <div class="main-footer__top">
                 <div class="container">
@@ -1179,7 +1313,7 @@
             </div><!-- /.main-footer__top -->
             <div class="container">
                 <div class="main-footer__middle">
-                    <a href="index.html">
+                    <a href="index">
                         <img src="assets/images/logo-light.png" height="80" alt="Ienet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
@@ -1191,7 +1325,7 @@
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                         <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                        <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
                     </div>
                 </div><!-- /.main-footer__middle -->
             </div><!-- /.container -->
@@ -1203,18 +1337,19 @@
                             <p class="footer-widget__text">
                                 There are two main types: solar photovoltaic (PV) systems for electricity generation and
                             </p>
-                            <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span></span></a>
+                            <a href="about" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
                         </div>
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6 col-xl-3">
                         <div class="footer-widget footer-widget--links">
                             <h2 class="footer-widget__title">our services</h2><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="service-d-broadband.html">Fiber & Broadband</a></li>
-                                <li><a href="service-d-cyber-security.html">Cyber Security</a></li>
-                                <li><a href="service-d-tv.html">Amazon Box TV</a></li>
-                                <li><a href="service-d-iptv.html">Smart IPTV</a></li>
-                                <li><a href="service-d-connectivity.html">Smart Connectivity</a></li>
+                                <li><a href="service-d-broadband">Fiber & Broadband</a></li>
+                                <li><a href="service-d-cyber-security">Cyber Security</a></li>
+                                <li><a href="service-d-tv">Amazon Box TV</a></li>
+                                <li><a href="service-d-iptv">Smart IPTV</a></li>
+                                <li><a href="service-d-connectivity">Smart Connectivity</a></li>
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->
@@ -1222,11 +1357,11 @@
                         <div class="footer-widget footer-widget--links">
                             <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="movie.html">Our Movie</a></li>
-                                <li><a href="blog-grid-right.html">News & Blog</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="contact.html">Contacts</a></li>
+                                <li><a href="about">About Us</a></li>
+                                <li><a href="movie">Our Movie</a></li>
+                                <li><a href="blog-grid-right">News & Blog</a></li>
+                                <li><a href="faq">FAQ</a></li>
+                                <li><a href="contact">Contacts</a></li>
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->
@@ -1234,22 +1369,22 @@
                         <div class="footer-widget footer-widget--gallery">
                             <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                             <div class="footer-widget__gallery">
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-1.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-2.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-3.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-4.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-5.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery.html" class="footer-widget__gallery__link">
+                                <a href="gallery" class="footer-widget__gallery__link">
                                     <img src="assets/images/gallery/fg-6.jpg" alt="ienet">
                                 </a><!-- /.footer-widget__gallery__link -->
                             </div><!-- /.footer-widget__gallery -->
@@ -1279,7 +1414,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
+                        alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -1338,7 +1474,8 @@
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Ienet HTML" height="80"></a>
+                <a href="index" aria-label="logo image"><img src="assets/images/logo-light.png"
+                        alt="Ienet HTML" height="80"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ

@@ -50,8 +50,8 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="{{route('/')}}">
-                            <img src="{{asset('assets/images/logo-light.png')}}" alt="Ienet HTML" height="80">
+                        <a href="{{ route('/') }}">
+                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
@@ -59,7 +59,7 @@
                         <ul class="main-menu__list">
 
                             <li class="dropdown megamenu">
-                                <a href="{{route('/')}}">Home</a>
+                                <a href="{{ route('/') }}">Home</a>
                                 <ul>
                                     <li>
                                         <section class="home-showcase">
@@ -69,12 +69,15 @@
                                                         <div class="col-md-6 col-lg-3">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="{{asset('assets/images/home-showcase/home-showcase-1.jpg')}}" alt="ienet">
+                                                                    <img src="{{ asset('assets/images/home-showcase/home-showcase-1.jpg') }}"
+                                                                        alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-one-page.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index-one-page.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
                                                                     </div><!-- /.demo-one__btns -->
@@ -89,12 +92,15 @@
                                                         <div class="col-md-6 col-lg-3">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="{{asset('assets/images/home-showcase/home-showcase-2.jpg')}}" alt="ienet">
+                                                                    <img src="{{ asset('assets/images/home-showcase/home-showcase-2.jpg') }}"
+                                                                        alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index-2.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index-2.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-2-one-page.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index-2-one-page.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
                                                                     </div><!-- /.demo-one__btns -->
@@ -109,12 +115,15 @@
                                                         <div class="col-md-6 col-lg-3">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="{{asset('assets/images/home-showcase/home-showcase-3.jpg')}}" alt="ienet">
+                                                                    <img src="{{ asset('assets/images/home-showcase/home-showcase-3.jpg') }}"
+                                                                        alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index-3.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index-3.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-3-one-page.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index-3-one-page.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
                                                                     </div><!-- /.demo-one__btns -->
@@ -129,9 +138,11 @@
                                                         <div class="col-md-6 col-lg-3">
                                                             <div class="demo-one__card">
                                                                 <div class="demo-one__image">
-                                                                    <img src="{{asset('assets/images/home-showcase/home-showcase-4.jpg')}}" alt="ienet">
+                                                                    <img src="{{ asset('assets/images/home-showcase/home-showcase-4.jpg') }}"
+                                                                        alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index-dark.html" class="ienet-btn demo-one__btn">
+                                                                        <a href="index-dark.html"
+                                                                            class="ienet-btn demo-one__btn">
                                                                             <span>View Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
                                                                     </div><!-- /.demo-one__btns -->
@@ -155,7 +166,7 @@
 
 
                             <li>
-                                <a href="{{route('front.about-us')}}">About</a>
+                                <a href="{{ route('front.about-us') }}">About</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#">Pages</a>
@@ -277,7 +288,7 @@
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:9234377577">+91 9234377577</a>
                         </div>
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
