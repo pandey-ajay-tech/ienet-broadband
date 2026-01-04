@@ -45,4 +45,39 @@ class WebController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function carousel()
+    {
+        return view('pages.services-carousel');
+    }
+
+    public function fiberBroadband()
+    {
+        return view('pages.services-fiber-broadband');
+    }
+
+    public function iptv()
+    {
+        return view('pages.services-iptv');
+    }
+
+    public function cyberSecurity()
+    {
+        return view('pages.services-cyber-security');
+    }
+
+    public function landline()
+    {
+        return view('pages.services-landline');
+    }
+
+    public function fireTv()
+    {
+        return view('pages.services-fire-tv');
+    }
+
+    public function connectivity()
+    {
+        return view('pages.services-connectivity');
+    }
 }

@@ -72,11 +72,11 @@
                                                                     <img src="{{ asset('assets/images/home-showcase/home-showcase-1.jpg') }}"
                                                                         alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index.html"
+                                                                        <a href="index"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-one-page.html"
+                                                                        <a href="index-one-page"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
@@ -84,7 +84,7 @@
                                                                 </div><!-- /.demo-one__image -->
                                                                 <div class="demo-one__content">
                                                                     <h3 class="demo-one__title">
-                                                                        <a href="index.html">Home Page 01</a>
+                                                                        <a href="index">Home Page 01</a>
                                                                     </h3><!-- /.demo-one__title -->
                                                                 </div><!-- /.demo-one__content -->
                                                             </div><!-- /.demo-one__card -->
@@ -95,11 +95,11 @@
                                                                     <img src="{{ asset('assets/images/home-showcase/home-showcase-2.jpg') }}"
                                                                         alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index-2.html"
+                                                                        <a href="index-2"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-2-one-page.html"
+                                                                        <a href="index-2-one-page"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
@@ -107,7 +107,7 @@
                                                                 </div><!-- /.demo-one__image -->
                                                                 <div class="demo-one__content">
                                                                     <h3 class="demo-one__title">
-                                                                        <a href="index-2.html">Home Page 02</a>
+                                                                        <a href="index-2">Home Page 02</a>
                                                                     </h3><!-- /.demo-one__title -->
                                                                 </div><!-- /.demo-one__content -->
                                                             </div><!-- /.demo-one__card -->
@@ -118,11 +118,11 @@
                                                                     <img src="{{ asset('assets/images/home-showcase/home-showcase-3.jpg') }}"
                                                                         alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index-3.html"
+                                                                        <a href="index-3"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>Multi Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-3-one-page.html"
+                                                                        <a href="index-3-one-page"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>One Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
@@ -130,7 +130,7 @@
                                                                 </div><!-- /.demo-one__image -->
                                                                 <div class="demo-one__content">
                                                                     <h3 class="demo-one__title">
-                                                                        <a href="index-3.html">Home Page 03</a>
+                                                                        <a href="index-3">Home Page 03</a>
                                                                     </h3><!-- /.demo-one__title -->
                                                                 </div><!-- /.demo-one__content -->
                                                             </div><!-- /.demo-one__card -->
@@ -141,7 +141,7 @@
                                                                     <img src="{{ asset('assets/images/home-showcase/home-showcase-4.jpg') }}"
                                                                         alt="ienet">
                                                                     <div class="demo-one__btns">
-                                                                        <a href="index-dark.html"
+                                                                        <a href="index-dark"
                                                                             class="ienet-btn demo-one__btn">
                                                                             <span>View Page</span>
                                                                         </a><!-- /.thm-btn demo-one__btn -->
@@ -149,7 +149,7 @@
                                                                 </div><!-- /.demo-one__image -->
                                                                 <div class="demo-one__content">
                                                                     <h3 class="demo-one__title">
-                                                                        <a href="index-dark.html">Home Dark</a>
+                                                                        <a href="index-dark">Home Dark</a>
                                                                     </h3><!-- /.demo-one__title -->
                                                                 </div><!-- /.demo-one__content -->
                                                             </div><!-- /.demo-one__card -->
@@ -169,105 +169,105 @@
                                 <a href="{{ route('front.about-us') }}">About</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
+                                <a href="packages">Pages</a>
+                                {{-- <ul>
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
                                         <ul class="sub-menu">
-                                            <li><a href="movie.html">Movies Page</a></li>
-                                            <li><a href="movie-carousel.html">Movies Carousel</a></li>
-                                            <li><a href="movie-details.html">Movies Details</a></li>
+                                            <li><a href="movie">Movies Page</a></li>
+                                            <li><a href="movie-carousel">Movies Carousel</a></li>
+                                            <li><a href="movie-details">Movies Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">Teams</a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-carousel.html">Team Carousel</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
+                                            <li><a href="team">Our Team</a></li>
+                                            <li><a href="team-carousel">Team Carousel</a></li>
+                                            <li><a href="team-details">Team Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="reviews.html">Testimonials</a></li>
-                                    <li><a href="reviews-carousel.html">Testimonials Carousel</a></li>
-                                    <li><a href="packages.html">Pricing Page</a></li>
-                                    <li><a href="packages-carousel.html">Pricing Carousel</a></li>
+                                    <li><a href="reviews">Testimonials</a></li>
+                                    <li><a href="reviews-carousel">Testimonials Carousel</a></li>
+                                    <li><a href="packages">Pricing Page</a></li>
+                                    <li><a href="packages-carousel">Pricing Carousel</a></li>
                                     <li>
-                                        <a href="gallery.html">Gallery</a>
+                                        <a href="gallery">Gallery</a>
                                         <ul>
-                                            <li><a href="gallery.html">Gallery Masonry</a></li>
-                                            <li><a href="gallery-filter.html">Gallery Filter</a></li>
-                                            <li><a href="gallery-grid.html">Gallery Grid</a></li>
-                                            <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
+                                            <li><a href="gallery">Gallery Masonry</a></li>
+                                            <li><a href="gallery-filter">Gallery Filter</a></li>
+                                            <li><a href="gallery-grid">Gallery Grid</a></li>
+                                            <li><a href="gallery-carousel">Gallery Carousel</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                </ul>
+                                    <li><a href="faq">FAQs</a></li>
+                                    <li><a href="login">Login</a></li>
+                                    <li><a href="404">404 Error</a></li>
+                                </ul> --}}
                             </li>
                             <li class="dropdown">
                                 <a href="#">Services</a>
                                 <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="services-carousel.html">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband.html">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv.html">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security.html">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline.html">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv.html">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity.html">Smart Data Connectivity</a></li>
+                                    <li><a href="services">Services</a></li>
+                                    <li><a href="services-carousel">Services Carousel</a></li>
+                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
+                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
+                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
+                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
+                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
+                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
                                 </ul>
                             </li>
 
-                            <li class="dropdown">
+                            {{-- <li class="dropdown">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
                                     <li class="dropdown">
                                         <a href="#">Products</a>
                                         <ul class="sub-menu">
-                                            <li><a href="products.html">No Sidebar</a></li>
-                                            <li><a href="products-left.html">Left Sidebar</a></li>
-                                            <li><a href="products-right.html">Right Sidebar</a></li>
+                                            <li><a href="products">No Sidebar</a></li>
+                                            <li><a href="products-left">Left Sidebar</a></li>
+                                            <li><a href="products-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="products-carousel.html">Products Carousel</a></li>
-                                    <li><a href="product-details.html">Product Details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="products-carousel">Products Carousel</a></li>
+                                    <li><a href="product-details">Product Details</a></li>
+                                    <li><a href="cart">Cart</a></li>
+                                    <li><a href="checkout">Checkout</a></li>
                                 </ul>
-                            </li>
-                            <li class="dropdown">
+                            </li> --}}
+                            {{-- <li class="dropdown">
                                 <a href="#">News</a>
                                 <ul class="sub-menu">
                                     <li class="dropdown">
                                         <a href="#">News grid</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">No Sidebar</a></li>
-                                            <li><a href="blog-grid-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-grid-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-grid">No Sidebar</a></li>
+                                            <li><a href="blog-grid-left">Left Sidebar</a></li>
+                                            <li><a href="blog-grid-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">News list</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-list.html">No Sidebar</a></li>
-                                            <li><a href="blog-list-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-list-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-list">No Sidebar</a></li>
+                                            <li><a href="blog-list-left">Left Sidebar</a></li>
+                                            <li><a href="blog-list-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog-carousel.html">News Carousel</a></li>
+                                    <li><a href="blog-carousel">News Carousel</a></li>
                                     <li class="dropdown">
                                         <a href="#">News Details</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-details.html">No Sidebar</a></li>
-                                            <li><a href="blog-details-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-details-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-details">No Sidebar</a></li>
+                                            <li><a href="blog-details-left">Left Sidebar</a></li>
+                                            <li><a href="blog-details-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact">Contact</a>
                             </li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
@@ -277,14 +277,14 @@
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
-                        <a href="#" class="search-toggler main-header__search">
+                        {{-- <a href="#" class="search-toggler main-header__search">
                             <i class="icon-search" aria-hidden="true"></i>
                             <span class="sr-only">Search</span>
-                        </a><!-- /.search-toggler -->
-                        <a href="cart.html" class="main-header__cart">
+                        </a> --}}
+                        {{-- <a href="cart" class="main-header__cart">
                             <i class="icon-cart" aria-hidden="true"></i>
                             <span class="sr-only">Cart</span>
-                        </a><!-- /.cart-toggler -->
+                        </a> --}}
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
