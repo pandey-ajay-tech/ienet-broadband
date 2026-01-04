@@ -1,5 +1,3 @@
-
-
 <body class="custom-cursor">
 
     <div class="custom-cursor__cursor"></div>
@@ -10,13 +8,13 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <div class="topbar-one topbar-one--inner">
+        <div class="topbar-one topbar-one--inner ">
             <div class="container-fluid">
                 <div class="topbar-one__inner">
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                            <a href="mailto:info@ienetmail.com" class="text-white">info@ienetmail.com</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
@@ -52,8 +50,8 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="{{route('/')}}">
-                            <img src="assets/images/logo-dark.png" alt="Ienet HTML" height="80">
+                        <a href="{{ route('/') }}">
+                            <img src="{{asset('assets/images/logo_wifi.png')}}" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
@@ -61,207 +59,78 @@
                         <ul class="main-menu__list">
 
 
-                            <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
-                                <a href="{{route('/')}}">Demos</a>
-                                <ul>
-                                    <li>
-                                        <div class="megamenu-popup">
-                                            <a href="#" class="megamenu-clickable--close"><span class="icon-close"></span></a>
-                                            <!-- /.megamenu-clickable--close -->
-                                            <div class="megamenu-popup__content">
-                                                <div class="demo-one">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-1.jpg" alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="{{route('/')}}" class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-one-page.html" class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="{{route('/')}}">Home Page 01</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-2.jpg" alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-2.html" class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-2-one-page.html" class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-2.html">Home Page 02</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-3.jpg" alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-3.html" class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-3-one-page.html" class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-3.html">Home Page 03</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-dark.jpg" alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-dark.html" class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-dark.html">Home Dark</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-boxed.jpg" alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-boxed.html" class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-boxed.html">Home Boxed</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-rtl.jpg" alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-rtl.html#googtrans(en%7car)" class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-rtl.html#googtrans(en%7car)">Home RTL</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                        </div><!-- /.row -->
-                                                    </div><!-- /.container -->
-                                                </div><!-- /.demos-one -->
-                                            </div><!-- /.megamenu-popup__content -->
-                                        </div><!-- /.megamenu-popup -->
-                                    </li>
-                                </ul>
+                            <li class="dropdown">
+                                <a href="{{ route('/') }}">Home</a>
                             </li>
-
-
-                            <li>
-                                <a href="about.html">About</a>
+                            <li class="current">
+                                <a href="about">About</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
+                                <a href="plans-pricing">Plans & Pricing </a>
+                                {{-- <ul>
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
                                         <ul class="sub-menu">
-                                            <li><a href="movie.html">Movies Page</a></li>
-                                            <li><a href="movie-carousel.html">Movies Carousel</a></li>
-                                            <li><a href="movie-details.html">Movies Details</a></li>
+                                            <li><a href="movie">Movies Page</a></li>
+                                            <li><a href="movie-carousel">Movies Carousel</a></li>
+                                            <li><a href="movie-details">Movies Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">Teams</a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-carousel.html">Team Carousel</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
+                                            <li><a href="team">Our Team</a></li>
+                                            <li><a href="team-carousel">Team Carousel</a></li>
+                                            <li><a href="team-details">Team Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="reviews.html">Testimonials</a></li>
-                                    <li><a href="reviews-carousel.html">Testimonials Carousel</a></li>
-                                    <li><a href="packages.html">Pricing Page</a></li>
-                                    <li><a href="packages-carousel.html">Pricing Carousel</a></li>
+                                    <li><a href="reviews">Testimonials</a></li>
+                                    <li><a href="reviews-carousel">Testimonials Carousel</a></li>
+                                    <li><a href="packages">Pricing Page</a></li>
+                                    <li><a href="packages-carousel">Pricing Carousel</a></li>
                                     <li>
-                                        <a href="gallery.html">Gallery</a>
+                                        <a href="gallery">Gallery</a>
                                         <ul>
-                                            <li><a href="gallery.html">Gallery Masonry</a></li>
-                                            <li><a href="gallery-filter.html">Gallery Filter</a></li>
-                                            <li><a href="gallery-grid.html">Gallery Grid</a></li>
-                                            <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
+                                            <li><a href="gallery">Gallery Masonry</a></li>
+                                            <li><a href="gallery-filter">Gallery Filter</a></li>
+                                            <li><a href="gallery-grid">Gallery Grid</a></li>
+                                            <li><a href="gallery-carousel">Gallery Carousel</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                </ul>
+                                    <li><a href="faq">FAQs</a></li>
+                                    <li><a href="login">Login</a></li>
+                                    <li><a href="404">404 Error</a></li>
+                                </ul> --}}
                             </li>
                             <li class="dropdown">
                                 <a href="#">Services</a>
                                 <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="services-carousel.html">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband.html">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv.html">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security.html">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline.html">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv.html">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity.html">Smart Data Connectivity</a></li>
+                                    <li><a href="services">Services</a></li>
+                                    <li><a href="services-carousel">Services Carousel</a></li>
+                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
+                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
+                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
+                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
+                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
+                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
                                 </ul>
                             </li>
 
-                            <li class="dropdown">
+                            {{-- <li class="dropdown">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
                                     <li class="dropdown">
                                         <a href="#">Products</a>
                                         <ul class="sub-menu">
-                                            <li><a href="products.html">No Sidebar</a></li>
-                                            <li><a href="products-left.html">Left Sidebar</a></li>
-                                            <li><a href="products-right.html">Right Sidebar</a></li>
+                                            <li><a href="products">No Sidebar</a></li>
+                                            <li><a href="products-left">Left Sidebar</a></li>
+                                            <li><a href="products-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="products-carousel.html">Products Carousel</a></li>
-                                    <li><a href="product-details.html">Product Details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="products-carousel">Products Carousel</a></li>
+                                    <li><a href="product-details">Product Details</a></li>
+                                    <li><a href="cart">Cart</a></li>
+                                    <li><a href="checkout">Checkout</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -270,32 +139,32 @@
                                     <li class="dropdown">
                                         <a href="#">News grid</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">No Sidebar</a></li>
-                                            <li><a href="blog-grid-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-grid-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-grid">No Sidebar</a></li>
+                                            <li><a href="blog-grid-left">Left Sidebar</a></li>
+                                            <li><a href="blog-grid-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#">News list</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-list.html">No Sidebar</a></li>
-                                            <li><a href="blog-list-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-list-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-list">No Sidebar</a></li>
+                                            <li><a href="blog-list-left">Left Sidebar</a></li>
+                                            <li><a href="blog-list-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog-carousel.html">News Carousel</a></li>
+                                    <li><a href="blog-carousel">News Carousel</a></li>
                                     <li class="dropdown">
                                         <a href="#">News Details</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-details.html">No Sidebar</a></li>
-                                            <li><a href="blog-details-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-details-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-details">No Sidebar</a></li>
+                                            <li><a href="blog-details-left">Left Sidebar</a></li>
+                                            <li><a href="blog-details-right">Right Sidebar</a></li>
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact">Contact</a>
                             </li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
@@ -305,21 +174,33 @@
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
-                        <a href="#" class="search-toggler main-header__search">
+                        {{-- <a href="#" class="search-toggler main-header__search">
                             <i class="icon-search" aria-hidden="true"></i>
                             <span class="sr-only">Search</span>
                         </a><!-- /.search-toggler -->
-                        <a href="cart.html" class="main-header__cart">
+                        <a href="cart" class="main-header__cart">
                             <i class="icon-cart" aria-hidden="true"></i>
                             <span class="sr-only">Cart</span>
-                        </a><!-- /.cart-toggler -->
+                        </a><!-- /.cart-toggler --> --}}
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <a class="main-header__call__text" href="tel:88012365499">+91 9234377577</a>
                         </div>
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
-      
+
+        <section class="page-header">
+            <div class="page-header__bg"></div>
+            <div class="page-header__layer"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <h2 class="page-header__title bw-split-in-left">About Us</h2><!-- /.page-title -->
+                <ul class="ienet-breadcrumb list-unstyled">
+                    <li><a href="index">Home 3</a></li>
+                    <li><span>About Us</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
