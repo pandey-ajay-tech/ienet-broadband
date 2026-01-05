@@ -44,14 +44,9 @@
     <div class="container">
         <div class="main-footer__middle">
             <a href="index.html">
-                <img src="{{ asset('assets/images/logo_wifi.png') }}" height="80" alt="Ienet HTML Template">
+                <img src="{{ asset('assets/images/logo_black.png') }}" height="80" alt="Ienet HTML Template">
             </a>
-            <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
-                <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
-                <input type="text" name="EMAIL" placeholder="Enter Email Address">
-                <button type="submit" class="ienet-btn"><span>Subscribe Now</span></button>
-                <div class="mc-form__response"></div><!-- /.mc-form__response -->
-            </form><!-- /.footer-widget__newsletter mc-form -->
+
             <div class="main-footer__middle__call">
                 <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                 <div class="main-footer__middle__call__title">Call Emergency</div>
@@ -63,38 +58,48 @@
         <div class="row">
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--about">
-                    <h2 class="footer-widget__title">About Ienet</h2><!-- /.footer-widget__title -->
+                    <h2 class="footer-widget__title">About SpeedNET Broadband</h2><!-- /.footer-widget__title -->
                     <p class="footer-widget__text">
-                        There are two main types: solar photovoltaic (PV) systems for electricity generation and
+                        SpeedNET Broadband provides high-speed internet solutions with reliable connectivity and
+                        outstanding customer support. We are committed to bringing seamless digital experiences to homes
+                        and businesses.
                     </p>
-                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
-                                    class="fas fa-chevron-right"></i></span></span></a>
+                    <a href="contact" class="ienet-btn">
+                        <span>Query Us
+                            <span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span>
+                        </span>
+                    </a>
                 </div>
             </div><!-- /.col-md-6 -->
+
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--links">
-                    <h2 class="footer-widget__title">our services</h2><!-- /.footer-widget__title -->
+                    <h2 class="footer-widget__title">Our Services</h2><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__links">
-                        <li><a href="service-d-broadband.html">Fiber & Broadband</a></li>
-                        <li><a href="service-d-cyber-security.html">Cyber Security</a></li>
-                        <li><a href="service-d-tv.html">Amazon Box TV</a></li>
-                        <li><a href="service-d-iptv.html">Smart IPTV</a></li>
-                        <li><a href="service-d-connectivity.html">Smart Connectivity</a></li>
+                        <li><a href="#" class="footer-link">Internet Line</a></li>
+                        <li><a href="#" class="footer-link">P2P Connectivity</a></li>
+                        <li><a href="#" class="footer-link">Broadband FTTH</a></li>
+                        <li><a href="#" class="footer-link">Home & Security</a></li>
+                        <li><a href="#" class="footer-link">Network & Software</a></li>
+                        <li><a href="#" class="footer-link">Tech Support</a></li>
+                    </ul>
+
+                </div><!-- /.footer-widget -->
+            </div><!-- /.col-md-6 -->
+
+            <div class="col-md-6 col-xl-3">
+                <div class="footer-widget footer-widget--links">
+                    <h2 class="footer-widget__title">Useful Links</h2><!-- /.footer-widget__title -->
+                    <ul class="list-unstyled footer-widget__links">
+                        <li><a href="{{ route('front.about-us') }}">About Us</a></li>
+                        <li><a href="{{ route('plans-pricing') }}">Plans</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                        <li><a href="{{ route('terms') }}">Terms & Conditions</a></li>
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-            <div class="col-md-6 col-xl-3">
-                <div class="footer-widget footer-widget--links">
-                    <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
-                    <ul class="list-unstyled footer-widget__links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="movie.html">Our Movie</a></li>
-                        <li><a href="blog-grid-right.html">News & Blog</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contacts</a></li>
-                    </ul><!-- /.list-unstyled footer-widget__links -->
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-6 -->
+
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--gallery">
                     <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
@@ -126,7 +131,7 @@
         <div class="container">
             <div class="main-footer__bottom__inner">
                 <p class="main-footer__copyright">
-                    &copy; Copyright <span class="dynamic-year"></span> by Ienet HTML Template.
+                    &copy; Copyright <span class="dynamic-year"></span> by SpeedNET Broadband.
                 </p>
             </div><!-- /.main-footer__inner -->
         </div><!-- /.container -->
@@ -204,7 +209,7 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_black.png') }}"
                     alt="Ienet HTML" height="80"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">

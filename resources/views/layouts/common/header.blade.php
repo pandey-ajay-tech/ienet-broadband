@@ -102,18 +102,9 @@
                                     <li><a href="404">404 Error</a></li>
                                 </ul> --}}
                             </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services">Services</a></li>
-                                    <li><a href="services-carousel">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
-                                </ul>
+                             <li class="dropdown">
+                                <a href="{{ route('service') }}">Services</a>
+
                             </li>
 
                             {{-- <li class="dropdown">
@@ -191,16 +182,3 @@
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
-
-        <section class="page-header">
-            <div class="page-header__bg"></div>
-            <div class="page-header__layer"></div>
-            <!-- /.page-header__bg -->
-            <div class="container">
-                <h2 class="page-header__title bw-split-in-left">About Us</h2><!-- /.page-title -->
-                <ul class="ienet-breadcrumb list-unstyled">
-                    <li><a href="index">Home 3</a></li>
-                    <li><span>About Us</span></li>
-                </ul><!-- /.thm-breadcrumb list-unstyled -->
-            </div><!-- /.container -->
-        </section><!-- /.page-header -->

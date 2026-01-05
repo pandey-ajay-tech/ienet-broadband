@@ -391,6 +391,227 @@
             </div><!-- /.container -->
         </section><!-- /.page-header -->
 
+        <section class="service-page">
+            <div class="container">
+                <div class="service-page__carousel ienet-owl__carousel ienet-owl__carousel--with-shadow ienet-owl__carousel--basic-nav owl-carousel owl-theme"
+                    data-owl-options='{
+				"items": 1,
+				"margin": 30,
+				"loop": false,
+				"smartSpeed": 700,
+				"nav": false,
+				"navText": ["<span class=\"icon-left-chevron\"></span>","<span class=\"icon-right-chevron\"></span>"],
+				"dots": true,
+				"autoplay": false,
+				"responsive": {
+					"0": {
+						"items": 1
+					},
+					"768": {
+						"items": 2
+					},
+					"1200": {
+						"items": 3
+					}
+				}
+			}'>
+                    <div class="item">
+                        <div class="service-page__item">
+                            <div class="service-page__item__image">
+                                <img src="assets/images/resources/service-2-1.jpg" alt="ienet">
+                            </div>
+                            <div class="service-page__item__content">
+                                <h3 class="service-page__item__title"><a href="service-d-broadband">Fiber Line &
+                                        Broadband Line</a></h3>
+                                <div class="service-page__item__icon"><span class="icon-optical-fiber"></span></div>
+                            </div>
+                        </div>
+                    </div><!-- item -->
+                    <div class="item">
+                        <div class="service-page__item">
+                            <div class="service-page__item__image">
+                                <img src="assets/images/resources/service-2-2.jpg" alt="ienet">
+                            </div>
+                            <div class="service-page__item__content">
+                                <h3 class="service-page__item__title"><a href="service-d-iptv">Fiber Line With Smart
+                                        IPTV</a></h3>
+                                <div class="service-page__item__icon"><span class="icon-tv"></span></div>
+                            </div>
+                        </div>
+                    </div><!-- item -->
+                    <div class="item">
+                        <div class="service-page__item">
+                            <div class="service-page__item__image">
+                                <img src="assets/images/resources/service-2-3.jpg" alt="ienet">
+                            </div>
+                            <div class="service-page__item__content">
+                                <h3 class="service-page__item__title"><a href="service-d-cyber-security">Fast Internet
+                                        & Cyber Security</a></h3>
+                                <div class="service-page__item__icon"><span class="icon-cyber-security"></span></div>
+                            </div>
+                        </div>
+                    </div><!-- item -->
+                    <div class="item">
+                        <div class="service-page__item">
+                            <div class="service-page__item__image">
+                                <img src="assets/images/resources/service-2-4.jpg" alt="ienet">
+                            </div>
+                            <div class="service-page__item__content">
+                                <h3 class="service-page__item__title"><a href="service-d-landline">Optical Fiber &
+                                        Landline</a></h3>
+                                <div class="service-page__item__icon"><span class="icon-telephone-1"></span></div>
+                            </div>
+                        </div>
+                    </div><!-- item -->
+                    <div class="item">
+                        <div class="service-page__item">
+                            <div class="service-page__item__image">
+                                <img src="assets/images/resources/service-2-5.jpg" alt="ienet">
+                            </div>
+                            <div class="service-page__item__content">
+                                <h3 class="service-page__item__title"><a href="service-d-tv">Amazon Fire Stick Box
+                                        TV</a></h3>
+                                <div class="service-page__item__icon"><span class="icon-tv-box"></span></div>
+                            </div>
+                        </div>
+                    </div><!-- item -->
+                    <div class="item">
+                        <div class="service-page__item">
+                            <div class="service-page__item__image">
+                                <img src="assets/images/resources/service-2-6.jpg" alt="ienet">
+                            </div>
+                            <div class="service-page__item__content">
+                                <h3 class="service-page__item__title"><a href="service-d-connectivity">Smart Data
+                                        Connectivity Line</a></h3>
+                                <div class="service-page__item__icon"><span class="icon-optical-fiber"></span></div>
+                            </div>
+                        </div>
+                    </div><!-- item -->
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.service-page -->
+
+        <section class="cta-one cta-one--service">
+            <div class="cta-one--service__bg" style="background-image: url(assets/images/shapes/cta-1-bg.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="cta-one__image wow fadeInLeft" data-wow-delay="100ms">
+                            <div class="cta-one__image__one">
+                                <img src="assets/images/resources/cta-1-1.jpg" alt="ienet">
+                            </div>
+                            <div class="cta-one__image__shape">
+                                <img src="assets/images/shapes/cta-shape-1.png" alt="ienet">
+                            </div>
+                            <div class="cta-one__image__two wow fadeInUp" data-wow-delay="300ms">
+                                <img src="assets/images/resources/cta-1-1.png" alt="ienet">
+                            </div>
+                            <div class="cta-one__image__price wow fadeInUp" data-wow-delay="200ms">
+                                Start Form $39 / <span>Month</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="00ms">
+                        <div class="cta-one__content">
+                            <div class="sec-title text-left">
+
+                                <h6 class="sec-title__tagline bw-split-in-right"><span
+                                        class="sec-title__tagline__left-border"></span>save your money<span
+                                        class="sec-title__tagline__right-border"></span></h6>
+                                <!-- /.sec-title__tagline -->
+
+                                <h3 class="sec-title__title bw-split-in-left">Save Money Your <span>Internet</span>
+                                    Service With TV Service</h3><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <p class="cta-one__content__text">
+                                Donec pretium ornare neque, ac luctus orci ultrices at. Sed blandit eleifend mi, a
+                                consectetur tortor varius in.
+                                Sed tincidunt aliquet lorem, eget tincidunt est molestie non. Sed tincidunt aliquet
+                                lorem, eget tincidunt est molestie
+                            </p>
+                            <a href="about" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
+                                            class="fas fa-chevron-right"></i></span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </section><!-- /.cta-one -->
+
+        <!-- Service Start -->
+        <section class="service-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sec-title text-center">
+
+                            <h6 class="sec-title__tagline bw-split-in-right"><span
+                                    class="sec-title__tagline__left-border"></span>Our Best Service<span
+                                    class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+
+                            <h3 class="sec-title__title bw-split-in-left">We Are Offering<br> Best <span>Service</span>
+                            </h3><!-- /.sec-title__title -->
+                        </div><!-- /.sec-title -->
+                        <!-- section-title -->
+                    </div>
+                </div>
+                <div class="row gutter-y-30">
+                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="00ms">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="assets/images/resources/service-1-1.jpg" alt="ienet">
+                            </div>
+                            <div class="service-one__item__shape">
+                                <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            </div>
+                            <h3 class="service-one__item__title">
+                                <a href="service-d-broadband">Broadband Connect</a>
+                            </h3><!-- /.service-title -->
+                        </div><!-- /.service-card-one -->
+                    </div>
+                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="50ms">
+                        <div class="service-one__item service-one__item--reverse text-center">
+                            <div class="service-one__item__image">
+                                <img src="assets/images/resources/service-1-2.jpg" alt="ienet">
+                            </div>
+                            <div class="service-one__item__shape">
+                                <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            </div>
+                            <h3 class="service-one__item__title">
+                                <a href="service-d-landline">Satellite Channel</a>
+                            </h3><!-- /.service-title -->
+                        </div><!-- /.service-card-one -->
+                    </div>
+                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="assets/images/resources/service-1-3.jpg" alt="ienet">
+                            </div>
+                            <div class="service-one__item__shape">
+                                <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            </div>
+                            <h3 class="service-one__item__title">
+                                <a href="service-d-iptv">IPTV Connection</a>
+                            </h3><!-- /.service-title -->
+                        </div><!-- /.service-card-one -->
+                    </div>
+                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="150ms">
+                        <div class="service-one__item service-one__item--reverse text-center">
+                            <div class="service-one__item__image">
+                                <img src="assets/images/resources/service-1-4.jpg" alt="ienet">
+                            </div>
+                            <div class="service-one__item__shape">
+                                <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            </div>
+                            <h3 class="service-one__item__title">
+                                <a href="service-d-connectivity">Home IP Phone</a>
+                            </h3><!-- /.service-title -->
+                        </div><!-- /.service-card-one -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service End -->
+
         <section class="service-details">
             <div class="container">
                 <div class="row gutter-y-60">

@@ -161,7 +161,7 @@
                 <a href="tel:666-888-0000">666 888 0000</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
-        <div class="mobile-nav__social">
+        {{-- <div class="mobile-nav__social">
 
             <a href="https://facebook.com">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
@@ -179,7 +179,7 @@
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <span class="sr-only">Youtube</span>
             </a>
-        </div><!-- /.mobile-nav__social -->
+        </div><!-- /.mobile-nav__social --> --}}
     </div>
     <!-- /.mobile-nav__content -->
 </div>

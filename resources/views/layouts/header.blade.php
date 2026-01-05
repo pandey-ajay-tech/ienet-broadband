@@ -51,7 +51,8 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="{{ route('/') }}">
-                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="80">
+                            <img src="{{ asset('assets/images/logo_black.png') }}" alt="Ienet HTML" height="80">
+                            {{-- <img src="{{ asset('assets/images/74.png') }}" alt="Ienet HTML" height="80"> --}}
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
@@ -106,17 +107,8 @@
                                 </ul> --}}
                             </li>
                             <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services">Services</a></li>
-                                    <li><a href="services-carousel">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
-                                </ul>
+                                <a href="{{ route('service') }}">Services</a>
+
                             </li>
 
                             {{-- <li class="dropdown">
