@@ -6752,7 +6752,7 @@ body.megamenu-popup-active .mobile-nav__content {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: var(--ienet-black, #000000);
+    /* background-color: var(--ienet-black, #000000); */
     background-blend-mode: overlay;
     border-radius: 20px;
     overflow: hidden;
