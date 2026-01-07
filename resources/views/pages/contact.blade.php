@@ -74,7 +74,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="contact-one__form__image">
-                                    <img src="assets/images/resources/contact-1-1.jpg" alt="ienet">
+                                    <img src="assets/images/resources/contact_us.png" alt="ienet">
                                 </div>
                             </div>
                             <div class="col-md-6">

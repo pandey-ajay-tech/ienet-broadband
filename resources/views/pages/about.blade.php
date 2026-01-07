@@ -23,12 +23,12 @@
                 <div class="col-xl-6">
                     <div class="about-two__image wow fadeInLeft" data-wow-delay="200ms">
                         <div class="about-two__image__one">
-                            <img src="assets/images/resources/about-2-1.jpg" alt="SpeedNET Broadband">
+                            <img src="assets/images/resources/446_617.png" alt="SpeedNET Broadband">
                         </div>
                         <div class="about-two__image__border"
                             style="background-image: url(assets/images/shapes/about-2-border.png);"></div>
                         <div class="about-two__image__two">
-                            <img src="assets/images/resources/about-2-2.jpg" alt="SpeedNET Broadband">
+                            <img src="assets/images/resources/272_289.png" alt="SpeedNET Broadband">
                         </div>
                         <div class="about-two__image__experiance">
                             <div class="about-two__image__experiance__icon"><i class="icon-medal"></i></div>
@@ -139,7 +139,7 @@
 
                 <div class="col-xl-6">
                     <div class="cta-two__image">
-                        <img src="assets/images/resources/cta-2-1.jpg" alt="IPTV Channels">
+                        <img src="assets/images/resources/270_300.png" alt="IPTV Channels">
                     </div>
                 </div>
 

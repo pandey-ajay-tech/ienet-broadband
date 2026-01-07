@@ -22,10 +22,10 @@ class WebController extends Controller
         return view('pages.services');
     }
 
-    public function plans_carousel()
-    {
-        return view('pages.packages-carousel');
-    }
+    // public function plans_carousel()
+    // {
+    //     return view('pages.packages-carousel');
+    // }
 
     public function plans_pricing()
     {

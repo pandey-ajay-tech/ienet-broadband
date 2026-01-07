@@ -69,7 +69,7 @@
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="00ms">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/service-1-1.jpg" alt="ienet">
+                            <img src="assets/images/resources/1.png" alt="ienet">
                         </div>
                         <div class="service-one__item__shape">
                             <img src="assets/images/shapes/service-1-border.png" alt="ienet">
@@ -82,7 +82,7 @@
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="50ms">
                     <div class="service-one__item service-one__item--reverse text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/service-1-2.jpg" alt="ienet">
+                            <img src="assets/images/resources/2.png" alt="ienet">
                         </div>
                         <div class="service-one__item__shape">
                             <img src="assets/images/shapes/service-1-border.png" alt="ienet">
@@ -95,7 +95,7 @@
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/service-1-3.jpg" alt="ienet">
+                            <img src="assets/images/resources/3.png" alt="ienet">
                         </div>
                         <div class="service-one__item__shape">
                             <img src="assets/images/shapes/service-1-border.png" alt="ienet">
@@ -108,7 +108,7 @@
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="150ms">
                     <div class="service-one__item service-one__item--reverse text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/service-1-4.jpg" alt="ienet">
+                            <img src="assets/images/resources/service_4.png" alt="ienet">
                         </div>
                         <div class="service-one__item__shape">
                             <img src="assets/images/shapes/service-1-border.png" alt="ienet">
@@ -169,7 +169,7 @@
                 <div class="item">
                     <div class="service-page__item">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/service-2-1.jpg" alt="ienet">
+                            <img src="assets/images/resources/fibre_line_broadband_line.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content">
                             <h3 class="service-page__item__title"><a href="service-d-broadband">Fiber Line &
@@ -181,7 +181,7 @@
                 <div class="item">
                     <div class="service-page__item">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/service-2-2.jpg" alt="ienet">
+                            <img src="assets/images/resources/fibre_line_with_smart_tv.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content">
                             <h3 class="service-page__item__title"><a href="service-d-iptv">Fiber Line With Smart
@@ -193,7 +193,7 @@
                 <div class="item">
                     <div class="service-page__item">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/service-2-3.jpg" alt="ienet">
+                            <img src="assets/images/resources/fast_internet_cyber_security.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content">
                             <h3 class="service-page__item__title"><a href="service-d-cyber-security">Fast Internet
@@ -205,7 +205,7 @@
                 <div class="item">
                     <div class="service-page__item">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/service-2-4.jpg" alt="ienet">
+                            <img src="assets/images/resources/optical_fibre_landline.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content">
                             <h3 class="service-page__item__title"><a href="service-d-landline">Optical Fiber &
@@ -217,7 +217,7 @@
                 <div class="item">
                     <div class="service-page__item">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/service-2-5.jpg" alt="ienet">
+                            <img src="assets/images/resources/amazon_fire_stick_box.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content">
                             <h3 class="service-page__item__title"><a href="service-d-tv">Amazon Fire Stick Box
@@ -229,7 +229,7 @@
                 <div class="item">
                     <div class="service-page__item">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/service-2-6.jpg" alt="ienet">
+                            <img src="assets/images/resources/smart_data_connectivity_line.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content">
                             <h3 class="service-page__item__title"><a href="service-d-connectivity">Smart Data
@@ -248,8 +248,7 @@
                 <div class="col-md-12 col-lg-8">
                     <div class="service-details__content">
                         <div class="service-details__thumbnail">
-                            <img src="assets/images/resources/service-d-1.jpg"
-                                alt="Fiber Line & Broadband Line Activation">
+                            <img src="assets/images/resources/leased.png" alt="Fiber Line & Broadband Line Activation">
                         </div><!-- /.service-details__thumbnail -->
                         <h3 class="service-details__title">Internet Leased Line & Broadband FTTH</h3>
                         <!-- /.service-details__title -->
@@ -295,12 +294,12 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="service-details__image">
-                                    <img src="assets/images/resources/service-details-p-1.jpg" alt="ienet">
+                                    <img src="assets/images/resources/serv1.png" alt="ienet">
                                 </div><!-- /.service-details__image -->
                             </div><!-- /.col-md-6 -->
                             <div class="col-md-6">
                                 <div class="service-details__image">
-                                    <img src="assets/images/resources/service-details-p-2.jpg" alt="ienet">
+                                    <img src="assets/images/resources/serv2.png" alt="ienet">
                                 </div><!-- /.service-details__image -->
                             </div><!-- /.col-md-6 -->
                         </div><!-- /.row -->
@@ -522,7 +521,7 @@
 
                         <div class="service-sidebar__single ">
                             <div class="service-sidebar__contact text-center"
-                                style="background-image: url(assets/images/backgrounds/service-contact-bg-1.jpg);">
+                                style="background-image: url(assets/images/backgrounds/contact.png);">
                                 <div class="service-sidebar__contact__icon">
                                     <i class="icon-telephone"></i>
                                 </div><!-- /.service-sidebar__contact__icon -->
