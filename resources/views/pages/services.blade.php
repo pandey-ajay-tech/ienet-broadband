@@ -8,6 +8,10 @@
         padding: 10px 0 15px;
     }
 
+    .service-details {
+    padding: 120px 0!important;
+    position: relative;
+}
     .service-card {
         background: #ffffff;
         border-left: 4px solid #e60000;

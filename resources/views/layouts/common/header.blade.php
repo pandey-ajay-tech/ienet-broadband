@@ -63,7 +63,7 @@
                                 <a href="{{ route('/') }}">Home</a>
                             </li>
                             <li class="current">
-                                <a href="about">About</a>
+                                <a href="{{route('front.about-us')}}">About</a>
                             </li>
                             <li class="dropdown">
                                 <a href="plans-pricing">Plans & Pricing </a>

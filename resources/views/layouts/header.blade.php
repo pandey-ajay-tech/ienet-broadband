@@ -63,15 +63,12 @@
                                 <a href="{{ route('/') }}">Home</a>
 
                             </li>
-
-
-
                             <li>
                                 <a href="{{ route('front.about-us') }}">About</a>
                             </li>
                             <li class="dropdown">
                                 <a href="plans-pricing">Plans & Pricing </a>
-                                {{-- <ul>
+                                 <!-- <ul>
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
                                         <ul class="sub-menu">
@@ -104,14 +101,14 @@
                                     <li><a href="faq">FAQs</a></li>
                                     <li><a href="login">Login</a></li>
                                     <li><a href="404">404 Error</a></li>
-                                </ul> --}}
+                                </ul>  -->
                             </li>
                             <li class="dropdown">
                                 <a href="{{ route('service') }}">Services</a>
 
                             </li>
 
-                            {{-- <li class="dropdown">
+                            <!-- <li class="dropdown">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
                                     <li class="dropdown">
@@ -127,7 +124,7 @@
                                     <li><a href="cart">Cart</a></li>
                                     <li><a href="checkout">Checkout</a></li>
                                 </ul>
-                            </li> --}}
+                            </li> -->
                             {{-- <li class="dropdown">
                                 <a href="#">News</a>
                                 <ul class="sub-menu">

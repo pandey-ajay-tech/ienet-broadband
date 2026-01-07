@@ -13,14 +13,14 @@
                 <div class="col-xl-6">
                     <div class="about-one__image wow fadeInLeft" data-wow-delay="300ms">
                         <div class="about-one__image__one">
-                            <img src="{{ asset('assets/images/resources/about-1-1.jpg') }}" alt="ienet">
+                            <img src="{{ asset('assets/images/resources/about-1-1.jpg') }}" alt="SpeedNET Broadband">
                         </div>
                         <div class="about-one__image__bg"></div>
                         <div class="about-one__image__border"
                             style="background-image: url(assets/images/shapes/about-1-border.png);"></div>
                         <div class="about-one__image__two">
                             <div class="about-one__image__two__inner"><img
-                                    src="{{ asset('assets/images/resources/about-1-2.jpg') }}" alt="ienet"></div>
+                                    src="{{ asset('assets/images/resources/about-1-2.jpg') }}" alt="SpeedNET Broadband"></div>
                         </div>
                     </div><!-- /.about-one__image -->
                 </div><!-- /.col-lg-6 -->
@@ -371,7 +371,7 @@
                         <span>Book Now</span>
                     </button>
 
-                    <a href="#quick-recharge" class="ienet-btn ienet-btn--secondary">
+                    <a href="https://user.snbroadband.in/book-connection" class="ienet-btn ienet-btn--secondary">
                         <span>Quick Recharge</span>
                     </a>
                 </div>

@@ -7,7 +7,7 @@ use App\Http\Controllers\WebController;
 
 
 Route::get('/', [WebController::class, 'index'])->name('/');
-Route::get('/about', [WebController::class, 'about'])->name('front.about-us');
+Route::get('/about-us', [WebController::class, 'about'])->name('front.about-us');
 Route::get('/contact-us', [WebController::class, 'show'])->name('front.contact-us');
 Route::get('/services', [WebController::class, 'services'])->name('services');
 // Route::get('/plans-pricing-carousel', [WebController::class, 'plans_carousel'])->name('plans');

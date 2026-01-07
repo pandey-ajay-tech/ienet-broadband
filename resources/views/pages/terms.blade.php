@@ -24,7 +24,7 @@
                     <div class="service-details__content">
 
                         <div class="service-details__thumbnail mb-4">
-                            <img src="assets/images/resources/service-d-1.jpg" class="img-fluid rounded shadow-sm"
+                            <img src="assets/images/resources/term-condition-image.png" class="img-fluid rounded shadow-sm"
                                 alt="Terms & Conditions">
                         </div>
 
@@ -131,11 +131,11 @@
                     <div class="service-sidebar">
                         <div class="service-sidebar__single">
                             <div class="service-sidebar__contact text-center"
-                                style="background-image: url(assets/images/backgrounds/service-contact-bg-1.jpg);">
+                                style="background-image: url(assets/images/resources/service-contact-bg-1.png);">
                                 <div class="service-sidebar__contact__icon"><i class="icon-telephone"></i></div>
-                                <p class="service-sidebar__contact__number">
-                                    <span>Call Emergency</span>
-                                    <a href="tel:+919234377577">+91 9234377577</a>
+                                <p class="service-sidebar__contact__number" style="color:#000;">
+                                    <span style="color:#000;">Call Emergency</span>
+                                    <a href="tel:+919234377577" >+91 9234377577</a>
                                 </p>
                             </div>
                         </div>
