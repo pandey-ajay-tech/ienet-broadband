@@ -14,14 +14,14 @@
                     <ul class="list-unstyled topbar-one__info">
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com" class="text-white">info@ienetmail.com</a>
+                            <a href="mailto:info@snbroadband.in" class="text-white">info@snbroadband.in</a>
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            1211 Madison Ave, New York, NY
+                            Sapaha Near TTC Ground, Madhupur, 815353
                         </li>
                     </ul><!-- /.list-unstyled topbar-one__info -->
-                    <div class="topbar-one__right">
+                    {{-- <div class="topbar-one__right">
                         <div class="topbar-one__social">
 
                             <a href="https://facebook.com">
@@ -41,7 +41,7 @@
                                 <span class="sr-only">Youtube</span>
                             </a>
                         </div><!-- /.topbar-one__social -->
-                    </div><!-- /.topbar-one__right -->
+                    </div><!-- /.topbar-one__right --> --}}
                 </div><!-- /.topbar-one__inner -->
             </div><!-- /.container-fluid -->
         </div><!-- /.topbar-one -->
@@ -51,7 +51,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="{{ route('/') }}">
-                            <img src="{{asset('assets/images/logo_wifi.png')}}" alt="Ienet HTML" height="80">
+                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="80">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
@@ -59,13 +59,13 @@
                         <ul class="main-menu__list">
 
 
-                            <li class="dropdown">
+                            <li class="">
                                 <a href="{{ route('/') }}">Home</a>
                             </li>
                             <li class="current">
-                                <a href="about">About</a>
+                                <a href="{{route('front.about-us')}}">About</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="">
                                 <a href="plans-pricing">Plans & Pricing </a>
                                 {{-- <ul>
                                     <li class="dropdown">
@@ -102,18 +102,9 @@
                                     <li><a href="404">404 Error</a></li>
                                 </ul> --}}
                             </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services">Services</a></li>
-                                    <li><a href="services-carousel">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
-                                </ul>
+                             <li class="">
+                                <a href="{{ route('service') }}">Services</a>
+
                             </li>
 
                             {{-- <li class="dropdown">
@@ -191,16 +182,3 @@
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
-
-        <section class="page-header">
-            <div class="page-header__bg"></div>
-            <div class="page-header__layer"></div>
-            <!-- /.page-header__bg -->
-            <div class="container">
-                <h2 class="page-header__title bw-split-in-left">About Us</h2><!-- /.page-title -->
-                <ul class="ienet-breadcrumb list-unstyled">
-                    <li><a href="index">Home 3</a></li>
-                    <li><span>About Us</span></li>
-                </ul><!-- /.thm-breadcrumb list-unstyled -->
-            </div><!-- /.container -->
-        </section><!-- /.page-header -->

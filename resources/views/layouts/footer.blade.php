@@ -10,14 +10,14 @@
                 <ul class="list-unstyled main-footer__top__info">
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                        <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+                        <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        1211 Madison Ave, New York, NY
+                        Sapaha Near TTC Ground, Madhupur, 815353
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
-                <div class="main-footer__top__right">
+                {{-- <div class="main-footer__top__right">
                     <div class="main-footer__top__social">
 
                         <a href="https://facebook.com">
@@ -37,21 +37,16 @@
                             <span class="sr-only">Youtube</span>
                         </a>
                     </div><!-- /.main-footer__top__social -->
-                </div><!-- /.main-footer__top__right -->
+                </div><!-- /.main-footer__top__right --> --}}
             </div><!-- /.main-footer__top__inner -->
         </div><!-- /.container -->
     </div><!-- /.main-footer__top -->
     <div class="container">
         <div class="main-footer__middle">
             <a href="index.html">
-                <img src="{{ asset('assets/images/logo_wifi.png')}}" height="80" alt="Ienet HTML Template">
+                <img src="{{ asset('assets/images/logo_black.png') }}" height="80" alt="Ienet HTML Template">
             </a>
-            <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
-                <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
-                <input type="text" name="EMAIL" placeholder="Enter Email Address">
-                <button type="submit" class="ienet-btn"><span>Subscribe Now</span></button>
-                <div class="mc-form__response"></div><!-- /.mc-form__response -->
-            </form><!-- /.footer-widget__newsletter mc-form -->
+
             <div class="main-footer__middle__call">
                 <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
                 <div class="main-footer__middle__call__title">Call Emergency</div>
@@ -63,38 +58,48 @@
         <div class="row">
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--about">
-                    <h2 class="footer-widget__title">About Ienet</h2><!-- /.footer-widget__title -->
+                    <h2 class="footer-widget__title">About SpeedNET Broadband</h2><!-- /.footer-widget__title -->
                     <p class="footer-widget__text">
-                        There are two main types: solar photovoltaic (PV) systems for electricity generation and
+                        SpeedNET Broadband provides high-speed internet solutions with reliable connectivity and
+                        outstanding customer support. We are committed to bringing seamless digital experiences to homes
+                        and businesses.
                     </p>
-                    <a href="about.html" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
-                                    class="fas fa-chevron-right"></i></span></span></a>
+                    <a href="contact" class="ienet-btn">
+                        <span>Query Us
+                            <span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span>
+                        </span>
+                    </a>
                 </div>
             </div><!-- /.col-md-6 -->
+
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--links">
-                    <h2 class="footer-widget__title">our services</h2><!-- /.footer-widget__title -->
+                    <h2 class="footer-widget__title">Our Services</h2><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__links">
-                        <li><a href="service-d-broadband.html">Fiber & Broadband</a></li>
-                        <li><a href="service-d-cyber-security.html">Cyber Security</a></li>
-                        <li><a href="service-d-tv.html">Amazon Box TV</a></li>
-                        <li><a href="service-d-iptv.html">Smart IPTV</a></li>
-                        <li><a href="service-d-connectivity.html">Smart Connectivity</a></li>
+                        <li><a href="#" class="footer-link">Internet Line</a></li>
+                        <li><a href="#" class="footer-link">P2P Connectivity</a></li>
+                        <li><a href="#" class="footer-link">Broadband FTTH</a></li>
+                        <li><a href="#" class="footer-link">Home & Security</a></li>
+                        <li><a href="#" class="footer-link">Network & Software</a></li>
+                        <li><a href="#" class="footer-link">Tech Support</a></li>
+                    </ul>
+
+                </div><!-- /.footer-widget -->
+            </div><!-- /.col-md-6 -->
+
+            <div class="col-md-6 col-xl-3">
+                <div class="footer-widget footer-widget--links">
+                    <h2 class="footer-widget__title">Useful Links</h2><!-- /.footer-widget__title -->
+                    <ul class="list-unstyled footer-widget__links">
+                        <li><a href="{{ route('front.about-us') }}">About Us</a></li>
+                        <li><a href="{{ route('plans-pricing') }}">Plans</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                        <li><a href="{{ route('terms') }}">Terms & Conditions</a></li>
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-            <div class="col-md-6 col-xl-3">
-                <div class="footer-widget footer-widget--links">
-                    <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
-                    <ul class="list-unstyled footer-widget__links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="movie.html">Our Movie</a></li>
-                        <li><a href="blog-grid-right.html">News & Blog</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contacts</a></li>
-                    </ul><!-- /.list-unstyled footer-widget__links -->
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-6 -->
+
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--gallery">
                     <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
@@ -126,7 +131,7 @@
         <div class="container">
             <div class="main-footer__bottom__inner">
                 <p class="main-footer__copyright">
-                    &copy; Copyright <span class="dynamic-year"></span> by Ienet HTML Template.
+                    &copy; Copyright <span class="dynamic-year"></span> by SpeedNET Broadband.
                 </p>
             </div><!-- /.main-footer__inner -->
         </div><!-- /.container -->
@@ -144,7 +149,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png')}}"
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
                     width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->
@@ -204,18 +209,20 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png')}}"
+            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_black.png') }}"
                     alt="Ienet HTML" height="80"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
-            Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
-            puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
+            Experience lightning-fast internet with SpeedNET Broadband! Stay connected seamlessly for work, streaming,
+            gaming, and more. Enjoy reliable, unlimited data plans designed for homes and businesses, backed by 24×7
+            customer support.
         </p>
+
         <h4 class="sidebar-one__title">Contact Info:</h4>
         <ul class="sidebar-one__info">
             <li>
                 <span class="fas fa-map-marker-alt"></span>
-                27, Dhaka London City Dhaka, Bangladesh
+                Sapaha Near TTC Ground, Madhupur, 815353
             </li>
             <li>
                 <span class="fas fa-clock"></span>
@@ -223,14 +230,14 @@
             </li>
             <li>
                 <span class="fas fa-envelope"></span>
-                <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                <a href="tel:+919234377577">+91 9234377577</a>
             </li>
         </ul>
-        <div class="sidebar-one__social">
+        {{-- <div class="sidebar-one__social">
 
             <a href="https://facebook.com">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
+                <span class="sr-only">Facesbvnbbook</span>
             </a>
             <a href="https://twitter.com">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
@@ -244,14 +251,14 @@
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <span class="sr-only">Youtube</span>
             </a>
-        </div><!-- /sidebar-one__socila -->
-        <h4 class="sidebar-one__title">Newsletter:</h4>
+        </div><!-- /sidebar-one__socila --> --}}
+        {{-- <h4 class="sidebar-one__title">Newsletter:</h4>
         <form action="#" data-url="MAILCHIMP_FORM_URL" class="sidebar-one__newsletter mc-form">
             <input type="text" name="EMAIL" placeholder="Email address">
             <button type="submit" class="fas fa-paper-plane">
                 <span class="sr-only">submit</span><!-- /.sr-only -->
             </button>
-        </form><!-- /.footer-widget__newsletter mc-form -->
+        </form><!-- /.footer-widget__newsletter mc-form --> --}}
     </div><!-- /.sidebar__content -->
 </aside>
 <!-- Sidebar One Start -->

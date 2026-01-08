@@ -6752,7 +6752,7 @@ body.megamenu-popup-active .mobile-nav__content {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: var(--ienet-black, #000000);
+    /* background-color: var(--ienet-black, #000000); */
     background-blend-mode: overlay;
     border-radius: 20px;
     overflow: hidden;
@@ -9379,7 +9379,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .packages-one__card__list {
     margin: 0 0 51px;
     padding: 0;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 2fr;
     grid-gap: 8px 7px;
 }
@@ -15391,9 +15391,9 @@ body.megamenu-popup-active .mobile-nav__content {
     margin-bottom: 24px;
 }
 
-.service-page {
+/* .service-page {
     padding: 120px 0;
-}
+} */
 @media (max-width: 767px) {
     .service-page {
         padding: 80px 0;
@@ -15501,7 +15501,7 @@ body.megamenu-popup-active .mobile-nav__content {
 # Service details
 --------------------------------------------------------------*/
 .service-details {
-    padding: 120px 0;
+    /* padding: 120px 0; */
     position: relative;
 }
 @media (max-width: 767px) {

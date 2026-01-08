@@ -256,7 +256,7 @@
     // dynamic current class
     let mainNavUL = $(".service-sidebar__nav");
     dynamicCurrentMenuClass(mainNavUL);
-  }
+  } 
 
   if ($(".main-menu").length && $(".mobile-nav__container").length) {
     let navContent = document.querySelector(".main-menu").innerHTML;

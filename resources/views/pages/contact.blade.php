@@ -1,789 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.master')
+@section('title')
+    Contact Us
+@endsection
+@section('content')
+    <section class="page-header">
+        <div class="page-header__bg"></div>
+        <div class="page-header__layer"></div>
+        <div class="container">
+            <h2 class="page-header__title bw-split-in-left">Contact Us</h2>
+            <ul class="ienet-breadcrumb list-unstyled">
+                <li><a href="{{ url('/') }}">Home</a></li>
+                <li><span>Contact</span></li>
+            </ul>
+        </div>
+    </section>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact || Ienet || HTML Template For Broadband TV & Internet</title>
-    <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description"
-        content="Ienet is a multipurpose & unique HTML5 template. We especially designed for broadband internet services, satellite TV, Broadband, Online TV, Cable Television, Online Cinema and Movies, Voip, Wifi, Internet and TV store, Digital TV, Computer Networks, IPTV, Telecom company, CCTV and alternative Security, Networking Solution technology and all other internet businesses and websites." />
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/vendors/ienet-icons/style.css" />
-    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/ienet.css" />
-</head>
-
-<body class="custom-cursor">
-
-    <div class="custom-cursor__cursor"></div>
-    <div class="custom-cursor__cursor-two"></div>
-
-    <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
-    </div>
-    <!-- /.preloader -->
-    <div class="page-wrapper">
-        <div class="topbar-one topbar-one--inner">
-            <div class="container-fluid">
-                <div class="topbar-one__inner">
-                    <ul class="list-unstyled topbar-one__info">
-                        <li class="topbar-one__info__item">
-                            <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
+    <section class="contact-one">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-xl-4">
+                    <ul class="list-unstyled contact-one__info">
+                        <li class="contact-one__info__item">
+                            <div class="contact-one__info__icon">
+                                <i class="icon-maps-and-flags"></i>
+                            </div>
+                            <div class="contact-one__info__content">
+                                <h4 class="contact-one__info__title">Mailing Address</h4>
+                                <p class="contact-one__info__text">
+                                    Sapaha Near TTC Ground,<br>
+                                    Madhupur, 81535
+                                </p>
+                            </div>
                         </li>
-                        <li class="topbar-one__info__item">
-                            <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            1211 Madison Ave, New York, NY
+                        <li class="contact-one__info__item">
+                            <div class="contact-one__info__icon">
+                                <i class="icon-telephone"></i>
+                            </div>
+                            <div class="contact-one__info__content">
+                                <h4 class="contact-one__info__title">Quick Contact</h4>
+                                <p class="contact-one__info__text">
+                                    <a href="tel:+919234377577">+91 9234377577</a><br>
+                                    <a href="tel:+918797006007">+91 8797006007</a>
+                                </p>
+                            </div>
                         </li>
-                    </ul><!-- /.list-unstyled topbar-one__info -->
-                    <div class="topbar-one__right">
-                        <div class="topbar-one__social">
+                        <li class="contact-one__info__item">
+                            <div class="contact-one__info__icon">
+                                <i class="icon-mail"></i>
+                            </div>
+                            <div class="contact-one__info__content">
+                                <h4 class="contact-one__info__title">Support Email</h4>
+                                <p class="contact-one__info__text">
+                                    <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                            <a href="https://instagram.com">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                            <a href="https://www.youtube.com/">
-                                <i class="fab fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">Youtube</span>
-                            </a>
-                        </div><!-- /.topbar-one__social -->
-                    </div><!-- /.topbar-one__right -->
-                </div><!-- /.topbar-one__inner -->
-            </div><!-- /.container-fluid -->
-        </div><!-- /.topbar-one -->
-
-        <header class="main-header main-header--inner sticky-header sticky-header--normal">
-            <div class="container-fluid">
-                <div class="main-header__inner">
-                    <div class="main-header__logo">
-                        <a href="index">
-                            <img src="assets/images/logo-dark.png" alt="Ienet HTML" height="80">
-                        </a>
-                    </div><!-- /.main-header__logo -->
-                    <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>
-                    <nav class="main-header__nav main-menu">
-                        <ul class="main-menu__list">
-
-
-                            <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
-                                <a href="index">Demos</a>
-                                <ul>
-                                    <li>
-                                        <div class="megamenu-popup">
-                                            <a href="#" class="megamenu-clickable--close"><span
-                                                    class="icon-close"></span></a>
-                                            <!-- /.megamenu-clickable--close -->
-                                            <div class="megamenu-popup__content">
-                                                <div class="demo-one">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-1.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-one-page"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index">Home Page 01</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-2.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-2"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-2-one-page"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-2">Home Page 02</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-3.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-3"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                            <a href="index-3-one-page"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>One Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-3">Home Page 03</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-dark.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-dark"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-dark">Home Dark</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-boxed.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-boxed"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-boxed">Home Boxed</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                            <div class="col-md-6 col-lg-4">
-                                                                <div class="demo-one__card">
-                                                                    <div class="demo-one__image">
-                                                                        <img src="assets/images/landing/home-rtl.jpg"
-                                                                            alt="ienet">
-                                                                        <div class="demo-one__btns">
-                                                                            <a href="index-rtl#googtrans(en%7car)"
-                                                                                class="ienet-btn demo-one__btn">
-                                                                                <span>View Page</span>
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-                                                                        </div><!-- /.demo-one__btns -->
-                                                                    </div><!-- /.demo-one__image -->
-                                                                    <div class="demo-one__content">
-                                                                        <h3 class="demo-one__title">
-                                                                            <a href="index-rtl#googtrans(en%7car)">Home
-                                                                                RTL</a>
-                                                                        </h3><!-- /.demo-one__title -->
-                                                                    </div><!-- /.demo-one__content -->
-                                                                </div><!-- /.demo-one__card -->
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-                                                        </div><!-- /.row -->
-                                                    </div><!-- /.container -->
-                                                </div><!-- /.demos-one -->
-                                            </div><!-- /.megamenu-popup__content -->
-                                        </div><!-- /.megamenu-popup -->
-                                    </li>
-                                </ul>
-                            </li>
-
-
-                            <li>
-                                <a href="about">About</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
-                                    <li class="dropdown">
-                                        <a href="#">Movies</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="movie">Movies Page</a></li>
-                                            <li><a href="movie-carousel">Movies Carousel</a></li>
-                                            <li><a href="movie-details">Movies Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">Teams</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="team">Our Team</a></li>
-                                            <li><a href="team-carousel">Team Carousel</a></li>
-                                            <li><a href="team-details">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="reviews">Testimonials</a></li>
-                                    <li><a href="reviews-carousel">Testimonials Carousel</a></li>
-                                    <li><a href="packages">Pricing Page</a></li>
-                                    <li><a href="packages-carousel">Pricing Carousel</a></li>
-                                    <li>
-                                        <a href="gallery">Gallery</a>
-                                        <ul>
-                                            <li><a href="gallery">Gallery Masonry</a></li>
-                                            <li><a href="gallery-filter">Gallery Filter</a></li>
-                                            <li><a href="gallery-grid">Gallery Grid</a></li>
-                                            <li><a href="gallery-carousel">Gallery Carousel</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="faq">FAQs</a></li>
-                                    <li><a href="login">Login</a></li>
-                                    <li><a href="404">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services">Services</a></li>
-                                    <li><a href="services-carousel">Services Carousel</a></li>
-                                    <li><a href="service-d-broadband">Fiber & Broadband Line</a></li>
-                                    <li><a href="service-d-iptv">Fiber Line Smart IPTV</a></li>
-                                    <li><a href="service-d-cyber-security">Internet & Cyber Security</a></li>
-                                    <li><a href="service-d-landline">Optical Fiber & Landline</a></li>
-                                    <li><a href="service-d-tv">Amazon Fire Stick Box TV</a></li>
-                                    <li><a href="service-d-connectivity">Smart Data Connectivity</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li class="dropdown">
-                                        <a href="#">Products</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="products">No Sidebar</a></li>
-                                            <li><a href="products-left">Left Sidebar</a></li>
-                                            <li><a href="products-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="products-carousel">Products Carousel</a></li>
-                                    <li><a href="product-details">Product Details</a></li>
-                                    <li><a href="cart">Cart</a></li>
-                                    <li><a href="checkout">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul class="sub-menu">
-                                    <li class="dropdown">
-                                        <a href="#">News grid</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid">No Sidebar</a></li>
-                                            <li><a href="blog-grid-left">Left Sidebar</a></li>
-                                            <li><a href="blog-grid-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">News list</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-list">No Sidebar</a></li>
-                                            <li><a href="blog-list-left">Left Sidebar</a></li>
-                                            <li><a href="blog-list-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="blog-carousel">News Carousel</a></li>
-                                    <li class="dropdown">
-                                        <a href="#">News Details</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-details">No Sidebar</a></li>
-                                            <li><a href="blog-details-left">Left Sidebar</a></li>
-                                            <li><a href="blog-details-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact">Contact</a>
-                            </li>
-                        </ul>
-                    </nav><!-- /.main-header__nav -->
-                    <div class="main-header__right">
-                        <div class="mobile-nav__btn mobile-nav__toggler">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div><!-- /.mobile-nav__toggler -->
-                        <a href="#" class="search-toggler main-header__search">
-                            <i class="icon-search" aria-hidden="true"></i>
-                            <span class="sr-only">Search</span>
-                        </a><!-- /.search-toggler -->
-                        <a href="cart" class="main-header__cart">
-                            <i class="icon-cart" aria-hidden="true"></i>
-                            <span class="sr-only">Cart</span>
-                        </a><!-- /.cart-toggler -->
-                        <div class="main-header__call">
-                            <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
-                            <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+91 9234377577</a>
+                <!-- Contact Form -->
+                <div class="col-xl-8">
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
                         </div>
-                    </div><!-- /.main-header__right -->
-                </div><!-- /.main-header__inner -->
-            </div><!-- /.container-fluid -->
-        </header><!-- /.main-header -->
-        <section class="page-header">
-            <div class="page-header__bg"></div>
-            <div class="page-header__layer"></div>
-            <!-- /.page-header__bg -->
-            <div class="container">
-                <h2 class="page-header__title bw-split-in-left">Contact Us</h2><!-- /.page-title -->
-                <ul class="ienet-breadcrumb list-unstyled">
-                    <li><a href="index">Home</a></li>
-                    <li><span>Contact</span></li>
-                </ul><!-- /.thm-breadcrumb list-unstyled -->
-            </div><!-- /.container -->
-        </section><!-- /.page-header -->
-
-        <section class="contact-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4">
-                        <ul class="list-unstyled contact-one__info">
-                            <li class="contact-one__info__item">
-                                <div class="contact-one__info__icon">
-                                    <i class="icon-maps-and-flags"></i>
-                                </div><!-- /.contact-one__info__icon -->
-                                <div class="contact-one__info__content">
-                                    <h4 class="contact-one__info__title">Mailing Address</h4>
-                                    <!-- /.contact-one__info__title -->
-                                    <p class="contact-one__info__text">901 N Pitt Str., Suite 170 <br>Alexandria, USA
-                                    </p><!-- /.contact-one__info__text -->
-                                </div><!-- /.contact-one__info__content -->
-                            </li>
-                            <li class="contact-one__info__item">
-                                <div class="contact-one__info__icon">
-                                    <i class="icon-telephone"></i>
-                                </div><!-- /.contact-one__info__icon -->
-                                <div class="contact-one__info__content">
-                                    <h4 class="contact-one__info__title">Quick Contact</h4>
-                                    <!-- /.contact-one__info__title -->
-                                    <p class="contact-one__info__text">
-                                        <a href="tel:+910256201003">+91 0256 201 003</a><br>
-                                        <a href="tel:+410003556904">+41 0003 5569 04</a>
-                                    </p><!-- /.contact-one__info__text -->
-                                </div><!-- /.contact-one__info__content -->
-                            </li>
-                            <li class="contact-one__info__item">
-                                <div class="contact-one__info__icon">
-                                    <i class="icon-mail"></i>
-                                </div><!-- /.contact-one__info__icon -->
-                                <div class="contact-one__info__content">
-                                    <h4 class="contact-one__info__title">Support Email</h4>
-                                    <!-- /.contact-one__info__title -->
-                                    <p class="contact-one__info__text">
-                                        <a href="mailto:contact@ienetsupport.com">contact@ienetsupport.com</a><br>
-                                        <a href="mailto:info@ienet.com">info@ienet.com</a>
-                                    </p><!-- /.contact-one__info__text -->
-                                </div><!-- /.contact-one__info__content -->
-                            </li>
-                        </ul><!-- /.list-unstyled -->
-                    </div><!-- /.col-xl-4 -->
-                    <div class="col-xl-8">
-                        <form class="contact-one__form contact-form-validated form-one wow fadeInUp"
-                            data-wow-duration="1500ms" action="inc/sendemail.php">
-                            <div class="contact-one__form__bg"
-                                style="background-image: url(assets/images/shapes/contact-bg-1.png);"></div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="contact-one__form__image">
-                                        <img src="assets/images/resources/contact-1-1.jpg" alt="ienet">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-one__group">
-                                        <div class="form-one__control form-one__control--full">
-                                            <input type="text" name="name" placeholder="Name">
-                                        </div><!-- /.form-one__control form-one__control--full -->
-                                        <div class="form-one__control form-one__control--full">
-                                            <input type="email" name="email" placeholder="Email Address">
-                                        </div><!-- /.form-one__control form-one__control--full -->
-                                        <div class="form-one__control form-one__control--full">
-                                            <div class="form-one__control__select">
-                                                <label class="sr-only" for="language-select">Select Subject</label>
-                                                <!-- /#language-select.sr-only -->
-                                                <select class="selectpicker" id="language-select">
-                                                    <option value="Select service">Select Subject</option>
-                                                    <option value="Select service 01">Select Subject 01</option>
-                                                    <option value="Select service 02">Select Subject 02</option>
-                                                </select>
-                                            </div><!-- /.main-menu__language -->
-                                        </div><!-- /.form-one__control form-one__control--full -->
-                                        <div class="form-one__control form-one__control--full">
-                                            <textarea name="message" placeholder="Write Message. . ."></textarea><!-- /Message  -->
-                                        </div><!-- /.form-one__control -->
-                                        <div class="form-one__control form-one__control--full">
-                                            <button type="submit" class="ienet-btn"><span>Get In Touch<span
-                                                        class="ienet-btn__icon"><i
-                                                            class="fas fa-chevron-right"></i></span></span></button>
-                                        </div><!-- /.form-one__control -->
-                                    </div><!-- /.form-one__group -->
+                    @endif
+                    <form class="contact-one__form contact-form-validated form-one wow fadeInUp" data-wow-duration="1500ms"
+                        method="POST" action="{{ route('contact.send') }}">
+                        @csrf
+                        <div class="contact-one__form__bg"
+                            style="background-image: url(assets/images/shapes/contact-bg-1.png);"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-one__form__image">
+                                    <img src="assets/images/resources/contact_us.png" alt="ienet">
                                 </div>
                             </div>
-                        </form>
-                    </div><!-- /.col-xl-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.contact-one -->
-
-        <section class="google-map">
-            <div class="google-map google-map__@@extraClassName">
-                <iframe title="template google map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                    class="map__@@extraClassName" allowfullscreen></iframe>
-            </div>
-            <!-- /.google-map -->
-        </section><!-- /.contact-map -->
-
-        <footer class="main-footer background-black">
-            <div class="main-footer__bg background-black"
-                style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
-            <div class="main-footer__shape-one"
-                style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-            <div class="main-footer__shape-two"
-                style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
-            <!-- /.main-footer__bg -->
-            <div class="main-footer__top">
-                <div class="container">
-                    <div class="main-footer__top__inner">
-                        <ul class="list-unstyled main-footer__top__info">
-                            <li class="main-footer__top__info__item">
-                                <span class="main-footer__top__info__icon"><i class="icon-mail"></i></span>
-                                <a href="mailto:info@ienetmail.com">info@ienetmail.com</a>
-                            </li>
-                            <li class="main-footer__top__info__item">
-                                <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                                1211 Madison Ave, New York, NY
-                            </li>
-                        </ul><!-- /.list-unstyled topbar-one__info -->
-                        <div class="main-footer__top__right">
-                            <div class="main-footer__top__social">
-
-                                <a href="https://facebook.com">
-                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                                <a href="https://twitter.com">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                                <a href="https://instagram.com">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                                <a href="https://www.youtube.com/">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">Youtube</span>
-                                </a>
-                            </div><!-- /.main-footer__top__social -->
-                        </div><!-- /.main-footer__top__right -->
-                    </div><!-- /.main-footer__top__inner -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__top -->
-            <div class="container">
-                <div class="main-footer__middle">
-                    <a href="index">
-                        <img src="{{asset('assets/images/logo_wifi.png')}}" height="80" alt="Ienet HTML Template">
-                    </a>
-                    <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
-                        <span class="footer-widget__newsletter__icon"><i class="icon-mail"></i></span>
-                        <input type="text" name="EMAIL" placeholder="Enter Email Address">
-                        <button type="submit" class="ienet-btn"><span>Subscribe Now</span></button>
-                        <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                    </form><!-- /.footer-widget__newsletter mc-form -->
-                    <div class="main-footer__middle__call">
-                        <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
-                        <div class="main-footer__middle__call__title">Call Emergency</div>
-                        <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
-                    </div>
-                </div><!-- /.main-footer__middle -->
-            </div><!-- /.container -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-xl-3">
-                        <div class="footer-widget footer-widget--about">
-                            <h2 class="footer-widget__title">About Ienet</h2><!-- /.footer-widget__title -->
-                            <p class="footer-widget__text">
-                                There are two main types: solar photovoltaic (PV) systems for electricity generation and
-                            </p>
-                            <a href="about" class="ienet-btn"><span>Get In Touch<span class="ienet-btn__icon"><i
-                                            class="fas fa-chevron-right"></i></span></span></a>
+                            <div class="col-md-6">
+                                <div class="form-one__group">
+                                    <div class="form-one__control form-one__control--full">
+                                        <input type="text" name="name" placeholder="Name" required>
+                                    </div>
+                                    <div class="form-one__control form-one__control--full">
+                                        <input type="email" name="email" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="form-one__control form-one__control--full">
+                                        <div class="form-one__control__select custom-select-wrapper">
+                                            <select name="subject" class="custom-select" required>
+                                                <option value="">Select Subject</option>
+                                                <option value="General Inquiry">General Inquiry</option>
+                                                <option value="Support">Support</option>
+                                                <option value="Feedback">Feedback</option>
+                                            </select>
+                                            <span class="custom-arrow"><i class="fas fa-chevron-down"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-one__control form-one__control--full">
+                                        <textarea name="message" placeholder="Write Message..." required></textarea>
+                                    </div>
+                                    <div class="form-one__control form-one__control--full">
+                                        <button type="submit" class="ienet-btn">
+                                            <span>Get In Touch
+                                                <span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div><!-- /.col-md-6 -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="footer-widget footer-widget--links">
-                            <h2 class="footer-widget__title">our services</h2><!-- /.footer-widget__title -->
-                            <ul class="list-unstyled footer-widget__links">
-                                <li><a href="service-d-broadband">Fiber & Broadband</a></li>
-                                <li><a href="service-d-cyber-security">Cyber Security</a></li>
-                                <li><a href="service-d-tv">Amazon Box TV</a></li>
-                                <li><a href="service-d-iptv">Smart IPTV</a></li>
-                                <li><a href="service-d-connectivity">Smart Connectivity</a></li>
-                            </ul><!-- /.list-unstyled footer-widget__links -->
-                        </div><!-- /.footer-widget -->
-                    </div><!-- /.col-md-6 -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="footer-widget footer-widget--links">
-                            <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
-                            <ul class="list-unstyled footer-widget__links">
-                                <li><a href="about">About Us</a></li>
-                                <li><a href="movie">Our Movie</a></li>
-                                <li><a href="blog-grid-right">News & Blog</a></li>
-                                <li><a href="faq">FAQ</a></li>
-                                <li><a href="contact">Contacts</a></li>
-                            </ul><!-- /.list-unstyled footer-widget__links -->
-                        </div><!-- /.footer-widget -->
-                    </div><!-- /.col-md-6 -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="footer-widget footer-widget--gallery">
-                            <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
-                            <div class="footer-widget__gallery">
-                                <a href="gallery" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-1.jpg" alt="ienet">
-                                </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-2.jpg" alt="ienet">
-                                </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-3.jpg" alt="ienet">
-                                </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-4.jpg" alt="ienet">
-                                </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-5.jpg" alt="ienet">
-                                </a><!-- /.footer-widget__gallery__link -->
-                                <a href="gallery" class="footer-widget__gallery__link">
-                                    <img src="assets/images/gallery/fg-6.jpg" alt="ienet">
-                                </a><!-- /.footer-widget__gallery__link -->
-                            </div><!-- /.footer-widget__gallery -->
-                        </div>
-                    </div><!-- /.col-md-6 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-            <div class="main-footer__bottom">
-                <div class="container">
-                    <div class="main-footer__bottom__inner">
-                        <p class="main-footer__copyright">
-                            &copy; Copyright <span class="dynamic-year"></span> by Ienet HTML Template.
-                        </p>
-                    </div><!-- /.main-footer__inner -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__bottom -->
-        </footer><!-- /.main-footer -->
+                    </form>
+                </div>
 
-    </div><!-- /.page-wrapper -->
-
-
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index" aria-label="logo image"><img src="{{asset('assets/images/logo_wifi.png')}}" width="155"
-                        alt="" /></a>
             </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@ienet.com">needhelp@ienet.com</a>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__social">
-
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-                <a href="https://www.youtube.com/">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span>
-                </a>
-            </div><!-- /.mobile-nav__social -->
         </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form role="search" method="get" class="search-popup__form" action="#">
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="ienet-btn">
-                    <span><i class="icon-search"></i></span>
-                </button>
-            </form>
+    </section>
+
+    <section class="google-map">
+        <div class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29096.875954901167!2d86.62117333156935!3d24.27290582140401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSapaha%20Near%20TTC%20Ground%2C%20Madhupur%2C%20815353!5e0!3m2!1sen!2sin!4v1767632893103!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-    <!-- Sidebar One Start -->
-    <aside class="sidebar-one">
-        <div class="sidebar-one__overlay"></div><!-- /.siderbar-ovarlay -->
-        <div class="sidebar-one__content">
-            <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
-            <div class="sidebar-one__logo">
-                <a href="index" aria-label="logo image"><img src="{{asset('assets/images/logo_wifi.png')}}" alt="Ienet HTML"
-                        height="80"></a>
-            </div><!-- /.sidebar-one__logo-box -->
-            <p class="sidebar-one__text">
-                Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
-                puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
-            </p>
-            <h4 class="sidebar-one__title">Contact Info:</h4>
-            <ul class="sidebar-one__info">
-                <li>
-                    <span class="fas fa-map-marker-alt"></span>
-                    27, Dhaka London City Dhaka, Bangladesh
-                </li>
-                <li>
-                    <span class="fas fa-clock"></span>
-                    Mon - Fri: 8.00 am. - 6.00 pm.
-                </li>
-                <li>
-                    <span class="fas fa-envelope"></span>
-                    <a href="tel:+9156980036420">+91 5698 0036 420</a>
-                </li>
-            </ul>
-            <div class="sidebar-one__social">
+    </section>
 
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-                <a href="https://www.youtube.com/">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span>
-                </a>
-            </div><!-- /sidebar-one__socila -->
-            <h4 class="sidebar-one__title">Newsletter:</h4>
-            <form action="#" data-url="MAILCHIMP_FORM_URL" class="sidebar-one__newsletter mc-form">
-                <input type="text" name="EMAIL" placeholder="Email address">
-                <button type="submit" class="fas fa-paper-plane">
-                    <span class="sr-only">submit</span><!-- /.sr-only -->
-                </button>
-            </form><!-- /.footer-widget__newsletter mc-form -->
-        </div><!-- /.sidebar__content -->
-    </aside>
-    <!-- Sidebar One Start -->
+    <!-- Optional: Custom select CSS -->
+    <style>
+        .custom-select-wrapper {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
 
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-        <span class="scroll-to-top__text">back top</span>
-        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-    </a>
+        .custom-select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 100%;
+            padding: 12px 40px 12px 15px;
+            font-size: 14px;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #fff;
+            cursor: pointer;
+            transition: 0.3s all;
+        }
 
+        .custom-select:focus {
+            outline: none;
+            border-color: #e60000;
+            box-shadow: 0 0 6px rgba(230, 0, 0, 0.4);
+        }
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/slick/slick.min.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <!-- gsap js -->
-    <script src="assets/vendors/gsap/gsap.js"></script>
-    <script src="assets/vendors/gsap/scrolltrigger.min.js"></script>
-    <script src="assets/vendors/gsap/splittext.min.js"></script>
-    <script src="assets/vendors/gsap/ienet-split.js"></script>
-    <!-- template js -->
-    <script src="assets/js/ienet.js"></script>
-</body>
-
-</html>
+        .custom-arrow {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            pointer-events: none;
+            transform: translateY(-50%);
+            color: #e60000;
+            font-size: 14px;
+        }
+    </style>
+@endsection
