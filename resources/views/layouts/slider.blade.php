@@ -79,6 +79,7 @@
             </div>
         </div>
 
+
         <!-- SLIDE 2 -->
         <div class="item">
             <div class="main-slider-one__item">
@@ -103,14 +104,14 @@
                     <div class="main-slider-one__btn">
                         <a href="services" class="ienet-btn main-slider-one__btn__first">
                             <span>Our Services
-                                <span class="ienet-btn__icon"><i class="fas fa-chevron-right"></i></span>
+                                <span class="ienet-btn__icon"><i class="fas fa-map-marker-alt"></i></span>
                             </span>
                         </a>
 
                         <a href="plans-pricing" class="ienet-btn main-slider-one__btn__last">
                             <span>
                                 <span class="ienet-btn__icon ienet-btn__icon--left">
-                                    <i class="fas fa-calendar-check"></i>
+                                    <i class="fas fa-credit-card"></i>
                                 </span>
                                 View Plans
                             </span>
@@ -127,8 +128,8 @@
                     </div>
                 </div>
 
-                <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);"></div>
+                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/bg2.png);">
+                </div>
             </div>
         </div>
 

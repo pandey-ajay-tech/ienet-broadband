@@ -2,6 +2,53 @@
 @section('title')
     SERVICES
 @endsection
+<!-- Bootstrap (optional but recommended) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<style>
+    /* Safety fixes */
+    .service-page {
+        padding: 60px 0;
+    }
+
+    .service-page__item {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        text-align: center;
+    }
+
+    .service-page__item__image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .service-page__item__content {
+        padding: 20px;
+    }
+
+    .service-page__item__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .service-page__item__icon span {
+        font-size: 30px;
+        color: #e60000;
+    }
+
+    /* Owl must be visible */
+    .owl-carousel {
+        display: block !important;
+    }
+</style>
+
 <style>
     .service-dropdown {
         display: none;
@@ -9,9 +56,10 @@
     }
 
     .service-details {
-    padding: 120px 0!important;
-    position: relative;
-}
+        /* padding: 120px 0 !important; */
+        position: relative;
+    }
+
     .service-card {
         background: #ffffff;
         border-left: 4px solid #e60000;
@@ -127,48 +175,45 @@
     </section>
     <!-- Service End -->
 
+
     <section class="service-page">
         <div class="container">
-            <div class="service-page__carousel ienet-owl__carousel ienet-owl__carousel--with-shadow ienet-owl__carousel--basic-nav owl-carousel owl-theme"
-                data-owl-options='{
-				"items": 1,
-				"margin": 30,
-				"loop": false,
-				"smartSpeed": 700,
-				"nav": false,
-				"navText": ["<span class=\"icon-left-chevron\"></span>","<span class=\"icon-right-chevron\"></span>"],
-				"dots": true,
-				"autoplay": false,
-				"responsive": {
-					"0": {
-						"items": 1
-					},
-					"768": {
-						"items": 2
-					},
-					"1200": {
-						"items": 3
-					}
-				}
-			}'>
-                {{-- <div class="row"> --}}
-                <div class="col-md-12">
-                    <div class="sec-title text-center">
 
+            <!-- SECTION TITLE (OUTSIDE CAROUSEL) -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="sec-title text-center">
                         <h6 class="sec-title__tagline bw-split-in-right">
                             <span class="sec-title__tagline__left-border"></span>
                             Exceptional Solutions
                             <span class="sec-title__tagline__right-border"></span>
-                        </h6><!-- /.sec-title__tagline -->
+                        </h6>
 
                         <h3 class="sec-title__title bw-split-in-left">
                             Delivering Innovative<br>
                             <span>Services</span> You Can Trust
-                        </h3><!-- /.sec-title__title -->
-                    </div><!-- /.sec-title -->
-                    <!-- section-title -->
+                        </h3>
+                    </div>
                 </div>
-                {{-- </div> --}}
+            </div>
+
+            <!-- OWL CAROUSEL -->
+            <div class="service-page__carousel owl-carousel owl-theme"
+                data-owl-options='{
+                "items": 1,
+                "margin": 20,
+                "loop": true,
+                "smartSpeed": 700,
+                "nav": false,
+                "dots": true,
+                "autoplay": true,
+                "responsive": {
+                    "0": { "items": 1 },
+                    "576": { "items": 1 },
+                    "768": { "items": 2 },
+                    "1200": { "items": 3 }
+                }
+            }'>
 
                 <div class="item">
                     <div class="service-page__item">
@@ -242,9 +287,12 @@
                         </div>
                     </div>
                 </div><!-- item -->
+
+                <!-- Repeat ONLY .item blocks -->
             </div>
-        </div><!-- /.container -->
-    </section><!-- /.service-page -->
+
+        </div>
+    </section>
 
     <section class="service-details">
         <div class="container">
@@ -525,16 +573,17 @@
 
                         <div class="service-sidebar__single ">
                             <div class="service-sidebar__contact text-center"
-                                style="background-image: url(assets/images/backgrounds/contact.png);">
+                                style="background-image: url(assets/images/resources/service-contact-bg-1.png);">
                                 <div class="service-sidebar__contact__icon">
                                     <i class="icon-telephone"></i>
                                 </div><!-- /.service-sidebar__contact__icon -->
-                                <p class="service-sidebar__contact__number">
-                                    <span>Call Emergency</span>
-                                    <a href="tel:+88012365499">+91 9234377577</a>
-                                </p><!-- /.service-sidebar__contact__number -->
+                                <p class="service-sidebar__contact__number" style="color:#000;">
+                                    <span style="color:#000;">Call Emergency</span>
+                                    <a href="tel:+919234377577">+91 9234377577</a>
+                                </p>
                             </div><!-- /.service-sidebar__contact -->
                         </div>
+
                     </div><!-- /.sidebar -->
                 </div><!-- /.col-md-12 col-lg-4 -->
             </div><!-- /.row -->
@@ -555,6 +604,36 @@
 
                 // Toggle current dropdown
                 dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+    <!-- jQuery (MUST COME FIRST) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.service-page__carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                smartSpeed: 700,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1200: {
+                        items: 3
+                    }
+                }
             });
         });
     </script>

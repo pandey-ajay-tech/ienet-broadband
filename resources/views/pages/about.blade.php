@@ -3,20 +3,21 @@
     About Us
 @endsection
 
+{{-- Breadcrump --}}
 @section('content')
     <section class="page-header">
         <div class="page-header__bg"></div>
         <div class="page-header__layer"></div>
-        <!-- /.page-header__bg -->
         <div class="container">
-            <h2 class="page-header__title bw-split-in-left">ABOUT US</h2><!-- /.page-title -->
+            <h2 class="page-header__title bw-split-in-left">ABOUT US</h2>
             <ul class="ienet-breadcrumb list-unstyled">
                 <li><a href="index">HOME </a></li>
                 <li><span>ABOUT US</span></li>
-            </ul><!-- /.thm-breadcrumb list-unstyled -->
-        </div><!-- /.container -->
-    </section><!-- /.page-header -->
+            </ul>
+        </div>
+    </section>
 
+    {{-- About Section --}}
     <section class="about-two about-two--about-page">
         <div class="container">
             <div class="row">
@@ -139,9 +140,10 @@
 
                 <div class="col-xl-6">
                     <div class="cta-two__image">
-                        <img src="assets/images/resources/270_300.png" alt="IPTV Channels">
+                        <img src="assets/images/resources/270_300.png" alt="IPTV Channels" class="img-fluid">
                     </div>
                 </div>
+
 
             </div>
         </div>
@@ -150,28 +152,28 @@
     {{-- WHY CHOOSE US --}}
     <section class="about-two">
         <div class="container">
-            <div class="row text-center">
+            <div class="row justify-content-center text-center g-4">
 
-                <div class="col-md-4">
-                    <div class="about-two__content__box">
-                        <i class="fas fa-gauge-high fa-3x"></i>
-                        <h5>High-Speed Broadband</h5>
+                <div class="col-12 col-md-4">
+                    <div class="about-card">
+                        <i class="fas fa-gauge-high icon"></i>
+                        <h5 class="mt-3">High-Speed Broadband</h5>
                         <p>Plans starting from 30 Mbps to 100 Mbps</p>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="about-two__content__box">
-                        <i class="fas fa-headset fa-3x"></i>
-                        <h5>24×7 Support</h5>
+                <div class="col-12 col-md-4">
+                    <div class="about-card">
+                        <i class="fas fa-headset icon"></i>
+                        <h5 class="mt-3">24×7 Support</h5>
                         <p>Quick response & reliable customer assistance</p>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="about-two__content__box">
-                        <i class="fas fa-shield-halved fa-3x"></i>
-                        <h5>Trusted Network</h5>
+                <div class="col-12 col-md-4">
+                    <div class="about-card">
+                        <i class="fas fa-shield-halved icon"></i>
+                        <h5 class="mt-3">Trusted Network</h5>
                         <p>Stable & secure internet connectivity</p>
                     </div>
                 </div>

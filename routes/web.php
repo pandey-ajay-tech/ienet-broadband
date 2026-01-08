@@ -7,6 +7,7 @@ use App\Http\Controllers\WebController;
 
 
 Route::get('/', [WebController::class, 'index'])->name('/');
+
 Route::get('/about-us', [WebController::class, 'about'])->name('front.about-us');
 Route::get('/contact-us', [WebController::class, 'show'])->name('front.contact-us');
 Route::get('/services', [WebController::class, 'services'])->name('services');
@@ -20,3 +21,7 @@ Route::get('/services', [WebController::class, 'service'])->name('service');
 Route::get('/terms', [WebController::class, 'terms'])->name('terms');
 Route::get('/privacy', [WebController::class, 'privacy'])->name('privacy');
 Route::post('/contact/send', [WebController::class, 'send_query'])->name('contact.send');
+Route::fallback(function () {
+    return response()
+        ->view('pages.404', [], 404);
+});

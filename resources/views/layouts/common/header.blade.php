@@ -59,13 +59,13 @@
                         <ul class="main-menu__list">
 
 
-                            <li class="dropdown">
+                            <li class="">
                                 <a href="{{ route('/') }}">Home</a>
                             </li>
                             <li class="current">
                                 <a href="{{route('front.about-us')}}">About</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="">
                                 <a href="plans-pricing">Plans & Pricing </a>
                                 {{-- <ul>
                                     <li class="dropdown">
@@ -102,7 +102,7 @@
                                     <li><a href="404">404 Error</a></li>
                                 </ul> --}}
                             </li>
-                             <li class="dropdown">
+                             <li class="">
                                 <a href="{{ route('service') }}">Services</a>
 
                             </li>
