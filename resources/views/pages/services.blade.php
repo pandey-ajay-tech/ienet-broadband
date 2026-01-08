@@ -14,6 +14,9 @@
     .service-page {
         padding: 60px 0;
     }
+    .faq-one__accordion{
+        padding-bottom: 28px!important;
+    }
 
     .service-page__item {
         background: #fff;

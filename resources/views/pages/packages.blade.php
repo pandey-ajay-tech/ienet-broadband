@@ -26,7 +26,7 @@
                         <div class="packages-two__card__inner">
                             <div class="packages-two__card__bg"></div>
                             <div class="packages-two__card__hover"
-                                style="background-image:url(assets/images/resources/new_design.png);"></div>
+                                style="background-image:url(assets/images/resources/package-2-3.jpg);"></div>
 
                             <div class="packages-two__card__price">₹349 <span>/ Month</span></div>
                             <h3 class="packages-two__card__title">Home Starter Plan</h3>
@@ -51,7 +51,7 @@
                         <div class="packages-two__card__inner">
                             <div class="packages-two__card__bg"></div>
                             <div class="packages-two__card__hover"
-                                style="background-image:url(assets/images/resources/new_design.png);"></div>
+                                style="background-image:url(assets/images/resources/package-2-2.jpg);"></div>
 
                             <div class="packages-two__card__price">₹449 <span>/ Month</span></div>
                             <h3 class="packages-two__card__title">Smart Home Plan</h3>
@@ -76,7 +76,7 @@
                         <div class="packages-two__card__inner">
                             <div class="packages-two__card__bg"></div>
                             <div class="packages-two__card__hover"
-                                style="background-image:url(assets/images/resources/new_design.png);"></div>
+                                style="background-image:url(assets/images/resources/package-2-1.jpg);"></div>
 
                             <div class="packages-two__card__price">₹649 <span>/ Month</span></div>
                             <h3 class="packages-two__card__title">Ultra Speed Plan</h3>

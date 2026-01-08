@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/bg2.png);">
+                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);">
                 </div>
             </div>
         </div>
