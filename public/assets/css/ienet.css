@@ -9625,7 +9625,9 @@ body.megamenu-popup-active .mobile-nav__content {
     width: 100%;
     height: 100%;
     content: "";
-    background-color: rgba(var(--ienet-black-rgb, 37, 20, 68), 0.8);
+    /* background-color: rgba(var(--ienet-black-rgb, 37, 20, 68), 0.8); */
+    background-color: rgb(38 37 41 / 89%);
+
 }
 .packages-two__card:hover .packages-two__card__hover {
     visibility: visible;
