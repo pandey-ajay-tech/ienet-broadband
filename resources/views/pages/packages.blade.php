@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    Home Page
+    Pricing Plan | SpeedNET Broadband
 @endsection
 @section('content')
     <section class="page-header">
