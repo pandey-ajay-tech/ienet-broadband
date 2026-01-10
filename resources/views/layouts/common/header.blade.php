@@ -59,13 +59,13 @@
                         <ul class="main-menu__list">
 
 
-                            <li class="">
+                            <li class="{{ request()->routeIs('/') ? 'current' : '' }}">
                                 <a href="{{ route('/') }}">Home</a>
                             </li>
-                            <li class="current">
-                                <a href="{{route('front.about-us')}}">About</a>
+                            <li class="{{ request()->routeIs('front.about-us') ? 'current' : '' }}">
+                                <a href="{{ route('front.about-us') }}">About</a>
                             </li>
-                            <li class="">
+                            <li class="{{ request()->is('plans-pricing') ? 'current' : '' }}">
                                 <a href="plans-pricing">Plans & Pricing </a>
                                 {{-- <ul>
                                     <li class="dropdown">
@@ -102,7 +102,8 @@
                                     <li><a href="404">404 Error</a></li>
                                 </ul> --}}
                             </li>
-                             <li class="">
+
+                            <li class="{{ request()->routeIs('service') ? 'current' : '' }}">
                                 <a href="{{ route('service') }}">Services</a>
 
                             </li>
@@ -154,7 +155,8 @@
                                     </li>
                                 </ul>
                             </li> --}}
-                            <li>
+
+                            <li class="{{ request()->is('contact') ? 'current' : '' }}">
                                 <a href="contact">Contact</a>
                             </li>
                         </ul>
