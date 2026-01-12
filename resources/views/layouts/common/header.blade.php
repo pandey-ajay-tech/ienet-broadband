@@ -51,7 +51,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="{{ route('/') }}">
-                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="80">
+                            <img src="{{ asset('assets/images/logo_wifi.png') }}" alt="Ienet HTML" height="100">
                         </a>
                     </div><!-- /.main-header__logo -->
                     <a href="#" class="main-header__toggler"><span class="icon-menu"></span></a>

@@ -51,7 +51,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="{{ route('/') }}">
-                            <img src="{{ asset('assets/images/logo_black.png') }}" alt="Ienet HTML" height="80">
+                            <img src="{{ asset('assets/images/logo_black.png') }}" alt="Ienet HTML" height="100">
                             {{-- <img src="{{ asset('assets/images/74.png') }}" alt="Ienet HTML" height="80"> --}}
                         </a>
                     </div><!-- /.main-header__logo -->
@@ -67,7 +67,7 @@
                             </li>
                             <li class="">
                                 <a href="plans-pricing">Plans & Pricing </a>
-                                 <!-- <ul>
+                                <!-- <ul>
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
                                         <ul class="sub-menu">

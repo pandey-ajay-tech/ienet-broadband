@@ -495,7 +495,7 @@
             <div class="container">
                 <div class="main-footer__middle">
                     <a href="index">
-                        <img src="{{ asset('assets/images/logo_wifi.png') }}" height="80"
+                        <img src="{{ asset('assets/images/logo_wifi.png') }}" height="100"
                             alt="Ienet HTML Template">
                     </a>
                     <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
@@ -657,7 +657,7 @@
             <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
                 <a href="index" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
-                        alt="Ienet HTML" height="80"></a>
+                        alt="Ienet HTML" height="100"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ

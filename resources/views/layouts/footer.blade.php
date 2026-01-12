@@ -44,7 +44,7 @@
     <div class="container">
         <div class="main-footer__middle">
             <a href="index.html">
-                <img src="{{ asset('assets/images/logo_black.png') }}" height="80" alt="Ienet HTML Template">
+                <img src="{{ asset('assets/images/logo_black.png') }}" height="100" alt="Ienet HTML Template">
             </a>
 
             <div class="main-footer__middle__call">
@@ -210,7 +210,7 @@
         <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
             <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_black.png') }}"
-                    alt="Ienet HTML" height="80"></a>
+                    alt="Ienet HTML" height="100"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
             Experience lightning-fast internet with SpeedNET Broadband! Stay connected seamlessly for work, streaming,
