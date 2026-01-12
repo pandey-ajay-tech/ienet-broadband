@@ -2,12 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
+use Illuminate\Support\Facades\Artisan;
 
+Route::get('/clear-cache', function () {
+    Artisan::call('optimize:clear');
 
-
-
+    return response()->view('cache-cleared');
+});
 Route::get('/', [WebController::class, 'index'])->name('/');
-
 Route::get('/about-us', [WebController::class, 'about'])->name('front.about-us');
 Route::get('/contact-us', [WebController::class, 'show'])->name('front.contact-us');
 Route::get('/services', [WebController::class, 'services'])->name('services');

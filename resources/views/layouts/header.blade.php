@@ -20,6 +20,11 @@
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
                             Sapaha Near TTC Ground, Madhupur, 815353
                         </li>
+                        <li class="topbar-one__info__item">
+                            <span class="topbar-one__info__icon"> | </span>
+
+                            <a href="{{ url('/clear-cache') }}">Clear Cache</a>
+                        </li>
                     </ul><!-- /.list-unstyled topbar-one__info -->
                     {{-- <div class="topbar-one__right">
                         <div class="topbar-one__social">
