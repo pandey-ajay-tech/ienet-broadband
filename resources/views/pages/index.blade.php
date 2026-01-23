@@ -53,7 +53,7 @@
                             <li><span class="fas fa-check"></span>Quick Support & Easy Recharge</li>
                         </ul>
 
-                        <a href="about" class="ienet-btn">
+                        <a href="{{route('front.about-us')}}" class="ienet-btn">
                             <span>
                                 More About Us
                                 <span class="ienet-btn__icon">
@@ -139,7 +139,7 @@
                 </div>
 
                 <div class="col-md-4 text-end">
-                    <a href="packages" class="ienet-btn">
+                    <a href="{{route('plans-pricing')}}" class="ienet-btn">
                         <span>
                             View All Plans
                             <span class="ienet-btn__icon">
@@ -169,7 +169,7 @@
                             <li><span class="fas fa-check"></span>24×7 Customer Support</li>
                         </ul>
 
-                        <a class="ienet-btn w-100" href="https://user.snbroadband.in/book-connection">
+                        <a class="ienet-btn w-100" style="margin-left: -14px;" href="https://user.snbroadband.in/book-connection">
                             <span>Book Now</span>
                         </a>
                     </div>
@@ -190,7 +190,7 @@
                             <li><span class="fas fa-check"></span>Strong Wi-Fi Coverage</li>
                         </ul>
 
-                        <a class="ienet-btn w-100" href="https://user.snbroadband.in/book-connection">
+                        <a class="ienet-btn w-100" style="margin-left: -14px;" href="https://user.snbroadband.in/book-connection">
                             <span>Book Now</span>
                         </a>
                     </div>
@@ -211,7 +211,7 @@
                             <li><span class="fas fa-check"></span>Priority Technical Support</li>
                         </ul>
 
-                        <a class="ienet-btn w-100" href="https://user.snbroadband.in/book-connection">
+                        <a class="ienet-btn w-100" style="margin-left: -14px;" href="https://user.snbroadband.in/book-connection">
                             <span>Book Now</span>
                         </a>
                     </div>

@@ -43,7 +43,7 @@
     </div><!-- /.main-footer__top -->
     <div class="container">
         <div class="main-footer__middle">
-            <a href="index.html">
+            <a href="#">
                 <img src="{{ asset('assets/images/logo_black.png') }}" height="100" alt="Ienet HTML Template">
             </a>
 
@@ -104,22 +104,22 @@
                 <div class="footer-widget footer-widget--gallery">
                     <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
                     <div class="footer-widget__gallery">
-                        <a href="gallery.html" class="footer-widget__gallery__link">
+                        <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-1.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
-                        <a href="gallery.html" class="footer-widget__gallery__link">
+                        <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-2.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
-                        <a href="gallery.html" class="footer-widget__gallery__link">
+                        <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-3.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
-                        <a href="gallery.html" class="footer-widget__gallery__link">
+                        <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-4.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
-                        <a href="gallery.html" class="footer-widget__gallery__link">
+                        <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-5.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
-                        <a href="gallery.html" class="footer-widget__gallery__link">
+                        <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-6.jpg') }}" alt="ienet">
                         </a><!-- /.footer-widget__gallery__link -->
                     </div><!-- /.footer-widget__gallery -->
@@ -149,7 +149,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
+            <a href="#" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
                     width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->
@@ -209,7 +209,7 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="icon-plus"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo_black.png') }}"
+            <a href="#" aria-label="logo image"><img src="{{ asset('assets/images/logo_black.png') }}"
                     alt="Ienet HTML" height="100"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
