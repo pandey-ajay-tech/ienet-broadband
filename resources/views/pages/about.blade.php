@@ -5,180 +5,130 @@
 
 {{-- Breadcrump --}}
 @section('content')
-    <section class="page-header">
+{{-- ABOUT PAGE CONTENT --}}
+
+<style>
+/* Card hover effect */
+.card-animate {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.card-animate:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Optional: fade-in on scroll effect */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+}
+
+/* Staggered animation delay for each card */
+.fade-in-up:nth-child(1) { animation-delay: 0.2s; }
+.fade-in-up:nth-child(2) { animation-delay: 0.4s; }
+.fade-in-up:nth-child(3) { animation-delay: 0.6s; }
+</style>
+
+<!-- <section class="page-header">
         <div class="page-header__bg"></div>
         <div class="page-header__layer"></div>
         <div class="container">
-            <h2 class="page-header__title bw-split-in-left">ABOUT US</h2>
+            <h2 class="page-header__title bw-split-in-left" style="perspective: 400px;"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; transform: translate3d(-4.7857px, 0px, 0px); opacity: 0.7607;">A</div><div style="position: relative; display: inline-block; transform: translate3d(-5.1173px, 0px, 0px); opacity: 0.7441;">B</div><div style="position: relative; display: inline-block; transform: translate3d(-5.4601px, 0px, 0px); opacity: 0.727;">O</div><div style="position: relative; display: inline-block; transform: translate3d(-5.814px, 0px, 0px); opacity: 0.7093;">U</div><div style="position: relative; display: inline-block; transform: translate3d(-6.179px, 0px, 0px); opacity: 0.691;">T</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; transform: translate3d(-6.5551px, 0px, 0px); opacity: 0.6722;">U</div><div style="position: relative; display: inline-block; transform: translate3d(-6.9423px, 0px, 0px); opacity: 0.6529;">S</div></div></h2>
             <ul class="ienet-breadcrumb list-unstyled">
                 <li><a href="index">HOME </a></li>
                 <li><span>ABOUT US</span></li>
             </ul>
         </div>
-    </section>
+    </section> -->
 
-    {{-- About Section --}}
-    <section class="about-two about-two--about-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="about-two__image wow fadeInLeft" data-wow-delay="200ms">
-                        <div class="about-two__image__one">
-                            <img src="assets/images/resources/446_617.png" alt="SpeedNET Broadband">
-                        </div>
-                        <div class="about-two__image__border"
-                            style="background-image: url(assets/images/shapes/about-2-border.png);"></div>
-                        <div class="about-two__image__two">
-                            <img src="assets/images/resources/272_289.png" alt="SpeedNET Broadband">
-                        </div>
-                        <div class="about-two__image__experiance">
-                            <div class="about-two__image__experiance__icon"><i class="icon-medal"></i></div>
-                            <h5 class="about-two__image__experiance__number count-box">
-                                <span class="count-text" data-stop="10" data-speed="1500"></span>+
-                            </h5>
-                            <p class="about-two__image__experiance__text">Years of Service Excellence</p>
-                        </div>
-                    </div>
-                </div>
+<section class="py-5" style="background:#ffffff;">
+    <div class="container">
 
-                <div class="col-xl-6 wow fadeInRight" data-wow-delay="100ms">
-                    <div class="about-two__content">
-                        <div class="sec-title text-left">
-                            <h6 class="sec-title__tagline">
-                                <span class="sec-title__tagline__left-border"></span>
-                                About SpeedNET Broadband
-                                <span class="sec-title__tagline__right-border"></span>
-                            </h6>
+        {{-- Our Story --}}
+        <div class="row align-items-center g-4">
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-3" style="color:#111;">Our story</h3>
 
-                            <h3 class="sec-title__title">
-                                Powering Homes & Businesses with
-                                <span>High-Speed Internet</span>
-                            </h3>
-                        </div>
+                <ul class="list-unstyled mb-3" style="color:#d8232a;">
+                    <li class="mb-1">🔴 What We Offer</li>
+                    <li class="mb-1">🔴 Affordable Pricing</li>
+                    <li class="mb-1">🔴 Quick Installation</li>
+                </ul>
 
-                        <p class="about-two__content__text">
-                            SpeedNET Broadband is a trusted internet service provider delivering fast, stable,
-                            and affordable broadband solutions for homes and businesses.
-                            Our goal is to keep you connected with uninterrupted internet for work, study,
-                            entertainment, and communication.
-                        </p>
+                <p class="mb-3" style="color:#444;">
+                    The story began with a vision to transform the way people connect and experience the internet.
+                    Founded in 2020 by a group of passionate & experienced professionals, our journey started
+                    with a clear objective in mind: to bridge the digital divide and empower businesses and individuals
+                    with fast, reliable, and affordable connectivity solutions.
+                </p>
 
-                        <div class="about-two__content__box">
-                            <div class="about-two__content__box__icon"><i class="icon-world"></i></div>
-                            <h5 class="about-two__content__box__title">Ultra-Fast Connectivity</h5>
-                            <p class="about-two__content__box__text">
-                                Enjoy seamless browsing, streaming, gaming, and work-from-home
-                                with high-speed fiber broadband.
-                            </p>
-                        </div>
+                <p style="color:#444;">
+                    We embarked on a mission to deliver cutting-edge connectivity solutions that would redefine the way
+                    businesses connect their geographically dispersed offices, branches, and remote locations with
+                    seamless, secure, and reliable networking solutions.
+                </p>
+            </div>
 
-                        <div class="about-two__content__box">
-                            <div class="about-two__content__box__icon"><i class="icon-wifi-router"></i></div>
-                            <h5 class="about-two__content__box__title">Free Installation & Support</h5>
-                            <p class="about-two__content__box__text">
-                                Hassle-free setup with quick installation and 24×7 technical support.
-                            </p>
-                        </div>
-
-                        <div class="about-two__content__user">
-                            <div class="about-two__content__user__text">Trusted by thousands of users</div>
-                            <div class="about-two__content__user__image">
-                                <img src="assets/images/resources/user-1.png" alt="">
-                                <img src="assets/images/resources/user-2.png" alt="">
-                                <img src="assets/images/resources/user-3.png" alt="">
-                                <span class="about-two__content__user__rm">+5000</span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div class="col-md-6 text-center">
+                <img src="assets/images/resources/about-us.png" class="img-fluid rounded shadow" alt="About">
             </div>
         </div>
-    </section>
 
-    {{-- IPTV SECTION --}}
-    <section class="cta-two">
-        <div class="cta-two__bg" style="background-image: url(assets/images/shapes/cta-2-bg.png);"></div>
-        <div class="container">
-            <div class="row align-items-center">
+        {{-- Spacer --}}
+        <div class="my-5"></div>
 
-                <div class="col-xl-6 wow fadeInUp">
-                    <div class="cta-two__content">
-                        <div class="sec-title text-left">
-                            <h6 class="sec-title__tagline">
-                                <span class="sec-title__tagline__left-border"></span>
-                                IPTV Entertainment
-                                <span class="sec-title__tagline__right-border"></span>
-                            </h6>
+        {{-- 3 Cards --}}
+        <div class="row g-4">
 
-                            <h3 class="sec-title__title">
-                                Smart TV Experience with
-                                <span>Premium IPTV Channels</span>
-                            </h3>
-                        </div>
-
-                        <p class="cta-two__content__text">
-                            SpeedNET IPTV service brings you a complete entertainment solution with
-                            high-quality HD & SD channels. Enjoy live TV, movies, sports, news,
-                            kids entertainment, and regional channels – all in one place.
-                        </p>
-
-                        <ul class="list-unstyled">
-                            <li>✔ 500+ Live TV Channels</li>
-                            <li>✔ HD, SD & Regional Channels</li>
-                            <li>✔ Sports, Movies, News & Kids Content</li>
-                            <li>✔ Works on Smart TV, Mobile & Set-Top Box</li>
-                            <li>✔ Buffer-Free Streaming with Fiber Internet</li>
-                        </ul>
-
-                        <a href="https://user.snbroadband.in/book-connection" class="ienet-btn">
-                            <span>Book Now<span class="ienet-btn__icon">
-                                    <i class="fas fa-chevron-right"></i></span></span>
-                        </a>
-                    </div>
+            <div class="col-md-4">
+                <div class="p-4 h-100 rounded border shadow-sm card-animate fade-in-up">
+                    <span class="fw-bold" style="color:#d8232a;">01</span>
+                    <h5 class="fw-semibold mt-2">What We Offer.</h5>
+                    <p class="mt-2" style="color:#444;">
+                        Power up your business with limitless internet. If your business needs a robust
+                        Internet Connectivity Solution with adequate redundancies built at the core,
+                        SpeedNET's Internet Leased Line Solution is your best option to achieve reliable connectivity.
+                    </p>
                 </div>
-
-                <div class="col-xl-6">
-                    <div class="cta-two__image">
-                        <img src="assets/images/resources/270_300.png" alt="IPTV Channels" class="img-fluid">
-                    </div>
-                </div>
-
-
             </div>
-        </div>
-    </section>
 
-    {{-- WHY CHOOSE US --}}
-    <section class="about-two">
-        <div class="container">
-            <div class="row justify-content-center text-center g-4">
-
-                <div class="col-12 col-md-4">
-                    <div class="about-card">
-                        <i class="fas fa-gauge-high icon"></i>
-                        <h5 class="mt-3">High-Speed Broadband</h5>
-                        <p>Plans starting from 30 Mbps to 100 Mbps</p>
-                    </div>
+            <div class="col-md-4">
+                <div class="p-4 h-100 rounded border shadow-sm card-animate fade-in-up">
+                    <span class="fw-bold" style="color:#d8232a;">02</span>
+                    <h5 class="fw-semibold mt-2">Affordable Pricing.</h5>
+                    <p class="mt-2" style="color:#444;">
+                        You no longer have to worry about being tied down by long-term contracts or unexpected bills.
+                        With our prepaid broadband model, you stay in full control of usage, renewal & cost.
+                    </p>
                 </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="about-card">
-                        <i class="fas fa-headset icon"></i>
-                        <h5 class="mt-3">24×7 Support</h5>
-                        <p>Quick response & reliable customer assistance</p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="about-card">
-                        <i class="fas fa-shield-halved icon"></i>
-                        <h5 class="mt-3">Trusted Network</h5>
-                        <p>Stable & secure internet connectivity</p>
-                    </div>
-                </div>
-
             </div>
+
+            <div class="col-md-4">
+                <div class="p-4 h-100 rounded border shadow-sm card-animate fade-in-up">
+                    <span class="fw-bold" style="color:#d8232a;">03</span>
+                    <h5 class="fw-semibold mt-2">Quick Installation.</h5>
+                    <p class="mt-2" style="color:#444;">
+                        Faster provisioning enables quick activation for new customers. Services available across
+                        multiple regions with fiber & wireless connectivity options.
+                    </p>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
 @endsection

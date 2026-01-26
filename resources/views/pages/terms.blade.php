@@ -3,7 +3,7 @@
 
 @section('content')
     <!-- Page Header -->
-    <section class="page-header">
+    <!-- <section class="page-header">
         <div class="page-header__bg"></div>
         <div class="page-header__layer"></div>
         <div class="container">
@@ -13,7 +13,7 @@
                 <li>TERMS & CONDITIONS</li>
             </ul>
         </div>
-    </section>
+    </section> -->
 
     <!-- Content Section -->
     <section class="service-details py-5">

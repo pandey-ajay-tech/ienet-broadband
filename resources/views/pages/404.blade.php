@@ -4,18 +4,7 @@
 @endsection
 
 @section('content')
-    <section class="page-header">
-        <div class="page-header__bg"></div>
-        <div class="page-header__layer"></div>
-        <!-- /.page-header__bg -->
-        <div class="container">
-            <h2 class="page-header__title bw-split-in-left">404 Error</h2><!-- /.page-title -->
-            <ul class="ienet-breadcrumb list-unstyled">
-                <li><a href="index">HOME</a></li>
-                <li><span>404 ERROR</span></li>
-            </ul><!-- /.thm-breadcrumb list-unstyled -->
-        </div><!-- /.container -->
-    </section><!-- /.page-header -->
+   
 
     <section class="error-404">
         <div class="container">

@@ -56,7 +56,7 @@
     </div><!-- /.container -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-5">
                 <div class="footer-widget footer-widget--about">
                     <h2 class="footer-widget__title">About SpeedNET Broadband</h2><!-- /.footer-widget__title -->
                     <p class="footer-widget__text">
@@ -72,7 +72,7 @@
                 </div>
             </div><!-- /.col-md-6 -->
 
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-4">
                 <div class="footer-widget footer-widget--links">
                     <h2 class="footer-widget__title">Our Services</h2><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__links">
@@ -99,32 +99,35 @@
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-
+<!-- 
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--gallery">
-                    <h2 class="footer-widget__title">Our Gallery</h2><!-- /.footer-widget__title -->
+                    <h2 class="footer-widget__title">Our Gallery</h2>
                     <div class="footer-widget__gallery">
                         <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-1.jpg') }}" alt="ienet">
-                        </a><!-- /.footer-widget__gallery__link -->
+                        </a>
                         <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-2.jpg') }}" alt="ienet">
-                        </a><!-- /.footer-widget__gallery__link -->
+                        </a>
                         <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-3.jpg') }}" alt="ienet">
-                        </a><!-- /.footer-widget__gallery__link -->
+                        </a>
                         <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-4.jpg') }}" alt="ienet">
-                        </a><!-- /.footer-widget__gallery__link -->
+                        </a>
                         <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-5.jpg') }}" alt="ienet">
-                        </a><!-- /.footer-widget__gallery__link -->
+                        </a>
                         <a href="#" class="footer-widget__gallery__link">
                             <img src="{{ asset('assets/images/gallery/fg-6.jpg') }}" alt="ienet">
-                        </a><!-- /.footer-widget__gallery__link -->
-                    </div><!-- /.footer-widget__gallery -->
+                        </a>
+                    </div>
                 </div>
-            </div><!-- /.col-md-6 -->
+            </div> -->
+
+
+            <!-- /.col-md-6 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
     <div class="main-footer__bottom">
@@ -226,7 +229,7 @@
             </li>
             <li>
                 <span class="fas fa-clock"></span>
-                Mon - Fri: 8.00 am. - 6.00 pm.
+                Mon - Fri: 9.00 am. - 10.00 pm.
             </li>
             <li>
                 <span class="fas fa-envelope"></span>

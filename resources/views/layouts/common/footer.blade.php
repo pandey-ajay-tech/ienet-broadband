@@ -221,7 +221,7 @@
             </li>
             <li>
                 <span class="fas fa-clock"></span>
-                Mon - Fri: 8.00 am. - 6.00 pm.
+                Mon - Fri: 9.00 am. - 10.00 pm.
             </li>
             <li>
                 <span class="fas fa-envelope"></span>

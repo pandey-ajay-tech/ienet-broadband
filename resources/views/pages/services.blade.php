@@ -87,20 +87,7 @@
     }
 </style>
 @section('content')
-    <section class="page-header">
-        <div class="page-header__bg"></div>
-        <div class="page-header__layer"></div>
-        <!-- /.page-header__bg -->
-        <div class="container">
-            <h2 class="page-header__title bw-split-in-left">SERVICES</h2><!-- /.page-title -->
-            <ul class="ienet-breadcrumb list-unstyled">
-                <li><a href="index">HOME</a></li>
-                <li>OUR SERVICES</li>
-
-            </ul><!-- /.thm-breadcrumb list-unstyled -->
-        </div><!-- /.container -->
-    </section><!-- /.page-header -->
-
+   
 
 
     <!-- Service Start -->

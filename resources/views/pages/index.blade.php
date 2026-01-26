@@ -48,7 +48,7 @@
 
                         <ul class="about-one__content__list">
                             <li><span class="fas fa-check"></span>Unlimited High-Speed Internet</li>
-                            <li><span class="fas fa-check"></span>30 Mbps, 50 Mbps & 100 Mbps Plans</li>
+                            <li><span class="fas fa-check"></span>Plans upto 1 Gbps</li>
                             <li><span class="fas fa-check"></span>Affordable Monthly Pricing</li>
                             <li><span class="fas fa-check"></span>Quick Support & Easy Recharge</li>
                         </ul>
