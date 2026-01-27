@@ -165,7 +165,7 @@ Contact Us
                                 <div class="form-one__control form-one__control--full">
                                     <div class="form-one__control__select custom-select-wrapper">
                                         <select name="subject" class="custom-select" required>
-                                            <option value="" disabled>Select Subject</option>
+                                            <option value="" selected>Select Subject</option>
                                             <option value="ALL">ALL</option>
                                             <option value="RF Installation">RF Installation</option>
                                             <option value="Ftth Installation">Ftth Installation</option>
