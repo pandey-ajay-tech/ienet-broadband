@@ -14,7 +14,8 @@
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        Sapaha Near TTC Ground, Madhupur, 815353
+                        At-Sapaha Near TTC Ground,
+                                Madhupur, Dist-Deoghar, Jharkhand, Pin-815353
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">

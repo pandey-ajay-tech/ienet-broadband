@@ -14,7 +14,7 @@
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        Sapaha Near TTC Ground, Madhupur, 815353
+                        At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">
@@ -93,6 +93,7 @@
                     <ul class="list-unstyled footer-widget__links">
                         <li><a href="{{ route('front.about-us') }}">About Us</a></li>
                         <li><a href="{{ route('plans-pricing') }}">Plans</a></li>
+                        <li><a href="{{ route('front.our-teams') }}">Teams</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                         <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                         <li><a href="{{ route('terms') }}">Terms & Conditions</a></li>

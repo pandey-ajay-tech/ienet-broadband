@@ -42,18 +42,6 @@
 .fade-in-up:nth-child(3) { animation-delay: 0.6s; }
 </style>
 
-<!-- <section class="page-header">
-        <div class="page-header__bg"></div>
-        <div class="page-header__layer"></div>
-        <div class="container">
-            <h2 class="page-header__title bw-split-in-left" style="perspective: 400px;"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; transform: translate3d(-4.7857px, 0px, 0px); opacity: 0.7607;">A</div><div style="position: relative; display: inline-block; transform: translate3d(-5.1173px, 0px, 0px); opacity: 0.7441;">B</div><div style="position: relative; display: inline-block; transform: translate3d(-5.4601px, 0px, 0px); opacity: 0.727;">O</div><div style="position: relative; display: inline-block; transform: translate3d(-5.814px, 0px, 0px); opacity: 0.7093;">U</div><div style="position: relative; display: inline-block; transform: translate3d(-6.179px, 0px, 0px); opacity: 0.691;">T</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; transform: translate3d(-6.5551px, 0px, 0px); opacity: 0.6722;">U</div><div style="position: relative; display: inline-block; transform: translate3d(-6.9423px, 0px, 0px); opacity: 0.6529;">S</div></div></h2>
-            <ul class="ienet-breadcrumb list-unstyled">
-                <li><a href="index">HOME </a></li>
-                <li><span>ABOUT US</span></li>
-            </ul>
-        </div>
-    </section> -->
-
 <section class="py-5" style="background:#ffffff;">
     <div class="container">
 
@@ -130,5 +118,78 @@
         </div>
     </div>
 </section>
+<!-- Why Choose Us -->
+<section class="py-5" style="background:#ffffff;">
+    <div class="container">
+        <div class="row align-items-center g-4">
+
+            <!-- Image -->
+            <div class="col-md-6 text-center">
+                <img src="assets/images/resources/why-choose-us.png" class="img-fluid rounded shadow" alt="Why Choose Us">
+            </div>
+
+            <!-- Content -->
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-3" style="color:#111;">Why Choose Us</h3>
+
+                <div class="row g-3">
+
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <div class="me-3 fw-bold" style="color:#d8232a;">1.</div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Blazing Fast Speed</h6>
+                                <p class="mb-0" style="color:#444;">Stream, Game and Download without interruption.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <div class="me-3 fw-bold" style="color:#d8232a;">2.</div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Reliable Network</h6>
+                                <p class="mb-0" style="color:#444;">Minimal downtime with robust infrastructure.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <div class="me-3 fw-bold" style="color:#d8232a;">3.</div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Transparent Pricing</h6>
+                                <p class="mb-0" style="color:#444;">No hidden charges, clear plan details.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <div class="me-3 fw-bold" style="color:#d8232a;">4.</div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Friendly Support</h6>
+                                <p class="mb-0" style="color:#444;">Quick and helpful customer service when you need it.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <div class="me-3 fw-bold" style="color:#d8232a;">5.</div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Flexible Plans</h6>
+                                <p class="mb-0" style="color:#444;">Choose the right plan for your budget and usage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 @endsection

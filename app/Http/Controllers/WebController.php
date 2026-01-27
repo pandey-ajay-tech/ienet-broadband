@@ -69,6 +69,10 @@ class WebController extends Controller
         return view('pages.privacy');
     }
 
+    public function teams()
+    {
+        return view('pages.our_teams');
+    }
     public function send_query(Request $request)
     {
         $request->validate([
@@ -106,7 +110,7 @@ class WebController extends Controller
                 ->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
         });
 
-        // 2️⃣ Email to User (Thank You)
+        // Email to User (Thank You)
         $userHtml = '
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:auto;border:1px solid #ddd;padding:20px;background:#f9f9f9;">
         <h2 style="color:#2c3e50;text-align:center;">Thank You for Contacting Us!</h2>

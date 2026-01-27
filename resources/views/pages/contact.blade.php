@@ -86,6 +86,14 @@ Contact Us
 
 <section class="contact-one">
     <div class="container">
+        <div class="row mb-3">
+            <h2 class="fw-bold mb-3 text-center">CONTACT US</h2>
+            <p class="text-center mb-4" style="max-width:800px;margin:0 auto;">
+                We’d love to hear from you! If you have any questions or comments about our broadband services,
+                please don’t hesitate to get in touch with us. Our customer service team is always available
+                to assist you in case of any queries that you might have. Thank you for choosing our services.
+            </p>
+        </div>
         <div class="row">
             <!-- Contact Info -->
             <div class="col-xl-4">
@@ -95,10 +103,10 @@ Contact Us
                             <i class="icon-maps-and-flags"></i>
                         </div>
                         <div class="contact-one__info__content">
-                            <h4 class="contact-one__info__title">Mailing Address</h4>
+                            <h4 class="contact-one__info__title">Our Address</h4>
                             <p class="contact-one__info__text">
-                                Sapaha Near TTC Ground,<br>
-                                Madhupur, 81535
+                                At-Sapaha Near TTC Ground,<br>
+                                Madhupur, Dist-Deoghar, Jharkhand,Pin-815353
                             </p>
                         </div>
                     </li>
@@ -157,10 +165,11 @@ Contact Us
                                 <div class="form-one__control form-one__control--full">
                                     <div class="form-one__control__select custom-select-wrapper">
                                         <select name="subject" class="custom-select" required>
-                                            <option value="">Select Subject</option>
-                                            <option value="General Inquiry">General Inquiry</option>
-                                            <option value="Support">Support</option>
-                                            <option value="Feedback">Feedback</option>
+                                            <option value="" disabled>Select Subject</option>
+                                            <option value="ALL">ALL</option>
+                                            <option value="RF Installation">RF Installation</option>
+                                            <option value="Ftth Installation">Ftth Installation</option>
+                                            <option value="CCTV Installation">CCTV Installation</option>
                                         </select>
                                         <span class="custom-arrow"><i class="fas fa-chevron-down"></i></span>
                                     </div>
@@ -187,23 +196,43 @@ Contact Us
 
 <section class="google-map">
     <div class="google-map">
-        <iframe
-            src="https://www.google.com/maps?q=24.2729,86.6211&z=16&output=embed"
-            width="100%"
-            height="450"
-            style="border:0;"
-            loading="lazy">
-        </iframe>
+    <iframe
+    src="https://www.google.com/maps?q=24.2673,86.6479&z=16&output=embed"
+    width="100%"
+    height="450"
+    style="border:0;"
+    loading="lazy">
+</iframe>
+
     </div>
     <div style="text-align:center; margin-top:15px;">
-        <a
-            href="https://www.google.com/maps/dir/?api=1&destination=24.2729,86.6211"
-            target="_blank"
-            class="ienet-btn-direction">
-            📍 Get Directions
-        </a>
+    <a
+    href="https://www.google.com/maps/dir/?api=1&destination=24.2673,86.6479"
+    target="_blank"
+    class="ienet-btn-direction">
+    📍 Get Directions
+</a>
+
     </div>
 </section>
+<script>
+    document.querySelector('.contact-one__form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        let name = document.querySelector('input[name="name"]').value;
+        let email = document.querySelector('input[name="email"]').value;
+        let subject = document.querySelector('select[name="subject"]').value;
+        let message = document.querySelector('textarea[name="message"]').value;
+
+        let whatsappNumber = "918797006007"; // <-- yahan client ka number daalo
+
+        let text = `New Contact Query:%0A%0AName: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
+
+        let url = `https://wa.me/${whatsappNumber}?text=${text}`;
+
+        window.open(url, '_blank');
+    });
+</script>
 
 
 @endsection
