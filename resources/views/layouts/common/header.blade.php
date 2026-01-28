@@ -1,4 +1,63 @@
 <body class="custom-cursor">
+    <style>
+        .my-account {
+            position: relative;
+            margin-top: 8px;
+        }
+
+        .my-account__btn {
+            color: #ffffff;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .my-account__btn .arrow {
+            font-size: 10px;
+            margin-left: 4px;
+        }
+
+        .my-account__dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: #ffffff;
+            min-width: 150px;
+            list-style: none;
+            padding: 5px 0;
+            margin: 5px 0 0;
+            border-radius: 4px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            display: none;
+            z-index: 999;
+        }
+
+        .my-account__dropdown li a {
+            display: block;
+            padding: 8px 15px;
+            color: #333;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .my-account__dropdown li a:hover {
+            background: #f5f5f5;
+        }
+
+        /* Hover Dropdown */
+        .my-account:hover .my-account__dropdown {
+            display: block;
+        }
+
+        .modal-backdrop.show {
+            opacity: 0 !important;
+        }
+
+        .modal-backdrop {
+            display: none !important;
+        }
+    </style>
 
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
@@ -18,7 +77,10 @@
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353
+                            {{-- At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353 --}}
+                            MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
+                            <br />SAPHA
+                            DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"> | </span>
@@ -70,8 +132,12 @@
                             <li class="{{ request()->routeIs('front.about-us') ? 'current' : '' }}">
                                 <a href="{{ route('front.about-us') }}">About</a>
                             </li>
+                            <li class="{{ request()->routeIs('front.gallery') ? 'current' : '' }}">
+                                <a href="{{ route('front.gallery') }}">Gallery</a>
+                            </li>
+
                             <li class="{{ request()->is('plans-pricing') ? 'current' : '' }}">
-                                <a href="plans-pricing">Plans & Pricing </a>
+                                <a href="plans-pricing">Plans </a>
                                 {{-- <ul>
                                     <li class="dropdown">
                                         <a href="#">Movies</a>
@@ -184,11 +250,93 @@
                             <span class="sr-only">Cart</span>
                         </a><!-- /.cart-toggler --> --}}
                         <div class="main-header__call">
-                            <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
+                            <div class="main-header__call__icon">
+                                <span class="icon-telephone"></span>
+                            </div>
                             <div class="main-header__call__title">Call Emergency</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+91 9234377577</a>
+                            <a class="main-header__call__text" href="tel:919234377577">
+                                +91 9234377577
+                            </a>
+
+                            <!-- My Account Dropdown -->
+                            <div class="my-account">
+                                <a href="javascript:void(0)" class="my-account__btn text-dark">
+                                    My Account <span class="arrow">&#9662;</span>
+                                </a>
+
+                                <ul class="my-account__dropdown">
+                                    <li><a href="https://user.snbroadband.in/quickpay">Quick Recharge</a></li>
+                                    <li>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#chatModal">
+                                            Chat with Us
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
                         </div>
+                        <!-- Chat Modal -->
+                        <div class="modal fade" id="chatModal" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Chat with SpeedNET</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <form id="whatsappForm">
+                                            <input type="text" id="name" class="form-control mb-2"
+                                                placeholder="Your Name" required>
+                                            <input type="tel" id="phone" class="form-control mb-2"
+                                                placeholder="Phone Number" required>
+                                            <textarea id="message" class="form-control mb-2" rows="3" placeholder="Your Message" required></textarea>
+
+                                            <button type="submit" class="btn btn-success w-100">
+                                                <i class="bi bi-whatsapp"></i> Start WhatsApp Chat
+                                            </button>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
+        <script>
+            document.querySelector('.my-account__btn').addEventListener('click', function() {
+                document.querySelector('.my-account__dropdown').classList.toggle('show');
+            });
+        </script>
+        <script>
+            document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                let name = document.getElementById('name').value;
+                let phone = document.getElementById('phone').value;
+                let message = document.getElementById('message').value;
+
+                let adminNumber = "9234377577"; // without + sign
+
+                let text = `Hello SpeedNET,%0A
+Name: ${name}%0A
+Phone: ${phone}%0A
+Message: ${message}`;
+
+                let whatsappUrl = `https://wa.me/${adminNumber}?text=${text}`;
+
+                window.open(whatsappUrl, '_blank');
+            });
+        </script>
+
+
+        <style>
+            .my-account__dropdown.show {
+                display: block;
+            }
+        </style>

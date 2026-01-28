@@ -73,6 +73,10 @@ class WebController extends Controller
     {
         return view('pages.our_teams');
     }
+    public function gallery()
+    {
+        return view('pages.gallery');
+    }
     public function send_query(Request $request)
     {
         $request->validate([

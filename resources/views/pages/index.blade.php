@@ -1,4 +1,5 @@
-@extends('layouts.welcome')
+{{-- @extends('layouts.welcome') --}}
+@extends('layouts.master')
 @section('title')
     Home | SpeedNET Broadband
 @endsection
@@ -20,7 +21,8 @@
                             style="background-image: url(assets/images/shapes/about-1-border.png);"></div>
                         <div class="about-one__image__two">
                             <div class="about-one__image__two__inner"><img
-                                    src="{{ asset('assets/images/resources/about-1-2.jpg') }}" alt="SpeedNET Broadband"></div>
+                                    src="{{ asset('assets/images/resources/about-1-2.jpg') }}" alt="SpeedNET Broadband">
+                            </div>
                         </div>
                     </div><!-- /.about-one__image -->
                 </div><!-- /.col-lg-6 -->
@@ -53,7 +55,7 @@
                             <li><span class="fas fa-check"></span>Quick Support & Easy Recharge</li>
                         </ul>
 
-                        <a href="{{route('front.about-us')}}" class="ienet-btn">
+                        <a href="{{ route('front.about-us') }}" class="ienet-btn">
                             <span>
                                 More About Us
                                 <span class="ienet-btn__icon">
@@ -139,7 +141,7 @@
                 </div>
 
                 <div class="col-md-4 text-end">
-                    <a href="{{route('plans-pricing')}}" class="ienet-btn">
+                    <a href="{{ route('plans-pricing') }}" class="ienet-btn">
                         <span>
                             View All Plans
                             <span class="ienet-btn__icon">
@@ -169,7 +171,8 @@
                             <li><span class="fas fa-check"></span>24×7 Customer Support</li>
                         </ul>
 
-                        <a class="ienet-btn w-100" style="margin-left: -14px;" href="https://user.snbroadband.in/book-connection">
+                        <a class="ienet-btn w-100" style="margin-left: -14px;"
+                            href="https://user.snbroadband.in/book-connection">
                             <span>Book Now</span>
                         </a>
                     </div>
@@ -190,7 +193,8 @@
                             <li><span class="fas fa-check"></span>Strong Wi-Fi Coverage</li>
                         </ul>
 
-                        <a class="ienet-btn w-100" style="margin-left: -14px;" href="https://user.snbroadband.in/book-connection">
+                        <a class="ienet-btn w-100" style="margin-left: -14px;"
+                            href="https://user.snbroadband.in/book-connection">
                             <span>Book Now</span>
                         </a>
                     </div>
@@ -211,7 +215,8 @@
                             <li><span class="fas fa-check"></span>Priority Technical Support</li>
                         </ul>
 
-                        <a class="ienet-btn w-100" style="margin-left: -14px;" href="https://user.snbroadband.in/book-connection">
+                        <a class="ienet-btn w-100" style="margin-left: -14px;"
+                            href="https://user.snbroadband.in/book-connection">
                             <span>Book Now</span>
                         </a>
                     </div>
@@ -450,7 +455,7 @@
                             <img src="{{ asset('assets/images/resources/cta-1-1.png') }}" alt="SpeedNET Image">
                         </div>
                         <div class="cta-one__image__price wow fadeInUp" data-wow-delay="200ms">
-                            Start From ₹775 / <span>Month</span>
+                            Start From ₹349 / <span>Month</span>
                         </div>
                     </div>
                 </div>

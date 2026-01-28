@@ -14,7 +14,9 @@
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353
+                        MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
+                        <br />SAPHA
+                        DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">
@@ -74,18 +76,19 @@
 
             <div class="col-md-6 col-xl-4">
                 <div class="footer-widget footer-widget--links">
-                    <h2 class="footer-widget__title">Our Services</h2><!-- /.footer-widget__title -->
-                    <ul class="list-unstyled footer-widget__links">
-                        <li><a href="#" class="footer-link">Internet Line</a></li>
-                        <li><a href="#" class="footer-link">P2P Connectivity</a></li>
-                        <li><a href="#" class="footer-link">Broadband FTTH</a></li>
-                        <li><a href="#" class="footer-link">Home & Security</a></li>
-                        <li><a href="#" class="footer-link">Network & Software</a></li>
-                        <li><a href="#" class="footer-link">Tech Support</a></li>
-                    </ul>
+                    <h2 class="footer-widget__title">Our Services</h2>
 
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-md-6 -->
+                    <ul class="list-unstyled footer-widget__links">
+                        <li class="footer-link">Internet Line</li>
+                        <li class="footer-link">P2P Connectivity</li>
+                        <li class="footer-link">Broadband FTTH</li>
+                        <li class="footer-link">Home & Security</li>
+                        <li class="footer-link">Network & Software</li>
+                        <li class="footer-link">Tech Support</li>
+                    </ul>
+                </div>
+            </div>
+
 
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--links">
@@ -100,7 +103,7 @@
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-<!-- 
+            <!--
             <div class="col-md-6 col-xl-3">
                 <div class="footer-widget footer-widget--gallery">
                     <h2 class="footer-widget__title">Our Gallery</h2>
@@ -226,11 +229,12 @@
         <ul class="sidebar-one__info">
             <li>
                 <span class="fas fa-map-marker-alt"></span>
-                Sapaha Near TTC Ground, Madhupur, 815353
+                MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
+                SAPHA DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
             </li>
             <li>
                 <span class="fas fa-clock"></span>
-                Mon - Fri: 9.00 am. - 10.00 pm.
+                Mon - Sun: 9.00 am. - 10.00 pm.
             </li>
             <li>
                 <span class="fas fa-envelope"></span>

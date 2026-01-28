@@ -14,8 +14,9 @@
     .service-page {
         padding: 60px 0;
     }
-    .faq-one__accordion{
-        padding-bottom: 28px!important;
+
+    .faq-one__accordion {
+        padding-bottom: 28px !important;
     }
 
     .service-page__item {
@@ -87,9 +88,7 @@
     }
 </style>
 @section('content')
-   
-
-
+    <!-- Service Start -->
     <!-- Service Start -->
     <section class="service-one">
         <div class="container">
@@ -97,72 +96,86 @@
                 <div class="col-md-12">
                     <div class="sec-title text-center">
 
-                        <h6 class="sec-title__tagline bw-split-in-right"><span
-                                class="sec-title__tagline__left-border"></span>Our Best Service<span
-                                class="sec-title__tagline__right-border"></span></h6><!-- /.sec-title__tagline -->
+                        <h6 class="sec-title__tagline bw-split-in-right">
+                            <span class="sec-title__tagline__left-border"></span>
+                            Our Best Services
+                            <span class="sec-title__tagline__right-border"></span>
+                        </h6>
 
-                        <h3 class="sec-title__title bw-split-in-left">We Are Offering<br> Best <span>Service</span>
-                        </h3><!-- /.sec-title__title -->
-                    </div><!-- /.sec-title -->
-                    <!-- section-title -->
+                        <h3 class="sec-title__title bw-split-in-left">
+                            We Are Offering<br> Best <span>Services</span>
+                        </h3>
+                    </div>
                 </div>
             </div>
+
             <div class="row gutter-y-30">
+
+                <!-- Service 1 -->
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="00ms">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/1.png" alt="ienet">
+                            <img src="assets/images/resources/1.png" alt="Home & Business Internet">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            <img src="assets/images/shapes/service-1-border.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
-                            <a href="service-d-broadband">Broadband Connect</a>
-                        </h3><!-- /.service-title -->
-                    </div><!-- /.service-card-one -->
+                            Home & Business<br> Internet Solution
+                        </h3>
+                    </div>
                 </div>
+
+                <!-- Service 2 -->
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="50ms">
                     <div class="service-one__item service-one__item--reverse text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/2.png" alt="ienet">
+                            <img src="assets/images/resources/2.png" alt="Internet Leased Line">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            <img src="assets/images/shapes/service-1-border.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
-                            <a href="service-d-landline">Satellite Channel</a>
-                        </h3><!-- /.service-title -->
-                    </div><!-- /.service-card-one -->
+                            Internet<br> Leased Line (ILL)
+                        </h3>
+                    </div>
                 </div>
+
+                <!-- Service 3 -->
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/3.png" alt="ienet">
+                            <img src="assets/images/resources/3.png" alt="Managed Network Solution">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            <img src="assets/images/shapes/service-1-border.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
-                            <a href="service-d-iptv">IPTV Connection</a>
-                        </h3><!-- /.service-title -->
-                    </div><!-- /.service-card-one -->
+                            Managed<br> Network Solution
+                        </h3>
+                    </div>
                 </div>
+
+                <!-- Service 4 -->
                 <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="150ms">
                     <div class="service-one__item service-one__item--reverse text-center">
                         <div class="service-one__item__image">
-                            <img src="assets/images/resources/service_4.png" alt="ienet">
+                            <img src="assets/images/resources/service_4.png" alt="Cloud Services">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="ienet">
+                            <img src="assets/images/shapes/service-1-border.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
-                            <a href="service-d-connectivity">Home IP Phone</a>
-                        </h3><!-- /.service-title -->
-                    </div><!-- /.service-card-one -->
+                            Remote Desktop &<br> Cloud Storage
+                        </h3>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
+    <!-- Service End -->
+
     <!-- Service End -->
 
 

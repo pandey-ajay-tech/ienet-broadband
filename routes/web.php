@@ -24,6 +24,9 @@ Route::get('/terms', [WebController::class, 'terms'])->name('terms');
 Route::get('/privacy', [WebController::class, 'privacy'])->name('privacy');
 Route::post('/contact/send', [WebController::class, 'send_query'])->name('contact.send');
 Route::get('/our-teams', [WebController::class, 'teams'])->name('front.our-teams');
+Route::get('/terms', [WebController::class, 'terms'])->name('terms');
+Route::get('/gallery',  [WebController::class, 'gallery'])->name('front.gallery');
+
 Route::fallback(function () {
     return response()
         ->view('pages.404', [], 404);

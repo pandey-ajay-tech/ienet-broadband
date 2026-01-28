@@ -18,7 +18,9 @@
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353
+                            {{-- At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353 --}}
+                            MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA
+                            DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
                         </li>
                         <li class="topbar-one__info__item">
                             <span class="topbar-one__info__icon"> | </span>

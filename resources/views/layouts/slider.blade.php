@@ -1,5 +1,10 @@
 <!-- main-slider-start -->
 <section class="main-slider-one">
+    <Style>
+        .item {
+            margin-top: -130px !important;
+        }
+    </Style>
     <div class="main-slider-one__carousel ienet-owl__carousel owl-carousel"
         data-owl-options='{
         "loop": true,
@@ -17,7 +22,8 @@
         <!-- SLIDE 1 -->
         <div class="item">
             <div class="main-slider-one__item">
-                <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);">
+                {{-- <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"> --}}
+                <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/banner_n.jpeg);">
                 </div>
 
                 <div class="main-slider-one__content">
@@ -59,9 +65,9 @@
                             alt="Internet Service">
                     </div>
 
-                    <div class="main-slider-one__image__border">
+                    {{-- <div class="main-slider-one__image__border">
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="border">
-                    </div>
+                    </div> --}}
 
                     <div class="main-slider-one__image__user">
                         <div class="main-slider-one__image__user__text">Trusted by 1000+ Users</div>
@@ -84,7 +90,7 @@
         <div class="item">
             <div class="main-slider-one__item">
                 <div class="main-slider-one__bg"
-                    style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
+                    style="background-image: url(assets/images/backgrounds/banner_n.jpeg);"></div>
 
                 <div class="main-slider-one__content">
                     <h5 class="main-slider-one__sub-title">
@@ -123,12 +129,13 @@
                     <div class="main-slider-one__image__one">
                         <img src="{{ asset('assets/images/backgrounds/slider-1-layer-2-new.png') }}" alt="">
                     </div>
-                    <div class="main-slider-one__image__border">
+                    {{-- <div class="main-slider-one__image__border">
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="">
-                    </div>
+                    </div> --}}
                 </div>
 
-                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);">
+                <div class="main-slider-one__layer"
+                    style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);">
                 </div>
             </div>
         </div>
@@ -137,7 +144,7 @@
         <div class="item">
             <div class="main-slider-one__item">
                 <div class="main-slider-one__bg"
-                    style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
+                    style="background-image: url(assets/images/backgrounds/banner_n.jpeg);"></div>
 
                 <div class="main-slider-one__content">
                     <h5 class="main-slider-one__sub-title">
@@ -176,9 +183,9 @@
                     <div class="main-slider-one__image__one">
                         <img src="{{ asset('assets/images/backgrounds/slider-1-layer-2-new.png') }}" alt="">
                     </div>
-                    <div class="main-slider-one__image__border">
+                    {{-- <div class="main-slider-one__image__border">
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="">
-                    </div>
+                    </div> --}}
                 </div>
 
                 <div class="main-slider-one__layer"
