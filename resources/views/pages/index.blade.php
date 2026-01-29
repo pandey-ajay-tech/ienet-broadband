@@ -110,7 +110,7 @@
                 <!-- DATA CONNECTIVITY -->
                 <li class="packages-one__item">
                     <div class="packages-one__item__icon"><i class="icon-data-analytics"></i></div>
-                    <h3 class="packages-one__item__title">SpeedNET Data Connectivity</h3>
+                    <h3 class="packages-one__item__title">SpeedNET Wireless Connectivity</h3>
                     <p class="packages-one__item__tagline">Powering Smart Connectivity.</p>
                     <ul class="packages-one__item__list">
                         <li><span class="fas fa-check"></span>Dedicated Data Network</li>

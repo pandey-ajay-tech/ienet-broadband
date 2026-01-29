@@ -67,7 +67,7 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <div class="topbar-one topbar-one--inner ">
+        <!-- <div class="topbar-one topbar-one--inner ">
             <div class="container-fluid">
                 <div class="topbar-one__inner">
                     <ul class="list-unstyled topbar-one__info">
@@ -87,8 +87,8 @@
 
                             <a href="{{ url('/clear-cache') }}">Clear Cache</a>
                         </li>
-                    </ul><!-- /.list-unstyled topbar-one__info -->
-                    {{-- <div class="topbar-one__right">
+                    </ul>
+                    <div class="topbar-one__right">
                         <div class="topbar-one__social">
 
                             <a href="https://facebook.com">
@@ -107,12 +107,12 @@
                                 <i class="fab fa-youtube" aria-hidden="true"></i>
                                 <span class="sr-only">Youtube</span>
                             </a>
-                        </div><!-- /.topbar-one__social -->
-                    </div><!-- /.topbar-one__right --> --}}
-                </div><!-- /.topbar-one__inner -->
-            </div><!-- /.container-fluid -->
-        </div><!-- /.topbar-one -->
-
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
         <header class="main-header main-header--inner sticky-header sticky-header--normal">
             <div class="container-fluid">
                 <div class="main-header__inner">

@@ -18,23 +18,51 @@
     .faq-one__accordion {
         padding-bottom: 28px !important;
     }
+    
 
-    .service-page__item {
+    /* .service-page__item {
         background: #fff;
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         text-align: center;
-    }
+    } */
+    .service-page__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
-    .service-page__item__image img {
+    /* .service-page__item__image img {
         width: 100%;
         height: auto;
         display: block;
-    }
+    } */
+
+    .service-page__item__image {
+    flex-shrink: 0; /* image height fix rahe */
+}
+
+.service-page__carousel .item {
+    display: flex;
+}
+
+.service-page__carousel .service-page__item {
+    flex: 1; /* sab items equal width & height */
+}
+.service-page__item__image img {
+    width: 100%;
+    height: 200px; /* ya jo height chahiye */
+    object-fit: cover; /* image properly fill kare without distortion */
+}
+
 
     .service-page__item__content {
         padding: 20px;
+        flex-grow: 1; /* content same height fill kare */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     }
 
     .service-page__item__title {
@@ -86,6 +114,10 @@
             transform: translateY(0);
         }
     }
+
+    .service-page__item__title{
+        font-size: 17px;
+    }
 </style>
 @section('content')
     <!-- Service Start -->
@@ -118,7 +150,7 @@
                             <img src="assets/images/resources/1.png" alt="Home & Business Internet">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="">
+                            <img src="assets/images/shapes/service-1-border1.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
                             Home & Business<br> Internet Solution
@@ -133,7 +165,7 @@
                             <img src="assets/images/resources/2.png" alt="Internet Leased Line">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="">
+                            <img src="assets/images/shapes/service-1-border1.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
                             Internet<br> Leased Line (ILL)
@@ -148,7 +180,7 @@
                             <img src="assets/images/resources/3.png" alt="Managed Network Solution">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="">
+                            <img src="assets/images/shapes/service-1-border1.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
                             Managed<br> Network Solution
@@ -163,7 +195,7 @@
                             <img src="assets/images/resources/service_4.png" alt="Cloud Services">
                         </div>
                         <div class="service-one__item__shape">
-                            <img src="assets/images/shapes/service-1-border.png" alt="">
+                            <img src="assets/images/shapes/service-1-border1.png" alt="">
                         </div>
                         <h3 class="service-one__item__title">
                             Remote Desktop &<br> Cloud Storage
@@ -219,73 +251,68 @@
             }'>
 
                 <div class="item">
-                    <div class="service-page__item">
+                    <div class="service-page__item"style="display:flex; flex-direction:column; min-height:350px;">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/fibre_line_broadband_line.png" alt="ienet">
+                            <img src="assets/images/resources/CCTV_Surveillance_Services.png" alt="ienet">
                         </div>
-                        <div class="service-page__item__content">
-                            <h3 class="service-page__item__title"><a href="service-d-broadband">Fiber Line &
-                                    Broadband Line</a></h3>
+                        <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
+                            <h3 class="service-page__item__title"><a href="service-d-broadband">CCTV Surveillance Services</a></h3>
                             <div class="service-page__item__icon"><span class="icon-optical-fiber"></span></div>
                         </div>
                     </div>
                 </div><!-- item -->
                 <div class="item">
-                    <div class="service-page__item">
+                    <div class="service-page__item"style="display:flex; flex-direction:column; min-height:350px;">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/fibre_line_with_smart_tv.png" alt="ienet">
+                            <img src="assets/images/resources/Managed_Wi-Fi_solutions.png" alt="ienet">
                         </div>
-                        <div class="service-page__item__content">
-                            <h3 class="service-page__item__title"><a href="service-d-iptv">Fiber Line With Smart
-                                    IPTV</a></h3>
+                        <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
+                            <h3 class="service-page__item__title"><a href="service-d-iptv">
+                            Managed Wi-Fi Solutions</a></h3>
                             <div class="service-page__item__icon"><span class="icon-tv"></span></div>
                         </div>
                     </div>
                 </div><!-- item -->
                 <div class="item">
-                    <div class="service-page__item">
+                    <div class="service-page__item"style="display:flex; flex-direction:column; min-height:350px;">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/fast_internet_cyber_security.png" alt="ienet">
+                            <img src="assets/images/resources/⁠Local_wifi_service.png" alt="ienet">
                         </div>
-                        <div class="service-page__item__content">
-                            <h3 class="service-page__item__title"><a href="service-d-cyber-security">Fast Internet
-                                    & Cyber Security</a></h3>
+                        <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
+                            <h3 class="service-page__item__title"><a href="service-d-cyber-security">⁠Local wifi service</a></h3>
                             <div class="service-page__item__icon"><span class="icon-cyber-security"></span></div>
                         </div>
                     </div>
                 </div><!-- item -->
                 <div class="item">
-                    <div class="service-page__item">
+                    <div class="service-page__item"style="display:flex; flex-direction:column; min-height:350px;">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/optical_fibre_landline.png" alt="ienet">
+                            <img src="assets/images/resources/VPN-services.png" alt="ienet">
                         </div>
-                        <div class="service-page__item__content">
-                            <h3 class="service-page__item__title"><a href="service-d-landline">Optical Fiber &
-                                    Landline</a></h3>
+                        <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
+                            <h3 class="service-page__item__title"><a href="service-d-landline">⁠VPN services</a></h3>
                             <div class="service-page__item__icon"><span class="icon-telephone-1"></span></div>
                         </div>
                     </div>
                 </div><!-- item -->
                 <div class="item">
-                    <div class="service-page__item">
+                    <div class="service-page__item"style="display:flex; flex-direction:column; min-height:350px;">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/amazon_fire_stick_box.png" alt="ienet">
+                            <img src="assets/images/resources/Network-Security.png" alt="ienet">
                         </div>
-                        <div class="service-page__item__content">
-                            <h3 class="service-page__item__title"><a href="service-d-tv">Amazon Fire Stick Box
-                                    TV</a></h3>
+                        <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
+                            <h3 class="service-page__item__title"><a href="service-d-tv">⁠Network Security</a></h3>
                             <div class="service-page__item__icon"><span class="icon-tv-box"></span></div>
                         </div>
                     </div>
                 </div><!-- item -->
                 <div class="item">
-                    <div class="service-page__item">
+                    <div class="service-page__item"style="display:flex; flex-direction:column; min-height:350px;">
                         <div class="service-page__item__image">
-                            <img src="assets/images/resources/smart_data_connectivity_line.png" alt="ienet">
+                            <img src="assets/images/resources/IT-Support-Maintenance.png" alt="ienet">
                         </div>
-                        <div class="service-page__item__content">
-                            <h3 class="service-page__item__title"><a href="service-d-connectivity">Smart Data
-                                    Connectivity Line</a></h3>
+                        <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
+                            <h3 class="service-page__item__title"><a href="service-d-connectivity">IT Support & Maintenance</a></h3>
                             <div class="service-page__item__icon"><span class="icon-optical-fiber"></span></div>
                         </div>
                     </div>
