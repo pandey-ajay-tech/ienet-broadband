@@ -476,7 +476,7 @@
                         </div>
 
                         <p class="cta-one__content__text">
-                            Get high-speed broadband plans at unbeatable prices starting from ₹775/month.
+                            Get high-speed broadband plans at unbeatable prices starting from ₹349/month.
                             Enjoy unlimited data, smooth streaming, online gaming, and 24×7 customer support.
                             Perfect for homes and businesses looking for reliable and affordable internet service.
                         </p>
