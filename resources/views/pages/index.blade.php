@@ -490,4 +490,37 @@
             </div>
         </div><!-- /.container -->
     </section><!-- /.cta-one -->
+
+    <section class="cta-one">
+        <div class="container">
+
+
+            <!-- Content Column -->
+            <div class="col-lg-12 wow fadeInUp" data-wow-delay="00ms">
+                <div class="cta-one__content">
+                    <div class="sec-title text-left">
+                        <h6 class="sec-title__tagline bw-split-in-right">
+                            <span class="sec-title__tagline__left-border"></span>
+                            Speed Net Broadband
+                            <span class="sec-title__tagline__right-border"></span>
+                        </h6>
+
+
+                    </div>
+                    <div class="google-business">
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1859287.9208091807!2d85.42160074182081!3d24.47084078091204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSPEED%20NET%20BROADBAND%20https%3A%2F%2Fshare.google%2FoT5uLxGZZ6D1M5ckx!5e0!3m2!1sen!2sin!4v1769702216632!5m2!1sen!2sin"
+                            width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div><!-- /.container -->
+    </section><!-- /.cta-one -->
 @endsection
