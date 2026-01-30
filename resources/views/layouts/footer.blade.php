@@ -1,3 +1,34 @@
+<div class="mobile-account-wrapper d-md-none">
+<div class="mobile-account-btn" id="mobileAccountToggle" >
+<i class="fa fa-user icon"></i>
+    <span class="text">My Account</span>
+</div>
+
+
+    <div class="mobile-account-dropdown" id="mobileAccountDropdown">
+        <a href="https://user.snbroadband.in/quickpay">⚡ Quick Pay</a>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#chatModal">💬 Chat with Us</a>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("mobileAccountToggle");
+    const dropdown = document.getElementById("mobileAccountDropdown");
+
+    btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle("show");
+    });
+
+    document.addEventListener("click", function () {
+        dropdown.classList.remove("show");
+    });
+});
+</script>
+
+
+
 <footer class="main-footer background-black">
     <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);">
     </div>
@@ -14,9 +45,8 @@
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
-                        <br />SAPHA
-                        DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
+                        SPEEDNET
+C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> DEOGHAR 815353, JHARKHAND INDIA
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">
@@ -51,7 +81,7 @@
 
             <div class="main-footer__middle__call">
                 <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
-                <div class="main-footer__middle__call__title">Call Emergency</div>
+                <div class="main-footer__middle__call__title">Call Us</div>
                 <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
             </div>
         </div><!-- /.main-footer__middle -->
@@ -79,7 +109,7 @@
                     <h2 class="footer-widget__title">Our Services</h2>
 
                     <ul class="list-unstyled footer-widget__links">
-                        <li class="footer-link">Internet Line</li>
+                        <!-- <li class="footer-link">Internet Line</li> -->
                         <li class="footer-link">P2P Connectivity</li>
                         <li class="footer-link">Broadband FTTH</li>
                         <li class="footer-link">Home & Security</li>

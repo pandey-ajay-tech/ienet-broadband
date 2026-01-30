@@ -4,6 +4,26 @@ Pricing Plan | SpeedNET Broadband
 @endsection
 @section('content')
 
+<style>
+    /* Center the price circle horizontally in the card */
+.packages-two__card__price {
+    display: inline-block;      /* treat it like a block for centering */
+    text-align: center;         /* center text inside */
+    margin: 0 auto 20px auto;   /* auto left & right margin centers it */
+    font-size: 36px;            /* adjust size if needed */
+    font-weight: 700;
+    position: relative;
+    z-index: 2;                 /* ensure it's above background */
+}
+.packages-two__card__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal centering */
+    justify-content: flex-start; /* keep content top-aligned or change to center if needed */
+    padding: 40px 20px;
+}
+
+</style>
 <section class="packages-two packages-two--page">
     <div class="container">
         <div class="row gutter-y-30">

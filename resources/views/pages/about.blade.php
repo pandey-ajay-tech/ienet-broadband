@@ -83,7 +83,6 @@
 
             <div class="col-md-4">
                 <div class="p-4 h-100 rounded border shadow-sm card-animate fade-in-up">
-                    <span class="fw-bold" style="color:#d8232a;">01</span>
                     <h5 class="fw-semibold mt-2">What We Offer.</h5>
                     <p class="mt-2" style="color:#444;">
                         Power up your business with limitless internet. If your business needs a robust
@@ -95,7 +94,6 @@
 
             <div class="col-md-4">
                 <div class="p-4 h-100 rounded border shadow-sm card-animate fade-in-up">
-                    <span class="fw-bold" style="color:#d8232a;">02</span>
                     <h5 class="fw-semibold mt-2">Affordable Pricing.</h5>
                     <p class="mt-2" style="color:#444;">
                         You no longer have to worry about being tied down by long-term contracts or unexpected bills.
@@ -106,7 +104,6 @@
 
             <div class="col-md-4">
                 <div class="p-4 h-100 rounded border shadow-sm card-animate fade-in-up">
-                    <span class="fw-bold" style="color:#d8232a;">03</span>
                     <h5 class="fw-semibold mt-2">Quick Installation.</h5>
                     <p class="mt-2" style="color:#444;">
                         Faster provisioning enables quick activation for new customers. Services available across

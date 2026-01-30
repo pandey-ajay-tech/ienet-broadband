@@ -6,7 +6,25 @@
 @section('content')
     @include('layouts.slider')
 
+<style>
+    .google-map-wrapper {
+    position: relative;
+    width: 100%;          /* full width of parent */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
 
+.google-map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;       /* responsive width */
+    height: 100%;      /* responsive height */
+    border: 0;
+}
+
+</style>
     <section class="about-one" style="background-image: url(assets/images/shapes/about-1-bg.png);">
         <div class="about-one__shape" style="background-image: url(assets/images/resources/about-shape-1.png);"></div>
         <div class="container">
@@ -376,7 +394,7 @@
                         <span>Book Now</span>
                     </button>
 
-                    <a href="https://user.snbroadband.in/book-connection" class="ienet-btn ienet-btn--secondary">
+                    <a href="https://user.snbroadband.in/quickpay" class="ienet-btn ienet-btn--secondary">
                         <span>Quick Recharge</span>
                     </a>
                 </div>
@@ -508,14 +526,15 @@
 
                     </div>
                     <div class="google-business">
+    <div class="google-map-wrapper">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1859287.9208091807!2d85.42160074182081!3d24.47084078091204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSPEED%20NET%20BROADBAND%20https%3A%2F%2Fshare.google%2FoT5uLxGZZ6D1M5ckx!5e0!3m2!1sen!2sin!4v1769702216632!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
 
-
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1859287.9208091807!2d85.42160074182081!3d24.47084078091204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSPEED%20NET%20BROADBAND%20https%3A%2F%2Fshare.google%2FoT5uLxGZZ6D1M5ckx!5e0!3m2!1sen!2sin!4v1769702216632!5m2!1sen!2sin"
-                            width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                    </div>
 
 
                 </div>

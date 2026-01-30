@@ -20,7 +20,7 @@
 
         .my-account__dropdown {
             position: absolute;
-            top: 100%;
+            top: 23px;
             right: 0;
             background: #ffffff;
             min-width: 150px;
@@ -57,6 +57,137 @@
         .modal-backdrop {
             display: none !important;
         }
+
+        @media (max-width: 767px) {
+
+            .mobile-account-wrapper {
+                position: fixed;
+                right: 0;
+                top: 40%;
+                transform: translateY(-50%);
+                z-index: 9999;
+            }
+
+            .mobile-account-btn {
+                background-color: var(--ienet-base, #df2339);
+                color: #fff;
+                padding: 14px 14px;
+                border-radius: 12px 0 0 12px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+                box-shadow: -6px 0 20px rgba(0, 0, 0, 0.25);
+
+                /* hidden state */
+                transform: translateX(55%);
+                transition: transform 0.35s cubic-bezier(.4, 0, .2, 1);
+            }
+
+            /* Icon always visible */
+            .mobile-account-btn .icon {
+                font-size: 18px;
+                flex-shrink: 0;
+            }
+
+            /* Text hidden initially */
+            .mobile-account-btn .text {
+                white-space: nowrap;
+                opacity: 0;
+                transform: translateX(10px);
+                transition: opacity 0.3s ease, transform 0.3s ease;
+                font-weight: 600;
+                font-size: 13px;
+            }
+
+            /* Hover / active → slide out */
+            .mobile-account-wrapper:hover .mobile-account-btn,
+            .mobile-account-btn:active {
+                transform: translateX(0);
+            }
+
+            /* When button is out → show text */
+            .mobile-account-wrapper:hover .mobile-account-btn .text,
+            .mobile-account-btn:active .text {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            /* Dropdown below */
+            .mobile-account-dropdown {
+                position: absolute;
+                right: 0;
+                top: 100%;
+                margin-top: 10px;
+                background: #fff;
+                min-width: 170px;
+                border-radius: 10px;
+                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(-10px);
+                transition: opacity 0.35s ease, transform 0.35s ease;
+            }
+
+            .mobile-account-dropdown.show {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+            }
+
+            .mobile-account-dropdown a {
+                display: block;
+                padding: 12px 14px;
+                color: #333;
+                text-decoration: none;
+                border-bottom: 1px solid #eee;
+            }
+
+            .mobile-account-dropdown a:last-child {
+                border-bottom: none;
+            }
+
+            .mobile-account-dropdown a:hover {
+                background: #d8232a;
+                color: #fff;
+            }
+        }
+        @media (max-width: 767px) {
+
+   
+    /* Icon always white */
+    .mobile-account-btn .icon {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    /* Text hidden initially */
+    .mobile-account-btn .text {
+        white-space: nowrap;
+        opacity: 0;
+        transform: translateX(10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        font-weight: 600;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    /* Hover / active → slide out + RED background */
+    .mobile-account-wrapper:hover .mobile-account-btn,
+    .mobile-account-btn:active {
+        transform: translateX(0);
+        background: #d8232a; /* RED on hover */
+    }
+
+    /* Show text when expanded */
+    .mobile-account-wrapper:hover .mobile-account-btn .text,
+    .mobile-account-btn:active .text {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
     </style>
 
     <div class="custom-cursor__cursor"></div>
@@ -67,52 +198,8 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <!-- <div class="topbar-one topbar-one--inner ">
-            <div class="container-fluid">
-                <div class="topbar-one__inner">
-                    <ul class="list-unstyled topbar-one__info">
-                        <li class="topbar-one__info__item">
-                            <span class="topbar-one__info__icon"><i class="icon-mail"></i></span>
-                            <a href="mailto:info@snbroadband.in" class="text-white">info@snbroadband.in</a>
-                        </li>
-                        <li class="topbar-one__info__item">
-                            <span class="topbar-one__info__icon"><i class="icon-maps-and-flags"></i></span>
-                            {{-- At-Sapaha Near TTC Ground, Madhupur, Dist-Deoghar, Jharkhand, Pin-815353 --}}
-                            MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
-                            <br />SAPHA
-                            DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
-                        </li>
-                        <li class="topbar-one__info__item">
-                            <span class="topbar-one__info__icon"> | </span>
 
-                            <a href="{{ url('/clear-cache') }}">Clear Cache</a>
-                        </li>
-                    </ul>
-                    <div class="topbar-one__right">
-                        <div class="topbar-one__social">
 
-                            <a href="https://facebook.com">
-                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                            <a href="https://twitter.com">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                            <a href="https://instagram.com">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                            <a href="https://www.youtube.com/">
-                                <i class="fab fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">Youtube</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        
         <header class="main-header main-header--inner sticky-header sticky-header--normal">
             <div class="container-fluid">
                 <div class="main-header__inner">
@@ -138,40 +225,6 @@
 
                             <li class="{{ request()->is('plans-pricing') ? 'current' : '' }}">
                                 <a href="plans-pricing">Plans </a>
-                                {{-- <ul>
-                                    <li class="dropdown">
-                                        <a href="#">Movies</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="movie">Movies Page</a></li>
-                                            <li><a href="movie-carousel">Movies Carousel</a></li>
-                                            <li><a href="movie-details">Movies Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">Teams</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="team">Our Team</a></li>
-                                            <li><a href="team-carousel">Team Carousel</a></li>
-                                            <li><a href="team-details">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="reviews">Testimonials</a></li>
-                                    <li><a href="reviews-carousel">Testimonials Carousel</a></li>
-                                    <li><a href="packages">Pricing Page</a></li>
-                                    <li><a href="packages-carousel">Pricing Carousel</a></li>
-                                    <li>
-                                        <a href="gallery">Gallery</a>
-                                        <ul>
-                                            <li><a href="gallery">Gallery Masonry</a></li>
-                                            <li><a href="gallery-filter">Gallery Filter</a></li>
-                                            <li><a href="gallery-grid">Gallery Grid</a></li>
-                                            <li><a href="gallery-carousel">Gallery Carousel</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="faq">FAQs</a></li>
-                                    <li><a href="login">Login</a></li>
-                                    <li><a href="404">404 Error</a></li>
-                                </ul> --}}
                             </li>
                             <li class="{{ request()->is('our-teams') ? 'current' : '' }}">
                                 <a href="{{ route('front.our-teams') }}">Our Teams</a>
@@ -181,55 +234,6 @@
                                 <a href="{{ route('service') }}">Services</a>
 
                             </li>
-
-                            {{-- <li class="dropdown">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li class="dropdown">
-                                        <a href="#">Products</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="products">No Sidebar</a></li>
-                                            <li><a href="products-left">Left Sidebar</a></li>
-                                            <li><a href="products-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="products-carousel">Products Carousel</a></li>
-                                    <li><a href="product-details">Product Details</a></li>
-                                    <li><a href="cart">Cart</a></li>
-                                    <li><a href="checkout">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul class="sub-menu">
-                                    <li class="dropdown">
-                                        <a href="#">News grid</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid">No Sidebar</a></li>
-                                            <li><a href="blog-grid-left">Left Sidebar</a></li>
-                                            <li><a href="blog-grid-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">News list</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-list">No Sidebar</a></li>
-                                            <li><a href="blog-list-left">Left Sidebar</a></li>
-                                            <li><a href="blog-list-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="blog-carousel">News Carousel</a></li>
-                                    <li class="dropdown">
-                                        <a href="#">News Details</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-details">No Sidebar</a></li>
-                                            <li><a href="blog-details-left">Left Sidebar</a></li>
-                                            <li><a href="blog-details-right">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li> --}}
-
                             <li class="{{ request()->is('contact') ? 'current' : '' }}">
                                 <a href="contact">Contact</a>
                             </li>
@@ -240,20 +244,12 @@
                             <span></span>
                             <span></span>
                             <span></span>
-                        </div><!-- /.mobile-nav__toggler -->
-                        {{-- <a href="#" class="search-toggler main-header__search">
-                            <i class="icon-search" aria-hidden="true"></i>
-                            <span class="sr-only">Search</span>
-                        </a><!-- /.search-toggler -->
-                        <a href="cart" class="main-header__cart">
-                            <i class="icon-cart" aria-hidden="true"></i>
-                            <span class="sr-only">Cart</span>
-                        </a><!-- /.cart-toggler --> --}}
+                        </div>
                         <div class="main-header__call">
                             <div class="main-header__call__icon">
                                 <span class="icon-telephone"></span>
                             </div>
-                            <div class="main-header__call__title">Call Emergency</div>
+                            <div class="main-header__call__title">Call us</div>
                             <a class="main-header__call__text" href="tel:919234377577">
                                 +91 9234377577
                             </a>
@@ -307,7 +303,9 @@
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
-        </header><!-- /.main-header -->
+
+
+        </header>
         <script>
             document.querySelector('.my-account__btn').addEventListener('click', function() {
                 document.querySelector('.my-account__dropdown').classList.toggle('show');

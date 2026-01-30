@@ -256,7 +256,7 @@
                             <img src="assets/images/resources/CCTV_Surveillance_Services.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
-                            <h3 class="service-page__item__title"><a href="service-d-broadband">CCTV Surveillance Services</a></h3>
+                            <h3 class="service-page__item__title"><a href="#">CCTV Surveillance Services</a></h3>
                             <div class="service-page__item__icon"><span class="icon-optical-fiber"></span></div>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                             <img src="assets/images/resources/Managed_Wi-Fi_solutions.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
-                            <h3 class="service-page__item__title"><a href="service-d-iptv">
+                            <h3 class="service-page__item__title"><a href="#">
                             Managed Wi-Fi Solutions</a></h3>
                             <div class="service-page__item__icon"><span class="icon-tv"></span></div>
                         </div>
@@ -279,7 +279,7 @@
                             <img src="assets/images/resources/⁠Local_wifi_service.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
-                            <h3 class="service-page__item__title"><a href="service-d-cyber-security">⁠Local wifi service</a></h3>
+                            <h3 class="service-page__item__title"><a href="#">⁠Local wifi service</a></h3>
                             <div class="service-page__item__icon"><span class="icon-cyber-security"></span></div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                             <img src="assets/images/resources/VPN-services.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
-                            <h3 class="service-page__item__title"><a href="service-d-landline">⁠VPN services</a></h3>
+                            <h3 class="service-page__item__title"><a href="#">⁠VPN services</a></h3>
                             <div class="service-page__item__icon"><span class="icon-telephone-1"></span></div>
                         </div>
                     </div>
@@ -301,7 +301,7 @@
                             <img src="assets/images/resources/Network-Security.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
-                            <h3 class="service-page__item__title"><a href="service-d-tv">⁠Network Security</a></h3>
+                            <h3 class="service-page__item__title"><a href="#">⁠Network Security</a></h3>
                             <div class="service-page__item__icon"><span class="icon-tv-box"></span></div>
                         </div>
                     </div>
@@ -312,7 +312,7 @@
                             <img src="assets/images/resources/IT-Support-Maintenance.png" alt="ienet">
                         </div>
                         <div class="service-page__item__content"style="display:flex; flex-direction:column; justify-content:space-between; flex-grow:1;">
-                            <h3 class="service-page__item__title"><a href="service-d-connectivity">IT Support & Maintenance</a></h3>
+                            <h3 class="service-page__item__title"><a href="#">IT Support & Maintenance</a></h3>
                             <div class="service-page__item__icon"><span class="icon-optical-fiber"></span></div>
                         </div>
                     </div>

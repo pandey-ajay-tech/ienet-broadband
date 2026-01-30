@@ -10,7 +10,7 @@
 
             <h3 class="fw-bold text-center mb-3">Our Work Gallery</h3>
             <p class="text-center mb-4" style="max-width:800px;margin:auto;color:#555;">
-                Explore our installation work including RF connections, FTTH installations,
+                Explore our installation work including RF connectivity, FTTH installations,
                 and CCTV security setups delivered with professionalism and precision.
             </p>
 
