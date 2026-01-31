@@ -259,8 +259,8 @@ C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> D
         <ul class="sidebar-one__info">
             <li>
                 <span class="fas fa-map-marker-alt"></span>
-                MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
-                SAPHA DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
+                SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
+DEOGHAR 815353, JHARKHAND INDIA
             </li>
             <li>
                 <span class="fas fa-clock"></span>

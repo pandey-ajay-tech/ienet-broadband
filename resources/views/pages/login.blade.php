@@ -370,7 +370,7 @@
                         </a><!-- /.cart-toggler -->
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
-                            <div class="main-header__call__title">Call Emergency</div>
+                            <div class="main-header__call__title">Call Us</div>
                             <a class="main-header__call__text" href="tel:88012365499">+91 9234377577</a>
                         </div>
                     </div><!-- /.main-header__right -->
@@ -506,7 +506,7 @@
                     </form><!-- /.footer-widget__newsletter mc-form -->
                     <div class="main-footer__middle__call">
                         <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
-                        <div class="main-footer__middle__call__title">Call Emergency</div>
+                        <div class="main-footer__middle__call__title">Call Us</div>
                         <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
                     </div>
                 </div><!-- /.main-footer__middle -->

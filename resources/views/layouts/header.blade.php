@@ -186,7 +186,7 @@
                         </a> --}}
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-telephone"></span></div>
-                            <div class="main-header__call__title">Call Emergency</div>
+                            <div class="main-header__call__title">Call Us</div>
                             <a class="main-header__call__text" href="tel:9234377577">+91 9234377577</a>
                         </div>
                     </div><!-- /.main-header__right -->

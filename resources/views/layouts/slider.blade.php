@@ -195,15 +195,3 @@
 
     </div>
 </section>
-<!-- Mobile My Account Bar -->
-<div class="mobile-account-bar d-md-none">
-    <a href="https://user.snbroadband.in/quickpay" class="mobile-account-item">
-        ⚡ Quick Recharge
-    </a>
-
-    <a href="#" class="mobile-account-item" data-bs-toggle="modal" data-bs-target="#chatModal">
-        💬 Chat with Us
-    </a>
-</div>
-
-<!-- main-slider-end -->

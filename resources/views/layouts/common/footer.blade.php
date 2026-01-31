@@ -14,9 +14,8 @@
                     </li>
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
-                        MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
-                        <br />SAPHA
-                        DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
+                        SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
+DEOGHAR 815353, JHARKHAND INDIA
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">
@@ -56,7 +55,7 @@
             </form><!-- /.footer-widget__newsletter mc-form -->
             <div class="main-footer__middle__call">
                 <div class="main-footer__middle__call__icon"><span class="icon-telephone"></span></div>
-                <div class="main-footer__middle__call__title">Call Emergency</div>
+                <div class="main-footer__middle__call__title">Call Us</div>
                 <a class="main-footer__middle__call__text" href="tel:88012365499">+91 9234377577</a>
             </div>
         </div><!-- /.main-footer__middle -->
@@ -219,8 +218,8 @@
         <ul class="sidebar-one__info">
             <li>
                 <span class="fas fa-map-marker-alt"></span>
-                MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
-                SAPHA DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
+                SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
+DEOGHAR 815353, JHARKHAND INDIA
             </li>
             <li>
                 <span class="fas fa-clock"></span>

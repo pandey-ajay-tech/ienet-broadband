@@ -90,18 +90,18 @@ Contact Us
         /* responsive height */
         border: 0;
     }
+
+    .google-map-wrapper {
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
+
+    .google-map-wrapper iframe {
+        filter: none !important;
+        -webkit-filter: none !important;
+        mix-blend-mode: normal !important;
+    }
 </style>
-<!-- <section class="page-header">
-                    <div class="page-header__bg"></div>
-                    <div class="page-header__layer"></div>
-                    <div class="container">
-                        <h2 class="page-header__title bw-split-in-left">Contact Us</h2>
-                        <ul class="ienet-breadcrumb list-unstyled">
-                            <li><a href="{{ url('/') }}">Home</a></li>
-                            <li><span>Contact</span></li>
-                        </ul>
-                    </div>
-                </section> -->
 
 <section class="contact-one">
     <div class="container">
@@ -124,8 +124,8 @@ Contact Us
                         <div class="contact-one__info__content">
                             <h4 class="contact-one__info__title">Our Address</h4>
                             <p class="contact-one__info__text">
-                                MR KUNDAN KUMAR YADAV, S/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR,
-                                SAPHA DEOGHAR, DEOGHAR 815353, JHARKHAND INDIA
+                                SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
+                                DEOGHAR 815353, JHARKHAND INDIA
                             </p>
                         </div>
                     </li>
@@ -222,10 +222,12 @@ Contact Us
 
     </div>
     <div style="text-align:center; margin-top:15px;">
-        <a href="https://www.google.com/maps/dir/?api=1&destination=24.2673,86.6479" target="_blank"
+        <a href="https://www.google.com/maps/search/?api=1&query=SPEED+NET+BROADBAND"
+            target="_blank"
             class="ienet-btn-direction">
             📍 Get Directions
         </a>
+
 
     </div>
 </section>

@@ -608,7 +608,7 @@
                                     <i class="icon-telephone"></i>
                                 </div><!-- /.service-sidebar__contact__icon -->
                                 <p class="service-sidebar__contact__number" style="color:#000;">
-                                    <span style="color:#000;">Call Emergency</span>
+                                    <span style="color:#000;">Call Us</span>
                                     <a href="tel:+919234377577">+91 9234377577</a>
                                 </p>
                             </div><!-- /.service-sidebar__contact -->
