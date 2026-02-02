@@ -130,6 +130,7 @@ C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> D
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                         <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                         <li><a href="{{ route('terms') }}">Terms & Conditions</a></li>
+                        <li><a href="{{ url('/clear-cache') }}">Clear Cache</a></li>
                     </ul><!-- /.list-unstyled footer-widget__links -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->

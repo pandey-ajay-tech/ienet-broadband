@@ -294,7 +294,7 @@
 
                 <span class="label">Reviewed on</span>
 
-                <img src="https://www.pngall.com/wp-content/uploads/5/Google-Logo-PNG-Picture.png" alt="Google">
+                <img src="{{asset('assets/images/Google-Logo-PNG-Picture.png')}}" alt="Google">
 
                 <div class="rating">
                     <strong>4.9</strong>
