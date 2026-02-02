@@ -7,82 +7,85 @@
         p.main-slider-one__text {
             font-size: 12px;
         }
+        /* ===============================
+   CLEAN TRUST STRIP
+   =============================== */
 
-        .trust-stats {
-    background: #fff;
-    padding: 35px 0;
+.trust-strip {
+    background: #ffffff;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    padding: 28px 0;
 }
 
-.trust-stats__wrapper {
+.trust-strip__wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 25px;
-    flex-wrap: wrap;
+    gap: 24px;
 }
 
-.trust-stat {
+/* Items */
+.trust-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    min-width: 160px;
+    min-width: 140px;
+    color: #000;
+    text-decoration: none;
 }
 
-.trust-stat h3 {
-    font-size: 38px;
+.trust-item strong {
+    font-size: 28px;
     font-weight: 700;
-    margin: 0;
-    color: #0c0f2b;
 }
 
-.trust-stat h3 span {
-    font-size: 18px;
-    margin-left: 4px;
-}
-
-.trust-stat p {
-    margin: 5px 0 0;
+.trust-item .meta {
     font-size: 14px;
     color: #666;
+    margin-top: 4px;
 }
 
-/* Clutch */
-.trust-stat--brand img {
-    max-width: 80px;
-    margin: 5px 0;
+/* Google */
+.trust-item.google img {
+    height: 22px;
+    margin: 6px 0;
 }
 
-.trust-stars {
-    color: #ff3b3b;
-    font-size: 14px;
-    letter-spacing: 2px;
-}
-
-.trust-label {
-    font-size: 12px;
+.trust-item .label {
+    font-size: 11px;
     color: #888;
+    letter-spacing: 1px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.rating .stars {
+    color: #fbbc04;
+    font-size: 14px;
 }
 
 /* Divider */
-.trust-divider {
+.divider {
     width: 1px;
     height: 50px;
-    background: #ddd;
+    background: #e5e5e5;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-    .trust-stats__wrapper {
+/* Responsive */
+@media (max-width: 992px) {
+    .trust-strip__wrap {
+        flex-wrap: wrap;
         justify-content: center;
     }
 
-    .trust-divider {
+    .divider {
         display: none;
-    }
-
-    .trust-stat {
-        width: 45%;
-        margin-bottom: 20px;
     }
 }
 
@@ -279,47 +282,54 @@
     </div>
 </section>
 
-<section class="trust-stats">
+<section class="trust-strip">
     <div class="container">
 
-        <div class="trust-stats__wrapper">
+        <div class="trust-strip__wrap">
 
-            <div class="trust-stat">
-                <h3>100<span>Mbps</span></h3>
-                <p>High-Speed Fiber Internet</p>
+            <!-- Google Reviews -->
+            <a href="https://share.google/oT5uLxGZZ6D1M5ckx"
+               target="_blank"
+               class="trust-item google">
+
+                <span class="label">Reviewed on</span>
+
+                <img src="https://www.pngall.com/wp-content/uploads/5/Google-Logo-PNG-Picture.png" alt="Google">
+
+                <div class="rating">
+                    <strong>4.9</strong>
+                    <span class="stars">★★★★★</span>
+                </div>
+
+                <span class="meta">Customer Reviews</span>
+            </a>
+
+            <div class="divider"></div>
+
+            <!-- Speed -->
+            <div class="trust-item">
+                <strong>1 Gbps</strong>
+                <span class="meta">Ultra Fast Fiber</span>
             </div>
 
-            <div class="trust-divider"></div>
+            <div class="divider"></div>
 
-            <div class="trust-stat">
-                <h3>Unlimited</h3>
-                <p>No FUP, No Data Limit</p>
+            <!-- Customers -->
+            <div class="trust-item">
+                <strong>10,000+</strong>
+                <span class="meta">Active Users</span>
             </div>
 
-            <div class="trust-divider"></div>
+            <div class="divider"></div>
 
-            <div class="trust-stat">
-                <h3>1000<span>+</span></h3>
-                <p>Happy Broadband Users</p>
-            </div>
-
-            <div class="trust-divider"></div>
-
-            <div class="trust-stat">
-                <h3>₹349<span>/mo</span></h3>
-                <p>Affordable Plans</p>
-            </div>
-
-            <div class="trust-divider"></div>
-
-            <div class="trust-stat">
-                <h3>24<span>×7</span></h3>
-                <p>Local Customer Support</p>
+            <!-- Support -->
+            <div class="trust-item">
+                <strong>24×7</strong>
+                <span class="meta">Local Support</span>
             </div>
 
         </div>
 
     </div>
 </section>
-
 
