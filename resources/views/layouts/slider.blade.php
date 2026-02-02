@@ -4,6 +4,89 @@
         .item {
             margin-top: -130px !important;
         }
+        p.main-slider-one__text {
+            font-size: 12px;
+        }
+
+        .trust-stats {
+    background: #fff;
+    padding: 35px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.trust-stats__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.trust-stat {
+    text-align: center;
+    min-width: 160px;
+}
+
+.trust-stat h3 {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+    color: #0c0f2b;
+}
+
+.trust-stat h3 span {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.trust-stat p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Clutch */
+.trust-stat--brand img {
+    max-width: 80px;
+    margin: 5px 0;
+}
+
+.trust-stars {
+    color: #ff3b3b;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.trust-label {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Divider */
+.trust-divider {
+    width: 1px;
+    height: 50px;
+    background: #ddd;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .trust-stats__wrapper {
+        justify-content: center;
+    }
+
+    .trust-divider {
+        display: none;
+    }
+
+    .trust-stat {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+        
     </Style>
     <div class="main-slider-one__carousel ienet-owl__carousel owl-carousel"
         data-owl-options='{
@@ -69,7 +152,7 @@
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="border">
                     </div> --}}
 
-                    <div class="main-slider-one__image__user">
+                    <!-- <div class="main-slider-one__image__user">
                         <div class="main-slider-one__image__user__text">Trusted by 1000+ Users</div>
                         <div class="main-slider-one__image__user__image">
                             <img src="{{ asset('assets/images/resources/user-1.png') }}" alt="">
@@ -77,11 +160,11 @@
                             <img src="{{ asset('assets/images/resources/user-3.png') }}" alt="">
                             <span class="main-slider-one__image__user__rm">+</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/slider-1-layer-1.png);"></div>
+                    style="background-image: url(assets/images/backgrounds/3.png);"></div>
             </div>
         </div>
 
@@ -135,7 +218,7 @@
                 </div>
 
                 <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/slider-1-layer-2.png);">
+                    style="background-image: url(assets/images/backgrounds/1.png);">
                 </div>
             </div>
         </div>
@@ -189,9 +272,54 @@
                 </div>
 
                 <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/slider-1-layer-3.png);"></div>
+                    style="background-image: url(assets/images/backgrounds/4.png);"></div>
             </div>
         </div>
 
     </div>
 </section>
+
+<section class="trust-stats">
+    <div class="container">
+
+        <div class="trust-stats__wrapper">
+
+            <div class="trust-stat">
+                <h3>100<span>Mbps</span></h3>
+                <p>High-Speed Fiber Internet</p>
+            </div>
+
+            <div class="trust-divider"></div>
+
+            <div class="trust-stat">
+                <h3>Unlimited</h3>
+                <p>No FUP, No Data Limit</p>
+            </div>
+
+            <div class="trust-divider"></div>
+
+            <div class="trust-stat">
+                <h3>1000<span>+</span></h3>
+                <p>Happy Broadband Users</p>
+            </div>
+
+            <div class="trust-divider"></div>
+
+            <div class="trust-stat">
+                <h3>₹349<span>/mo</span></h3>
+                <p>Affordable Plans</p>
+            </div>
+
+            <div class="trust-divider"></div>
+
+            <div class="trust-stat">
+                <h3>24<span>×7</span></h3>
+                <p>Local Customer Support</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
