@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <title>@yield('title', 'Home  | SpeedNET Broadband ')</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/images/favicons/apple-touch-icon.png')}}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/images/logo_wifi.png')}}" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/logo_wifi.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/logo_wifi.png') }}" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
