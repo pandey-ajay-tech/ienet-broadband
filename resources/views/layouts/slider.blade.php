@@ -4,92 +4,92 @@
         .item {
             margin-top: -130px !important;
         }
+
         p.main-slider-one__text {
             font-size: 12px;
         }
+
         /* ===============================
    CLEAN TRUST STRIP
    =============================== */
 
-.trust-strip {
-    background: #ffffff;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    padding: 28px 0;
-}
+        .trust-strip {
+            background: #ffffff;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 28px 0;
+        }
 
-.trust-strip__wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-}
+        .trust-strip__wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
 
-/* Items */
-.trust-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    min-width: 140px;
-    color: #000;
-    text-decoration: none;
-}
+        /* Items */
+        .trust-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-width: 140px;
+            color: #000;
+            text-decoration: none;
+        }
 
-.trust-item strong {
-    font-size: 28px;
-    font-weight: 700;
-}
+        .trust-item strong {
+            font-size: 28px;
+            font-weight: 700;
+        }
 
-.trust-item .meta {
-    font-size: 14px;
-    color: #666;
-    margin-top: 4px;
-}
+        .trust-item .meta {
+            font-size: 14px;
+            color: #666;
+            margin-top: 4px;
+        }
 
-/* Google */
-.trust-item.google img {
-    height: 22px;
-    margin: 6px 0;
-}
+        /* Google */
+        .trust-item.google img {
+            height: 22px;
+            margin: 6px 0;
+        }
 
-.trust-item .label {
-    font-size: 11px;
-    color: #888;
-    letter-spacing: 1px;
-}
+        .trust-item .label {
+            font-size: 11px;
+            color: #888;
+            letter-spacing: 1px;
+        }
 
-.rating {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
 
-.rating .stars {
-    color: #fbbc04;
-    font-size: 14px;
-}
+        .rating .stars {
+            color: #fbbc04;
+            font-size: 14px;
+        }
 
-/* Divider */
-.divider {
-    width: 1px;
-    height: 50px;
-    background: #e5e5e5;
-}
+        /* Divider */
+        .divider {
+            width: 1px;
+            height: 50px;
+            background: #e5e5e5;
+        }
 
-/* Responsive */
-@media (max-width: 992px) {
-    .trust-strip__wrap {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        /* Responsive */
+        @media (max-width: 992px) {
+            .trust-strip__wrap {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
 
-    .divider {
-        display: none;
-    }
-}
-
-        
+            .divider {
+                display: none;
+            }
+        }
     </Style>
     <div class="main-slider-one__carousel ienet-owl__carousel owl-carousel"
         data-owl-options='{
@@ -151,9 +151,9 @@
                             alt="Internet Service">
                     </div>
 
-                    {{-- <div class="main-slider-one__image__border">
+                    <div class="main-slider-one__image__border">
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="border">
-                    </div> --}}
+                    </div>
 
                     <!-- <div class="main-slider-one__image__user">
                         <div class="main-slider-one__image__user__text">Trusted by 1000+ Users</div>
@@ -166,8 +166,8 @@
                     </div> -->
                 </div>
 
-                <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/3.png);"></div>
+                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/3.png);">
+                </div>
             </div>
         </div>
 
@@ -215,13 +215,12 @@
                     <div class="main-slider-one__image__one">
                         <img src="{{ asset('assets/images/backgrounds/slider-1-layer-2-new.png') }}" alt="">
                     </div>
-                    {{-- <div class="main-slider-one__image__border">
+                    <div class="main-slider-one__image__border">
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="">
-                    </div> --}}
+                    </div>
                 </div>
 
-                <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/1.png);">
+                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/1.png);">
                 </div>
             </div>
         </div>
@@ -269,13 +268,13 @@
                     <div class="main-slider-one__image__one">
                         <img src="{{ asset('assets/images/backgrounds/slider-1-layer-2-new.png') }}" alt="">
                     </div>
-                    {{-- <div class="main-slider-one__image__border">
+                    <div class="main-slider-one__image__border">
                         <img src="{{ asset('assets/images/shapes/slider-1-border.png') }}" alt="">
-                    </div> --}}
+                    </div>
                 </div>
 
-                <div class="main-slider-one__layer"
-                    style="background-image: url(assets/images/backgrounds/4.png);"></div>
+                <div class="main-slider-one__layer" style="background-image: url(assets/images/backgrounds/4.png);">
+                </div>
             </div>
         </div>
 
@@ -288,13 +287,11 @@
         <div class="trust-strip__wrap">
 
             <!-- Google Reviews -->
-            <a href="https://share.google/oT5uLxGZZ6D1M5ckx"
-               target="_blank"
-               class="trust-item google">
+            <a href="https://share.google/oT5uLxGZZ6D1M5ckx" target="_blank" class="trust-item google">
 
                 <span class="label">Reviewed on</span>
 
-                <img src="{{asset('assets/images/Google-Logo-PNG-Picture.png')}}" alt="Google">
+                <img src="{{ asset('assets/images/Google-Logo-PNG-Picture.png') }}" alt="Google">
 
                 <div class="rating">
                     <strong>4.9</strong>
@@ -332,4 +329,3 @@
 
     </div>
 </section>
-

@@ -15,7 +15,7 @@
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
                         SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
-DEOGHAR 815353, JHARKHAND INDIA
+                        DEOGHAR 815353, JHARKHAND INDIA
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">
@@ -155,11 +155,11 @@ DEOGHAR 815353, JHARKHAND INDIA
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@ienet.com">needhelp@ienet.com</a>
+                <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:9234377577">9234377577</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         {{-- <div class="mobile-nav__social">
@@ -219,7 +219,7 @@ DEOGHAR 815353, JHARKHAND INDIA
             <li>
                 <span class="fas fa-map-marker-alt"></span>
                 SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
-DEOGHAR 815353, JHARKHAND INDIA
+                DEOGHAR 815353, JHARKHAND INDIA
             </li>
             <li>
                 <span class="fas fa-clock"></span>

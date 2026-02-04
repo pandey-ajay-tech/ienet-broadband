@@ -1,8 +1,8 @@
 <div class="mobile-account-wrapper d-md-none">
-<div class="mobile-account-btn" id="mobileAccountToggle" >
-<i class="fa fa-user icon"></i>
-    <span class="text">My Account</span>
-</div>
+    <div class="mobile-account-btn" id="mobileAccountToggle">
+        <i class="fa fa-user icon"></i>
+        <span class="text">My Account</span>
+    </div>
 
 
     <div class="mobile-account-dropdown" id="mobileAccountDropdown">
@@ -12,28 +12,31 @@
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("mobileAccountToggle");
-    const dropdown = document.getElementById("mobileAccountDropdown");
+    document.addEventListener("DOMContentLoaded", function() {
+        const btn = document.getElementById("mobileAccountToggle");
+        const dropdown = document.getElementById("mobileAccountDropdown");
 
-    btn.addEventListener("click", function (e) {
-        e.stopPropagation();
-        dropdown.classList.toggle("show");
-    });
+        btn.addEventListener("click", function(e) {
+            e.stopPropagation();
+            dropdown.classList.toggle("show");
+        });
 
-    document.addEventListener("click", function () {
-        dropdown.classList.remove("show");
+        document.addEventListener("click", function() {
+            dropdown.classList.remove("show");
+        });
     });
-});
 </script>
 
 
 
 <footer class="main-footer background-black">
-    <div class="main-footer__bg background-black" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);">
+    <div class="main-footer__bg background-black"
+        style="background-image: url(assets/images/shapes/footer-bg-1-1.png);">
     </div>
-    <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);"></div>
-    <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);"></div>
+    <div class="main-footer__shape-one" style="background-image: url(assets/images/resources/footer-shape-1.png);">
+    </div>
+    <div class="main-footer__shape-two" style="background-image: url(assets/images/resources/footer-shape-2.png);">
+    </div>
     <!-- /.main-footer__bg -->
     <div class="main-footer__top">
         <div class="container">
@@ -46,7 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <li class="main-footer__top__info__item">
                         <span class="main-footer__top__info__icon"><i class="icon-maps-and-flags"></i></span>
                         SPEEDNET
-C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> DEOGHAR 815353, JHARKHAND INDIA
+                        C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> DEOGHAR 815353,
+                        JHARKHAND INDIA
                     </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 {{-- <div class="main-footer__top__right">
@@ -187,7 +191,7 @@ C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> D
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="#" aria-label="logo image"><img src="{{ asset('assets/images/logo_wifi.png') }}"
+            <a href="#" aria-label="logo image"><img src="{{ asset('assets/images/logo_black.png') }}"
                     width="155" alt="" /></a>
         </div>
         <!-- /.logo-box -->
@@ -197,14 +201,19 @@ C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> D
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@ienet.com">needhelp@ienet.com</a>
+                <a href="mailto:info@snbroadband.in">info@snbroadband.in</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:+919234377577">+91 9234377577</a>
+            </li>
+
+            <li>
+                <i class="fas fa-clock"></i>
+                Mon - Sun: 9.00 am. - 10.00 pm.
             </li>
         </ul><!-- /.mobile-nav__contact -->
-        <div class="mobile-nav__social">
+        {{-- <div class="mobile-nav__social">
 
             <a href="https://facebook.com">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
@@ -222,7 +231,7 @@ C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> D
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <span class="sr-only">Youtube</span>
             </a>
-        </div><!-- /.mobile-nav__social -->
+        </div><!-- /.mobile-nav__social --> --}}
     </div>
     <!-- /.mobile-nav__content -->
 </div>
@@ -261,7 +270,7 @@ C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR, <br> D
             <li>
                 <span class="fas fa-map-marker-alt"></span>
                 SPEEDNET C/O BISHNU YADAV, GRAM SAPAHA, GP-PATWABAD.PO PS MADHUPUR, SAPHA DEOGHAR,
-DEOGHAR 815353, JHARKHAND INDIA
+                DEOGHAR 815353, JHARKHAND INDIA
             </li>
             <li>
                 <span class="fas fa-clock"></span>
